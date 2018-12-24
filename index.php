@@ -6,8 +6,7 @@
 <p>
 <ul>
 <li><a href="users.php">User Web Directories</a>;</li>
-<li><a href="server.php">Information and Announcements for Thunix</a>;</li>
-<li><a href="stats/">Web Server Statistics for All Sites Hosted on Thunix Summit (Web Server)</a>;</li>
+<li><a href="server.php">Status of Thunix Servers and Services</a>;</li>
 </ul>
 </p>
 
