@@ -4,7 +4,7 @@
 <h3>Summit</h3>
 <ul>
 <li><a href="/~amcclure/">Anton McClure</a> (amcclure)</li>
-<li><a href="/~ubergeek/"></a> (ubergeek)</li>
+<li><a href="/~ubergeek/">~Ubergeek</a> (ubergeek)</li>
 </ul>
 
 <h3>Phoenix</h3>
