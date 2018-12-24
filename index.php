@@ -2,7 +2,6 @@
 <title>Thunix Summit Web Server - Thunix Shell Provider and Web Host</title>
 <h2>Welcome to Summit Web Server!</h2>
 <h3>Main Resource On This Site</h3>
-<h3>Main Resource On This Site</h3>
 <p>
 <ul>
 <li><a href="users.php">User Web Directories</a>;</li>
