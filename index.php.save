@@ -1,0 +1,10 @@
+<?php include '/home/amcclure/public_html/HEADER.php';?>
+<title>Welcome to Thunix - Thunix Shell Provider and Web Host</title>
+<h2>Welcome to Thunix!</h2>
+<p>Thunix offers Secure Shell (SSH) accounts, Web Hosting, Email Accounts,
+and many other services. It was founded by hexhaxtron in the Summer of 2017,
+and was continued by <a href="/~amcclure">amcclure</a> and <a href="/~ubergeek">ubergeek</a>
+since 2018. We aim to provide the best service possible with a wide variety of features,
+and we hope you have fun with it!</p>
+
+<?php include '/home/amcclure/public_html/FOOTER.php';?>
