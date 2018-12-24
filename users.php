@@ -9,13 +9,13 @@
 
 <h3>Phoenix</h3>
 <ul>
-<!--<li><a href="/~/"></a></li>-->
-<li><a href="/~amcclure/">amcclure</a></li>
-<li><a href="/~ubergeek/">ubergeek</a></li>
-<li><a href="/~naglfar/">naglfar</a></li>
-<li><a href="/~parik/">parik</a></li>
-<li><a href="/~fosslinux/">fosslinux</a></li>
-<li><a href="/~slip/">slip</a></li>
+<!--<li><a href="//phoenix.thunix.cf/~/"></a></li>-->
+<li><a href="//phoenix.thunix.cf/~amcclure/">amcclure</a></li>
+<li><a href="//phoenix.thunix.cf/~ubergeek/">ubergeek</a></li>
+<li><a href="//phoenix.thunix.cf/~naglfar/">naglfar</a></li>
+<li><a href="//phoenix.thunix.cf/~parik/">parik</a></li>
+<li><a href="//phoenix.thunix.cf/~fosslinux/">fosslinux</a></li>
+<li><a href="//phoenix.thunix.cf/~slip/">slip</a></li>
 </ul>
 
 <p>Note that most content on Thunix are provided by Thunix's users, not the owner of
