@@ -28,12 +28,9 @@ integration into Ben Harris's Tildeverse network.</p>
 	<ul>
 	<li>Your desired username (all lowercase, alphanumeric characters only, no spaces)</li>
 	<li>Contact email address</li>
-	<li>Public SSH Key</li></ul>
-<p>You can also optionally include:</p>
-	<ul>
-	<li>What intrests you in thunix</li>
 	<li>How you heard about thunix</li>
-	<li>Were you reffered by an existing user, and if so who</li>
+	<li>What intrests you in thunix</li>
+	<li>Public SSH Key</li>
 	</ul>
 </p>
 <p>Thunix tries to adhere to the values and philosophy of the Hacker Ethic whenever possible. The hacker ethics and beliefs as described by Levy are:
