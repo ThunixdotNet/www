@@ -16,6 +16,7 @@
 <li><a href="//phoenix.thunix.cf/~parik/">parik</a></li>
 <li><a href="//phoenix.thunix.cf/~fosslinux/">fosslinux</a></li>
 <li><a href="//phoenix.thunix.cf/~slip/">slip</a></li>
+<li><a href="//phoenix.thunix.cf/~quetzalcoatl/">quetzalcoatl</a></li>
 </ul>
 
 <p>Note that most content on Thunix are provided by Thunix's users, not the owner of
