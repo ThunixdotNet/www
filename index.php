@@ -27,6 +27,7 @@ integration into Ben Harris's Tildeverse network.</p>
 <p>If you want to sign up for an account, send an email to <a href="mailto:amcclure@ttm.sh"><code>&lt;amcclure@ttm.sh&gt;</code></a> with:
 	<ul>
 	<li>Your desired username (all lowercase, alphanumeric characters only, no spaces)</li>
+	<li>An alternate username (in case the desired username is unavailable) (all lowercase, alphanumeric characters only, no spaces)</li>
 	<li>Contact email address</li>
 	<li>How you heard about thunix</li>
 	<li>What intrests you in thunix</li>
