@@ -23,6 +23,7 @@
 <li><a href="//phoenix.thunix.cf/~brendantcc/">brendantcc</a></li>
 <li><a href="//phoenix.thunix.cf/~dragon/">dragon</a></li>
 <li><a href="//phoenix.thunix.cf/~spanmer/">spanmer</a></li>
+<li><a href="//phoenix.thunix.cf/~panzer/">panzer</a></li>
 </ul>
 
 <p>Note that most content on Thunix are provided by Thunix's users, not the owner of
