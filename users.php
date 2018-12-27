@@ -18,6 +18,11 @@
 <li><a href="//phoenix.thunix.cf/~slip/">slip</a></li>
 <li><a href="//phoenix.thunix.cf/~quetzalcoatl/">quetzalcoatl</a></li>
 <li><a href="//phoenix.thunix.cf/~redhat/">redhat</a></li>
+<li><a href="//phoenix.thunix.cf/~gokce/">gokce</a></li>
+<li><a href="//phoenix.thunix.cf/~r/">r</a></li>
+<li><a href="//phoenix.thunix.cf/~brendantcc/">brendantcc</a></li>
+<li><a href="//phoenix.thunix.cf/~dragon/">dragon</a></li>
+<li><a href="//phoenix.thunix.cf/~spanmer/">spanmer</a></li>
 </ul>
 
 <p>Note that most content on Thunix are provided by Thunix's users, not the owner of
