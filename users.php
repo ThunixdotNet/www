@@ -24,6 +24,9 @@
 <li><a href="//phoenix.thunix.cf/~dragon/">dragon</a></li>
 <li><a href="//phoenix.thunix.cf/~spanmer/">spanmer</a></li>
 <li><a href="//phoenix.thunix.cf/~panzer/">panzer</a></li>
+<li><a href="//phoenix.thunix.cf/~hawaii/">hawaii</a></li>
+<li><a href="//phoenix.thunix.cf/~trip/">trip</a></li>
+<li><a href="//phoenix.thunix.cf/~xenialito69/">xenialito69</a></li>
 </ul>
 
 <p>Note that most content on Thunix are provided by Thunix's users, not the owner of
