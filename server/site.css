@@ -1,20 +1,31 @@
 /*
-COPYRIGHT (C) 2006-2018 Anton McClure
-Anton McClure - https://gozips.uakron.edu/~asm135
-
+This file is released to the public domain.
+Richard Stallman - http://stallman.org
 */
 
 body {
   color: #000000;
   background-color: #FFFFFF;
-/*  font-family: "Times, Times New Roman", serif;*/
-margin: 0px 20px 0px 20px;
+  margin: 0px 20px 0px 20px;
+}
+
+body.dark {
+  color: #ddd;
+  background-color: #333;
 }
 
 a.glossary {
     border: 1px solid red;
     padding: 2px 2px;
     display: inline-block;
+}
+
+a.dark {
+  color: #ff0;
+}
+
+a.dark:visited {
+  color: #aa0;
 }
 
 /* Need hover for accessibility */
@@ -170,6 +181,5 @@ sup {
 
 div.comp {
     margin: 0 auto;
-   width: 98%;
+    width: 98%;
 }
-
