@@ -1,9 +1,9 @@
 <?php include 'HEADER.php';?>
-<title>Terms of Service and Privacy Policy - Thunix Shell Provider and Web Host</title>
+<title>Terms of Service and Privacy Policy - thunix Shell Provider and Web Host</title>
 <h2>Terms of Service and Privacy Policy</h2>
 <p>Nothing is without its rules &amp; regulations; thunix is no exception. Below are the site's service terms &amp; privacy policy. Everything in this page should be clear to everyone who wishes to use thunix's services, especially the service terms; failure to abide by them can result in such penalties as service bans &amp; even legal action, depending on the severity of a violation. Be sure to read the terms carefully &amp; understand them.</p>
 <h3>Terms of Service</h3>
-<p>Thunix relies on the common courtesy and consideration of users to make its services fair for everyone. The following offences will result in a service ban:</p>
+<p>thunix relies on the common courtesy and consideration of users to make its services fair for everyone. The following offences will result in a service ban:</p>
 <ol>
 <li>Deliberately defacing the accounts of other users</li>
 <li>Deliberately trying to disrupt thunix's server</li>

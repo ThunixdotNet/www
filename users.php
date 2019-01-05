@@ -1,5 +1,5 @@
 <?php include 'HEADER.php';?>
-<title>User Web Directories - Thunix Shell Provider and Web Host</title>
+<title>User Web Directories - thunix Shell Provider and Web Host</title>
 <h2>User Web Directories</h2>
 <h3>Summit</h3>
 <ul>
@@ -29,7 +29,7 @@
 <li><a href="//phoenix.thunix.cf/~xenialito69/">xenialito69</a></li>
 </ul>
 
-<p>Note that most content on Thunix are provided by Thunix's users, not the owner of
+<p>Note that most content on thunix are provided by thunix's users, not the owner of
 the server. Comments should be addressed to the owner of the web directory in the
 first instance - their email address here is
 <code>&lt;username&gt;@phoenix.thunix.cf</code> for Phoenix and
