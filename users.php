@@ -27,6 +27,8 @@
 <li><a href="//phoenix.thunix.cf/~hawaii/">hawaii</a></li>
 <li><a href="//phoenix.thunix.cf/~trip/">trip</a></li>
 <li><a href="//phoenix.thunix.cf/~xenialito69/">xenialito69</a></li>
+<li><a href="//phoenix.thunix.cf/~freuddy/">freuddy</a></li>
+<li><a href="//phoenix.thunix.cf/~ringo/">ringo</a></li>
 </ul>
 
 <p>Note that most content on thunix are provided by thunix's users, not the owner of
