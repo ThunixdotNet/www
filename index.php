@@ -1,6 +1,6 @@
 <?php include 'HEADER.php';?>
-<title>thunix Summit Web Server - thunix Shell Provider and Web Host</title>
-<h2>Welcome to Summit Web Server!</h2>
+<title>thunix Home Page - thunix Shell Provider and Web Host</title>
+<h2>Welcome to thunix Shell Provider and Web Host!</h2>
 <h3>Main Resource On This Site</h3>
 <p>
 <ul>
@@ -30,7 +30,7 @@ integration into Ben Harris's Tildeverse network.</p>
 	<li>An alternate username (in case the desired username is unavailable) (all lowercase, alphanumeric characters only, no spaces)</li>
 	<li>Contact email address</li>
 	<li>How you heard about thunix</li>
-	<li>What intrests you in thunix</li>
+	<li>What interests you in thunix</li>
 	<li>Public SSH Key</li>
 	</ul>
 </p>
@@ -60,6 +60,6 @@ integration into Ben Harris's Tildeverse network.</p>
 </ul>
 <p>Note that most content on thunix are provided by thunix's users, not the owner of
 the server. Comments should be addressed to the owner of the web directory in the
-first instance - their email address here is <code>&lt;username&gt;@phoenix.thunix.cf</code>
+first instance - their email address here is <code>&lt;username&gt;@thunix.cf</code>
 unless otherwise specified within their web directory.</p>
 <?php include 'FOOTER.php';?>
