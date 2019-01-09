@@ -45,7 +45,7 @@ integration into Ben Harris's Tildeverse network.</p>
 	</ul>
 </p>
 <p>thunix will never use proprietary software but users can do that if they wish. This is something they should avoid however.</p>
-<p>If you want to help keep thunix running, please consider <a href-"donate.php">donating</a>.</p>
+<p>If you want to help keep thunix running, please consider <a href="donate.php">donating</a>.</p>
 
 <h3>Server Staff</h3>
 <ul>
