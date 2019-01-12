@@ -12,6 +12,7 @@
 	<li><a href="contact.php">Contact Us</a></li>
 	<li><a href="signup.php">Sign Up</a></li>
 	<li><a href="abuse.php">Report Abuse</a></li>
+    <li><a href="donate.php">Donations</a></li>
 	</ul>
 	</li>
 	<li>
