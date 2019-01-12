@@ -11,6 +11,7 @@
 	<li><a href="tos.php">Terms of Service</a></li>
 	<li><a href="contact.php">Contact Us</a></li>
 	<li><a href="signup.php">Sign Up</a></li>
+	<li><a href="abuse.php">Report Abuse</a></li>
 	</ul>
 	</li>
 	<li>
