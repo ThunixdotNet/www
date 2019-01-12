@@ -2016,7 +2016,7 @@ function phpfmg_header( $title="", $keywords="", $description="" ){
 if( !$formOnly ){
 ?>
 <?php include 'HEADER.php'; ?>
-<title>Contact Us - thunix Shell Provider and Web Host</title>
+<title>Report Abuse - thunix Shell Provider and Web Host</title>
 <?php
 }
 phpfmg_form_css();
@@ -2035,7 +2035,7 @@ phpfmg_form_css();
 				<div id="page-bgbtm">
 					<div id="content">
 						<div class="post">
-							<h2 class="title">Contact Us</h2>
+							<h2 class="title">Report Abuse</h2>
 							<div style="clear: both;">&nbsp;</div>
 							<div class="entry">
 							<p>If you notice any violation of our <a href="/tos.php">terms of service</a> from any of our users, or if you feel that a serious offense has been committed using our network resources, please fill in the abuse reporting form below. Be sure to include a contact name, email address, subject line and as much detail as possible concerning the matter. Once you've filled in the form, click on the send button. We take abuse reports very seriously and we'll work diligently with you and law enforcement, if necessary, in order to resolve any issues that may arise.</p>
