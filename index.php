@@ -37,14 +37,13 @@
 								<li>#thunix - General discussion about thunix and thunix services, including issues. Shell-specific issues go in #phoenix.</li>
 								<li>#phoenix - Discussion about the phoenix shell server, including issues.</li>
 								</ul>
-								<p>If you want to sign up for an account, send an email to <a href="mailto:newuser@thunix.cf"><code>&lt;newuser@thunix.cf&gt;</code></a> with:</p>
+								<p>If you want to sign up for an account, simply open our <a href="/signup.php>signup form</a> and provide us with:</p>
 								<ul>
+								<li>Your contact name</li>
+								<li>Your email address (so that we can contact you with login details)</li>
 								<li>Your desired username (all lowercase, alphanumeric characters only, no spaces)</li>
-								<li>An alternate username (in case the desired username is unavailable) (all lowercase, alphanumeric characters only, no spaces)</li>
-								<li>Contact email address</li>
-								<li>How you heard about thunix</li>
-								<li>What interests you in thunix</li>
-								<li>Public SSH Key</li>
+								<li>How you herad about us and what interests you in thunix</li>
+								<li>Your Public SSH Key</li>
 								</ul>
 								<p>thunix tries to adhere to the values and philosophy of the Hacker Ethic whenever possible. The hacker ethics and beliefs as described by Levy are:</p>
 								<ul>
