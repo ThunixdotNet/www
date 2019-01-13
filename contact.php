@@ -37,7 +37,6 @@ function phpfmg_form( $sErr = false ){
 	<label class='form_field'>Message:</label></div>
 	<div class='col_field'>
 	<textarea name="field_3" id="field_3" rows=4 cols=25 class='text_area'><?php  phpfmg_hsc("field_3"); ?></textarea>
-
 	<div id='field_3_tip' class='instruction'></div>
 	</div>
 </li>
