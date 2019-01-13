@@ -24,8 +24,8 @@
 	<li>
 	<h2>Server Staff</h2>
 	<ul>
-	<li><a href="/~amcclure/">Head Administrator: Anton McClure</a></li>
-	<li><a href="/~ubergeek/">Administrator and Server Host: Ubergeek</a></li>
+	<li><a href="/~amcclure/">Anton McClure</a></li>
+	<li><a href="/~ubergeek/">Ubergeek</a></li>
 	</ul>
 	<li>
 	<h2>Other Information</h2>
