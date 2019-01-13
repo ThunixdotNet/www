@@ -37,7 +37,7 @@
 								<li>#thunix - General discussion about thunix and thunix services, including issues. Shell-specific issues go in #phoenix.</li>
 								<li>#phoenix - Discussion about the phoenix shell server, including issues.</li>
 								</ul>
-								<p>If you want to sign up for an account, simply open our <a href="/signup.php>signup form</a> and provide us with:</p>
+								<p>If you want to sign up for an account, simply open our <a href="/signup.php">signup form</a> and provide us with:</p>
 								<ul>
 								<li>Your contact name</li>
 								<li>Your email address (so that we can contact you with login details)</li>
