@@ -42,7 +42,7 @@
 								<li>Your contact name</li>
 								<li>Your email address (so that we can contact you with login details)</li>
 								<li>Your desired username (all lowercase, alphanumeric characters only, no spaces)</li>
-								<li>How you herad about us and what interests you in thunix</li>
+								<li>How you heard about us and what interests you in thunix</li>
 								<li>Your Public SSH Key</li>
 								</ul>
 								<p>thunix tries to adhere to the values and philosophy of the Hacker Ethic whenever possible. The hacker ethics and beliefs as described by Levy are:</p>
