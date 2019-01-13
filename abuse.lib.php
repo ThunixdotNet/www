@@ -2056,7 +2056,6 @@ function phpfmg_footer( $formOnly = false ){
 function phpfmg_javascript( $sErr = '' ){
 ?>
 <script>
-<script>
  /**
 *
 *  UTF-8 data encode / decode
