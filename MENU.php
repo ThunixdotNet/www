@@ -30,7 +30,7 @@
 	<li>
 	<h2>Other Information</h2>
 	<ul>
-	<li>Coming Soon</li>
+	<li><a href="gdpr.php">GDPR Statement</a></li>
 	</ul>
 	</li>
 	</ul>
