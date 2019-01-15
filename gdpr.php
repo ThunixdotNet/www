@@ -43,8 +43,10 @@
 							<p>If you request deletion of your account, all of your data will be purged within 14 days from our system.</p>
 						</div>
 						<div class="post">
-						<h2 class="title">How do you protect my data?</h1>
-							<p>All data on thunix is encrypted at rest. Logs are maintained only for as long as is technically required (30 days, for troubleshooting of issues). Personally created data, is protected by the UNIX permissions model, as dictated by yourself, however, by default, your personally created data is viewable by all other users of the system, per design.</p>
+							<h2 class="title">How do you protect my data?</h1>
+								<p>All data on thunix is encrypted at rest. Logs are maintained only for as long as is technically required (30 days, for troubleshooting of issues). Personally created data, is protected by the UNIX permissions model, as dictated by yourself, however, by default, your personally created data is viewable by all other users of the system, per design.</p>
+							</div>
 						</div>
+
 <?php include 'MENU.php'; ?>
 <?php include 'FOOTER.php'; ?>
