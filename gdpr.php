@@ -47,6 +47,7 @@
 								<p>All data on thunix is encrypted at rest. Logs are maintained only for as long as is technically required (30 days, for troubleshooting of issues). Personally created data, is protected by the UNIX permissions model, as dictated by yourself, however, by default, your personally created data is viewable by all other users of the system, per design.</p>
 							</div>
 						</div>
-
+					<div style="clear: both;">&nbsp;</div>
+					</div>
 <?php include 'MENU.php'; ?>
 <?php include 'FOOTER.php'; ?>
