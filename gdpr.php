@@ -29,7 +29,6 @@
 							</div>
 						</div>
 						<div class="post">
-						<div class="post">
 							<h2 class="title">How long do we retain data about you?</h2>
 							<p>Your email address is retained only long enough to process you account creation request. IPs you log into from are retained for a maximum of 30 days.</p>
 						</div>
