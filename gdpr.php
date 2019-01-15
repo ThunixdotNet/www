@@ -14,7 +14,7 @@
 				<div id="page-bgbtm">
 					<div id="content">
 						<div class="post">
-							<h2 class="title">GDPR Statement Regarding Data Collection, Data Storage, and Data Retention</h2>
+							<h2 class="title">GDPR Statement Regarding Data Collection, Storage, Retention</h2>
 							<div style="clear: both;">&nbsp;</div>
 							<div class="entry">
 								<p>Thunix takes personal privacy seriously, and as such remains committed to being in compliance with the GDPR, which took affect on May 25th, 2018.</p>
@@ -34,7 +34,7 @@
 							<p>Your email address is retained only long enough to process you account creation request. IPs you log into from are retained for a maximum of 30 days.</p>
 						</div>
 						<div class="post">
-							<h2 class="title">>How can I request a copy of my data?</h2>
+							<h2 class="title">How can I request a copy of my data?</h2>
 							<p>You can submit a request at <a href="https://thunix.cf/contact.php">contact page</a>. We will endeavor to provide you a copy of all data we store within 14 days.</p>
 						</div>
 						<div class="post">
