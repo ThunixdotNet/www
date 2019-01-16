@@ -1,5 +1,5 @@
 <?php include 'HEADER.php'; ?>
-<title>Terms of Service and Privacy Policy - thunix Shell Provider and Web Host</title>
+<title>Terms of Service - thunix Shell Provider and Web Host</title>
 </head>
 <body>
 <div id="top">
@@ -14,7 +14,7 @@
 				<div id="page-bgbtm">
 					<div id="content">
 						<div class="post">
-							<h2 class="title">Terms of Service and Privacy Policy</h2>
+							<h2 class="title">Terms of Service</h2>
 							<div style="clear: both;">&nbsp;</div>
 							<div class="entry">
 								<p>Nothing is without its rules and regulations; thunix is no exception. Below are the site's service terms and privacy policy. Everything in this page should be clear to everyone who wishes to use thunix's services, especially the service terms; failure to abide by them can result in such penalties as service bans and even legal action, depending on the severity of a violation. Be sure to read the terms carefully and understand them.</p>

@@ -9,6 +9,7 @@
 	<li><a href="/">Home</a></li>
 	<li><a href="faq.php">FAQ</a></li>
 	<li><a href="tos.php">Terms of Service</a></li>
+	<li><a href="gdpr.php">GDPR Statement and Privacy Policy</a></li>
 	<li><a href="contact.php">Contact Us</a></li>
 	<li><a href="signup.php">Sign Up</a></li>
 	<li><a href="abuse.php">Report Abuse</a></li>
@@ -30,7 +31,7 @@
 	<li>
 	<h2>Other Information</h2>
 	<ul>
-	<li><a href="gdpr.php">GDPR Statement</a></li>
+	<li>(Coming soon)</a></li>
 	</ul>
 	</li>
 	</ul>
