@@ -1,5 +1,5 @@
 <?php include 'HEADER.php'; ?>
-<title>GDPR Statement Regarding Data Collection, Storage, and Retention - thunix Shell Provider and Web Host</title>
+<title>GDPR Statement on Data Collection and Retention - thunix Shell Provider and Web Host</title>
 </head>
 <body>
 <div id="top">
@@ -14,10 +14,10 @@
 				<div id="page-bgbtm">
 					<div id="content">
 						<div class="post">
-							<h2 class="title">GDPR Statement Regarding Data Collection, Storage, and Retention</h2>
+							<h2 class="title">GDPR Statement on Data Collection and Retention</h2>
 							<div style="clear: both;">&nbsp;</div>
 							<div class="entry">
-								<p>Thunix takes personal privacy seriously, and as such remains committed to being in compliance with the GDPR, which took affect on May 25th, 2018.</p>
+								<p>Thunix takes personal data privacy seriously, and as such remains committed to being in compliance with the GDPR, which took affect on May 25th, 2018.</p>
 							</div>
 						</div>
 						<div class="post">
