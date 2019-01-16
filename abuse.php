@@ -1,6 +1,6 @@
 <?php
 if( !defined('FormmailMakerFormLoader') ){
-	require_once( dirname(__FILE__).'/contact.lib.php' );
+	require_once( dirname(__FILE__).'/abuse.lib.php' );
     phpfmg_display_form();
 };
 function phpfmg_form( $sErr = false ){
@@ -52,7 +52,7 @@ function phpfmg_form( $sErr = false ){
 			<label class='form_error_title'>Please fill in every field.</label>
 		</div>
 		<span id='phpfmg_processing' style='display:none;'>
-                    <img id='phpfmg_processing_gif' src='<?php echo PHPFMG_ADMIN_URL . '?mod=image&amp;func=processing' ;?>' alt='Processing...'> <label id='phpfmg_processing_dots'></label>
+			<img id='phpfmg_processing_gif' src='<?php echo PHPFMG_ADMIN_URL . '?mod=image&amp;func=processing' ;?>' border=0 alt='Processing...'> <label id='phpfmg_processing_dots'></label>
 		</span>
 	</div>
 </li>
@@ -63,7 +63,7 @@ function phpfmg_form( $sErr = false ){
 <!-- end of form container -->
 <!-- [Your confirmation message goes here] -->
 <div id='thank_you_msg' style='display:none;'>
-Your message has been sent. Thank you!
+Your report has been sent. Thank you!
 </div>
 <?php
     phpfmg_javascript($sErr);
