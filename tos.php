@@ -17,14 +17,7 @@
 							<h2 class="title">Terms of Service</h2>
 							<div style="clear: both;">&nbsp;</div>
 							<div class="entry">
-								<p>Nothing is without its rules and regulations; thunix is no exception. Below are the site's service terms and privacy policy. Everything in this page should be clear to everyone who wishes to use thunix's services, especially the service terms; failure to abide by them can result in such penalties as service bans and even legal action, depending on the severity of a violation. Be sure to read the terms carefully and understand them.</p>
-							</div>
-						</div>
-							<div class="post">
-							<h2 class="title">Terms of Service</h2>
-							<div style="clear: both;">&nbsp;</div>
-							<div class="entry">
-								<p>thunix relies on the common courtesy and consideration of users to make its services fair for everyone. The following offences will result in a service ban:</p>
+								<p>Nothing is without its rules and regulations; thunix is no exception. Below are the site's service terms and privacy policy. Everything in this page should be clear to everyone who wishes to use thunix's services, especially the service terms; failure to abide by them can result in such penalties as service bans and even legal action, depending on the severity of a violation. Be sure to read the terms carefully and understand them.</p><p>thunix relies on the common courtesy and consideration of users to make its services fair for everyone. The following offences will result in a service ban:</p>
 								<ol>
 								<li>Deliberately defacing the accounts of other users</li>
 								<li>Deliberately trying to disrupt thunix's server</li>
@@ -42,13 +35,7 @@
 								<p>Users that repeatedly infringe copyrights will have their account removed. Depending on the degree of the offense, their account may be removed immediately.</p>
 							</div>
 						</div>
-							<div class="post">
-							<h2 class="title">Privacy Policy</h2>
-							<div style="clear: both;">&nbsp;</div>
-							<div class="entry">
-								<p>Privacy is a major concern for everyone. thunix respects the privacy rights of others and refuses to collect/store/distribute anyone's private information, except when necessary; thunix collects usernames and encrypted passwords for account registration purposes only, while logging IP addresses for server administration and policy enforcement purposes. The privacy rights of individual users may be overturned ONLY when it is known that they have violated the service terms; this is done strictly to uphold the service terms as well as the law.</p></div>
-							</div>
-							<div style="clear: both;">&nbsp;</div>
+						<div style="clear: both;">&nbsp;</div>
 						</div>
 <?php include 'MENU.php'; ?>
 <?php include 'FOOTER.php'; ?>
