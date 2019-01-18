@@ -140,10 +140,19 @@ padding-left: 0;
 
 /* Page */
 
+@media only screen and (orientation: landscape){
 #page {
 width: 980px;
 margin: 0 auto;
 padding: 0px 0px 0px 0px;
+}
+}
+
+@media only screen and (orientation: portrait) and (overflow-inline){
+#page {
+margin: 0 auto;
+padding: 0px 0px 0px 0px;
+}
 }
 
 #page-bgtop {
@@ -160,9 +169,8 @@ padding: 0px 0px 0px 0px;
 }
 }
 
-@media only screen and (orientation: portrait){
+@media only screen and (orientation: portrait) and (overflow-inline){
 #content {
-width: 650px;
 padding: 0px 0px 0px 0px;
 }
 }
@@ -233,9 +241,8 @@ color: #00FF00;
 }
 }
 
-@media only screen and (orientation: portrait){
+@media only screen and (orientation: portrait) and (overflow-inline){
 #sidebar {
-width: 310px;
 margin: 0px;
 padding: 0px 20px 0px 0px;
 color: #00FF00;
