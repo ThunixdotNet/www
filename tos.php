@@ -17,7 +17,7 @@
 							<h2 class="title">Terms of Service</h2>
 							<div style="clear: both;">&nbsp;</div>
 							<div class="entry">
-								<p>Nothing is without its rules and regulations; thunix is no exception. Below are the site's service terms and privacy policy. Everything in this page should be clear to everyone who wishes to use thunix's services, especially the service terms; failure to abide by them can result in such penalties as service bans and even legal action, depending on the severity of a violation. Be sure to read the terms carefully and understand them.</p><p>thunix relies on the common courtesy and consideration of users to make its services fair for everyone. The following offences will result in a service ban:</p>
+								<p>Nothing is without its rules and regulations; thunix is no exception. Below are the site's service terms. Everything in this page should be clear to everyone who wishes to use thunix's services; failure to abide by these terms can result in such penalties as service bans and even legal action, depending on the severity of a violation. Be sure to read this page carefully and understand it.</p><p>thunix relies on the common courtesy and consideration of users to make its services fair for everyone. The following offences will result in a service ban:</p>
 								<ol>
 								<li>Deliberately defacing the accounts of other users</li>
 								<li>Deliberately trying to disrupt thunix's server</li>
