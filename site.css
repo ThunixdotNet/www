@@ -152,10 +152,19 @@ padding: 20px 0px;
 
 /* Content */
 
+@media only screen and (orientation: landscape){
 #content {
 float: right;
 width: 650px;
 padding: 0px 0px 0px 0px;
+}
+}
+
+@media only screen and (orientation: portrait){
+#content {
+width: 650px;
+padding: 0px 0px 0px 0px;
+}
 }
 
 .post {
@@ -214,12 +223,23 @@ font-weight: bold;
 
 /* Sidebar */
 
+@media only screen and (orientation: landscape){
 #sidebar {
 float: left;
 width: 310px;
 margin: 0px;
 padding: 0px 20px 0px 0px;
 color: #00FF00;
+}
+}
+
+@media only screen and (orientation: portrait){
+#sidebar {
+width: 310px;
+margin: 0px;
+padding: 0px 20px 0px 0px;
+color: #00FF00;
+}
 }
 
 #sidebar ul {
