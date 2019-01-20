@@ -2039,7 +2039,7 @@ phpfmg_form_css();
 							<h2 class="title">Sign Up</h2>
 							<div style="clear: both;">&nbsp;</div>
 							<div class="entry">
-							<p>To sign up for an account with thunix, please fill in the form below. Be sure to include a contact name, email address, a desired username, a little blurb about your interest in us and a public SSH key. Once you've filled in the form, click on the send button; the signup form will be processed and you'll receive an email, with instructions on how to log into your new account.</p><p> If you have any questions or problems, feel free to <a href="/contact/">contact us</a>.</p>
+							<p>To sign up for an account with thunix, please fill in the form below. Be sure to include a contact name, email address, a desired username, a little blurb about your interest in us and a public SSH key. Once you've filled in the form, click on the send button; the signup form will be processed and you'll receive an email, with instructions on how to log into your new account.</p><p> If you have any questions or problems, feel free to <a href="/contact.php">contact us</a>.</p>
 <?php
 }
 function phpfmg_footer( $formOnly = false ){
