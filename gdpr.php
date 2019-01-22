@@ -17,7 +17,7 @@
 							<h2 class="title">GDPR Statement and Privacy Policy</h2>
 							<div style="clear: both;">&nbsp;</div>
 							<div class="entry">
-								<p>Thunix takes personal privacy seriously, and as such remains committed to being in compliance with the GDPR, which took affect on May 25th, 2018.</p>
+								<p>Thunix takes privacy seriously, and as such remains committed to being in compliance with the GDPR, which took affect on May 25th, 2018.</p>
 							</div>
 						</div>
 						<div class="post">
