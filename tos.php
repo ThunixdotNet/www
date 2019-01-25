@@ -1,5 +1,5 @@
 <?php include 'HEADER.php'; ?>
-<title>Terms of Service - thunix Shell Provider and Web Host</title>
+<title>Terms of Service - thunix Community</title>
 </head>
 <body>
 <div id="top">

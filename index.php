@@ -1,5 +1,5 @@
 <?php include 'HEADER.php'; ?>
-<title>Welcome to thunix Shell Provider and Web Host</title>
+<title>Welcome to thunix Community</title>
 </head>
 <body>
 <div id="top">
@@ -14,17 +14,17 @@
 				<div id="page-bgbtm">
 					<div id="content">
 						<div class="post">
-							<h2 class="title">Welcome to thunix Shell Provider and Web Host</h2>
+							<h2 class="title">Welcome to thunix Shell Commnunity</h2>
 							<div style="clear: both;">&nbsp;</div>
 							<div class="entry">
 								<p>We're so glad you could drop by and we hope you enjoy your visit. Stay a while! Feel free to inquire about what we have to offer and explore our services.</p>
 							</div>
 						</div>
 						<div class="post">
-							<h2 class="title">About thunix Shell Provider and Web Host</h2>
+							<h2 class="title">About thunix Community</h2>
 							<div style="clear: both;">&nbsp;</div>
 							<div class="entry">
-								<p>thunix offers Secure Shell (SSH) accounts, Web Hosting, Email Accounts, and many other services. It was founded by hexhaxtron in the Summer of 2017, and was continued by <a href="/~amcclure">amcclure</a> and <a href="/~ubergeek">ubergeek</a> since 2018. We aim to provide the best service possible with a wide variety of features, and we hope you have fun with it!</p>
+								<p>thunix offers Secure Shell (SSH) accounts, Web Hosting, Email Accounts, and many other services. But, most of all, we are a community of users.  It was founded by hexhaxtron in the Summer of 2017, and was continued by <a href="/~amcclure">amcclure</a> and <a href="/~ubergeek">ubergeek</a> since 2018. We aim to provide the best service possible with a wide variety of features, and we hope you have fun with it!</p>
 							</div>
 						</div>
 						<div class="post">
