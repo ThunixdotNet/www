@@ -6,7 +6,6 @@
 		<div id="header">
 			<div id="logo">
 				<h1>&#9763; thunix</h1>
-				<p>Community</p>
 			</div>
 		</div>
 	<div id="page">
