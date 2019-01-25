@@ -1,12 +1,11 @@
 <?php include 'HEADER.php'; ?>
-<title>Status of thunix Servers and Services - thunix Shell Provider and Web Host</title>
+<title>Status of thunix Servers and Services - thunix Community</title>
 </head>
 <body>
 <div id="top">
 	<div id="header">
 		<div id="logo">
 			<h1>&#9763; thunix</h1>
-			<p>Shell Provider and Web Host</p>
 		</div>
 	</div>
 		<div id="page">

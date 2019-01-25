@@ -1,12 +1,11 @@
 <?php include 'HEADER.php'; ?>
-<title>GDPR Statement and Privacy Policy - thunix Shell Provider and Web Host</title>
+<title>GDPR Statement and Privacy Policy - thunix Community</title>
 </head>
 <body>
 <div id="top">
 	<div id="header">
 		<div id="logo">
 			<h1>&#9763; thunix</h1>
-			<p>Shell Provider and Web Host</p>
 		</div>
 	</div>
 		<div id="page">
