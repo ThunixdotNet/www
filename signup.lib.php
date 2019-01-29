@@ -2017,7 +2017,7 @@ function phpfmg_header( $title="", $keywords="", $description="" ){
 if( !$formOnly ){
 ?>
 <?php include 'HEADER.php'; ?>
-<title>Sign Up - thunix Shell Provider and Web Host</title>
+<title>Sign Up - thunix Community</title>
 <?php
 }
 phpfmg_form_css();
@@ -2028,7 +2028,6 @@ phpfmg_form_css();
 	<div id="header">
 		<div id="logo">
 			<h1>&#9763; thunix</h1>
-			<p>Shell Provider and Web Host</p>
 		</div>
 	</div>
 		<div id="page">
