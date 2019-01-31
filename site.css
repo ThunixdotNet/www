@@ -99,7 +99,6 @@ color: #EEEEEE;
 /* Menu */
 
 #menu {
-width: 980px;
 height: 90px;
 margin: 0 auto;
 padding: 0;
@@ -140,15 +139,6 @@ padding-left: 0;
 
 /* Page */
 
-@media only screen and (orientation: landscape){
-#page {
-width: 980px;
-margin: 0 auto;
-padding: 0px 0px 0px 0px;
-}
-}
-
-@media only screen and (orientation: portrait) and (overflow-inline){
 #page {
 margin: 0 auto;
 padding: 0px 0px 0px 0px;
@@ -164,12 +154,12 @@ padding: 20px 0px;
 @media only screen and (orientation: landscape){
 #content {
 float: right;
-width: 650px;
+width: 74%;
 padding: 0px 0px 0px 0px;
 }
 }
 
-@media only screen and (orientation: portrait) and (overflow-inline){
+@media only screen and (orientation: portrait){
 #content {
 padding: 0px 0px 0px 0px;
 }
@@ -234,14 +224,14 @@ font-weight: bold;
 @media only screen and (orientation: landscape){
 #sidebar {
 float: left;
-width: 310px;
+width: 22px;
 margin: 0px;
 padding: 0px 20px 0px 0px;
 color: #00FF00;
 }
 }
 
-@media only screen and (orientation: portrait) and (overflow-inline){
+@media only screen and (orientation: portrait){
 #sidebar {
 margin: 0px;
 padding: 0px 20px 0px 0px;
