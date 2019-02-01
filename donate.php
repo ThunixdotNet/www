@@ -17,7 +17,8 @@
 							<div style="clear: both;">&nbsp;</div>
 							<div class="entry">
 								<p>As this server and our projects are all a labor of love and goodwill for the community, operating the thunix server costs money. We love what we do and we love sharing what we do for free, but over time, operating expenses can have a big impact.</p>
-								<p>That being said, we also rely on the good nature of generous people, who are willing to donate to us. The price breakdown right now is &euro;38/month.  So to help with server costs and time spent, for now, you can send some BTC my (ubergeek's) way:</p>
+								<p>That being said, we also rely on the good nature of generous people, who are willing to donate to us. The price breakdown right now is &euro;38/month.  So to help with server costs and time spent, you can donate the following ways:</p>
+								<p style="text-align: center; color: #00FFFF;">Via BitCoin:</p>
 								<p style="text-align: center; color: #00FFFF;">1DFM3qY7XmCxGTFPATSQJVCNjvmWiVubGN</p>
 								<p style="text-align: center; color: #00FFFF;">You can donate via Liberapay here:</p>
 								<p style="text-align: center; color: #00FFFF;"><script src="https://liberapay.com/ub3g33k/widgets/button.js"></script><noscript><a href="https://liberapay.com/ub3g33k/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript></p>
