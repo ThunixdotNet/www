@@ -19,9 +19,9 @@
 								<p>As this server and our projects are all a labor of love and goodwill for the community, operating the thunix server costs money. We love what we do and we love sharing what we do for free, but over time, operating expenses can have a big impact.</p>
 								<p>That being said, we also rely on the good nature of generous people, who are willing to donate to us. The price breakdown right now is &euro;38/month.  So to help with server costs and time spent, for now, you can send some BTC my (ubergeek's) way:</p>
 								<p style="text-align: center; color: #00FFFF;">1DFM3qY7XmCxGTFPATSQJVCNjvmWiVubGN</p>
-								<p>You can donate via Liberapay here:</p>
-								<p><script src="https://liberapay.com/ub3g33k/widgets/button.js"></script><noscript><a href="https://liberapay.com/ub3g33k/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript></p>
-								<p>Or via Paypal:</a>
+								<p style="text-align: center; color: #00FFFF;">You can donate via Liberapay here:</p>
+								<p style="text-align: center; color: #00FFFF;"><script src="https://liberapay.com/ub3g33k/widgets/button.js"></script><noscript><a href="https://liberapay.com/ub3g33k/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript></p>
+								<p style="text-align: center; color: #00FFFF;">Or via Paypal:</a>
 									<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 									<input type="hidden" name="cmd" value="_donations" />
 									<input type="hidden" name="business" value="GW2H85HY9VJ3L" />
