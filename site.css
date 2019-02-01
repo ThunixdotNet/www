@@ -224,7 +224,7 @@ font-weight: bold;
 @media only screen and (orientation: landscape){
 #sidebar {
 float: left;
-width: 22px;
+width: 22%;
 margin: 0px;
 padding: 0px 20px 0px 0px;
 color: #00FF00;
