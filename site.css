@@ -151,17 +151,15 @@ padding: 20px 0px;
 
 /* Content */
 
-@media only screen and (orientation: landscape){
+#content {
+padding: 0px 20px 0px 20px;
+}
+
+@media screen and (orientation: landscape) and (min-width: 1024px){
 #content {
 float: right;
 width: 74%;
 padding: 0px 20px 0px 0px;
-}
-}
-
-@media only screen and (orientation: portrait){
-#content {
-padding: 0px 0px 0px 0px;
 }
 }
 
@@ -221,18 +219,17 @@ font-weight: bold;
 
 /* Sidebar */
 
-@media only screen and (orientation: landscape){
 #sidebar {
-float: left;
-width: 22%;
 margin: 0px;
 padding: 0px 20px 0px 0px;
 color: #00FF00;
 }
 }
 
-@media only screen and (orientation: portrait){
+@media screen and (orientation: landscape) and (min-width: 1024px){
 #sidebar {
+float: left;
+width: 22%;
 margin: 0px;
 padding: 0px 20px 0px 0px;
 color: #00FF00;
