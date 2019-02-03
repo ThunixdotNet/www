@@ -2,7 +2,7 @@ body {
 margin: 0;
 padding: 0;
 background: #222222;
-font-family: Consolas,Arial, Helvetica, Sans-Serif;
+font-family: normal Georgia, "Times New Roman", Times, serif;
 font-size: 12px;
 color: #00FF00;
 }
@@ -35,7 +35,6 @@ ul, ol {
 }
 
 a {
-color: #00FFFF;
 text-decoration: none;
 }
 
@@ -53,7 +52,7 @@ padding: 0;
 #header {
 background: linear-gradient(#666666,#222222);
 margin: 0 auto;
-padding: 0px 0px 0px 30px;
+padding: 0px 0px 0px 0px;
 }
 
 /* Logo */
@@ -71,7 +70,6 @@ padding: 0;
 
 #logo h1 {
 font-size: 3.8em;
-font-weight: bold;
 color: #EEEEEE;
 text-shadow: -1px 1px #000000;
 }
@@ -79,20 +77,20 @@ text-shadow: -1px 1px #000000;
 #logo p {
 margin: 0;
 padding: 0px 0 0 2px;
-font: 14px Consolas,Arial, Helvetica, Sans-Serif;
-font-weight: bold;
+font: normal 14px Georgia, "Times New Roman", Times, serif;
+font-style: italic;
 color: #00FF00;
 } 
 
 #logo a {
 text-decoration: none;
-font-family: Consolas,Arial, Helvetica, Sans-Serif;
+font-family: sans-serif;
 color: #EEEEEE;
 }
 
 #logo a:hover {
-text-decoration: none;
-font-family: Consolas,Arial, Helvetica, Sans-Serif;
+text-decoration: underline;
+font-family: sans-serif;
 color: #EEEEEE;
 }
 
@@ -125,7 +123,7 @@ text-decoration: none;
 text-align: center;
 font-size: 13px;
 font-weight: bold;
-color: #00FFFF;
+color: #00FF00;
 border: none;
 }
 
@@ -142,7 +140,6 @@ padding-left: 0;
 #page {
 margin: 0 auto;
 padding: 0px 0px 0px 0px;
-}
 }
 
 #page-bgtop {
@@ -187,7 +184,7 @@ border: none;
 margin-bottom: 30px;
 padding: 20px 30px 0px 30px;
 text-align: left;
-font-family: Consolas,Arial, Helvetica, Sans-Serif;
+font-family: Arial, Helvetica, sans-serif;
 font-size: 13px;
 font-weight: bold;
 font-style: italic;
@@ -219,11 +216,11 @@ font-weight: bold;
 
 /* Sidebar */
 
+
 #sidebar {
 margin: 0px;
 padding: 0px 0px 0px 0px;
 color: #00FF00;
-}
 }
 
 @media only screen and (orientation: landscape) and (min-width: 1024px){
@@ -272,7 +269,7 @@ font-style: italic;
 height: 38px;
 padding-left: 30px;
 letter-spacing: -.5px;
-font-size: 1.6em;
+font-size: 1.8em;
 }
 
 #sidebar p {
@@ -297,14 +294,14 @@ color: #00FFFF;
 margin: 0 auto;
 padding: 0px 0 15px 0;
 background: linear-gradient(#222222,#000000);
-font-family: Consolas,Arial, Helvetica, Sans-Serif;
+font-family: Arial, Helvetica, sans-serif;
 }
 
 #footer p {
 margin: 0;
 padding-top: 15px;
 line-height: normal;
-font-size: 12px;
+font-size: 9px;
 text-align: center;
 color: #00FF00;
 }
