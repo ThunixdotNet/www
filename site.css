@@ -155,7 +155,7 @@ padding: 20px 0px;
 padding: 0px 20px 0px 20px;
 }
 
-@media screen and (orientation: landscape) and (min-width: 1024px){
+@media only screen and (orientation: landscape) and (min-width: 1024px){
 #content {
 float: right;
 width: 74%;
@@ -226,7 +226,7 @@ color: #00FF00;
 }
 }
 
-@media screen and (orientation: landscape) and (min-width: 1024px){
+@media only screen and (orientation: landscape) and (min-width: 1024px){
 #sidebar {
 float: left;
 width: 22%;
