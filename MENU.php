@@ -31,7 +31,7 @@
 	<li>
 	<h2>Other Information</h2>
 	<ul>
-	<li>(Coming soon)</a></li>
+	<li><a href=".">(Coming soon)</a></li>
 	</ul>
 	</li>
 	</ul>
