@@ -33,6 +33,11 @@ $f = fopen("./report", "r");
 
 echo "Last update: " . date ("H:i", filemtime('./report'))."<p>\n";
 echo "<table>";
+echo " <tr>
+       <th>Host</th>
+       <th>Check</th>
+       <th>Status</th>
+       </tr>";
 while (($line = fgetcsv($f)) !== false) {
   echo "<tr>";
   if ($hosts == "failed" ) {
