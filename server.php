@@ -32,7 +32,7 @@ $hosts="all";
 $f = fopen("./report", "r");
 
 echo "Last update: " . date ("H:i", filemtime('./report'))."<p>\n";
-echo "<table>";
+echo "<table style='width:80%'>";
 echo " <tr>
        <th>Host</th>
        <th>Check</th>
