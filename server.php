@@ -60,7 +60,7 @@ while (($line = fgetcsv($f)) !== false) {
       }
     }
   }
-  echo "</tr>\n";
+  echo "</tr><p>\n";
 }
 echo "\n</table><p>\n";
 fclose($f);
