@@ -13,15 +13,10 @@
 				<div id="page-bgbtm">
 					<div id="content">
 						<div class="post">
-							<h2 class="title">Information and Service Announcements</h2>
+							<h2 class="title">Information and Service Status</h2>
 							<div style="clear: both;">&nbsp;</div>
-						</div>
-						<div class="post">
-							<h2 class="title">State of the Thunix</h2>
-							<div style="clear: both;">&nbsp;</div>
-
-              <div style="clear: both;">&nbsp;</div>
               <div class="entry">
+								<h3>State of the Thunix</h3>
 								<p>So, here were are, almost one month post-new server!  Some exciting things, and some things that possible have people a little upset.</p>
 								<p>A BIG change are the ports being wide open on the system.  I tried this for about a week, and got a notice from the provider, as a warning.  So, we had to enable a firewall on the system, and open ports, as requested by users.  But, in order to get a port opened up, you need to either a) do a pull request on tildegit.org configuring the daemon you want to run, or b) open an issue there, with your request.  Be mindful, in order for us to set it up for you, the software must be free and open source software.</p>
 								<p>Another big change, and I feel this is super-empowering for the users is that our configuration is maintained in a central source control.  This allows all users the ability to see how things work, and also enabled them to request the exact changes they desire.  It also removes the Bus Factor of 1, which old-thunix was prone to, and eventually succumbed to.  Anyone can create a new thunix from the work done here, to include any member of the admin team (As they also maintain backups of key files, and most of the home dirs).</p>
