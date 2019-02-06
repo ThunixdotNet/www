@@ -31,8 +31,8 @@ $hosts="all";
  
 $f = fopen("./report", "r");
 
-echo "Last update: " . date ("H:i", filemtime('/tmp/report'))."<p>\n";
-
+echo "Last update: " . date ("H:i", filemtime('./report'))."<p>\n";
+echo "<table>";
 while (($line = fgetcsv($f)) !== false) {
   echo "<tr>";
   if ($hosts == "failed" ) {
