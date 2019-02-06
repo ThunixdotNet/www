@@ -65,11 +65,12 @@ while (($line = fgetcsv($f)) !== false) {
       }
     }
   }
-  echo "</tr><p>\n";
+  echo "</tr>\n";
 }
-echo "\n</table><p>\n";
+echo "\n</table>\n";
 fclose($f);
 ?>
+<!-- End of the monitoring script portion -->
 
 								</p>
 							</div>
