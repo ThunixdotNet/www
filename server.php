@@ -15,9 +15,6 @@
 						<div class="post">
 							<h2 class="title">Information and Service Announcements</h2>
 							<div style="clear: both;">&nbsp;</div>
-							<div class="entry">
-								<p>(Coming soon)</p>
-							</div>
 						</div>
 						<div class="post">
 							<h2 class="title">State of the Thunix</h2>
