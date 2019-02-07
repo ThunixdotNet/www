@@ -23,7 +23,7 @@
 								<p>But!  We also added some stuff, to make it feel more like home as well.  There's currently a bzflag server, some shell customizations to help you feel a bit more comfortable, all the build tools you need.  If some are missing, ask in IRC, or do a PR, or create an issue on tildegit.  We are working on getting a Doom multiplayer server up and running, as well as a GlowstoneMC instance.</p>
 								<p>While not a huge deal, I am paying out of pocket for this, which I don't mind doing at all.  It's fun, after all!  But, if you want, you can donate via Liberapay, Paypal, and BitCoin.  Just click on the donate link in the sidebar.</p>
 								<p>So, welcome back to Thunix, any questions, I'm a nice guy, as are amcclure and Naglfar (The other admins), and we're more than happy to answer questions.</p>
-								</p>
+								<br>
 								<p>Ubergeek/ub3g33k</p>
               </div>
 
