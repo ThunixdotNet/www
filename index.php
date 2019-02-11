@@ -13,10 +13,17 @@
 				<div id="page-bgbtm">
 					<div id="content">
 						<div class="post">
-							<h2 class="title">Welcome to thunix Shell Commnunity</h2>
+							<h2 class="title">Welcome to thunix!</h2>
 							<div style="clear: both;">&nbsp;</div>
 							<div class="entry">
 								<p>We're so glad you could drop by and we hope you enjoy your visit. Stay a while! Feel free to inquire about what we have to offer and explore our services.</p>
+							</div>
+						</div>
+						<div class="post">
+							<h2 class="title">Latest News</h2>
+							<div style="clear: both;">&nbsp;</div>
+							<div class="entry">
+								<p>(Coming soon)</p>
 							</div>
 						</div>
 						<div class="post">
