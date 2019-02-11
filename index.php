@@ -20,12 +20,12 @@
 							</div>
 						</div>
 						<div class="post">
-							<h2 class="title">Latest News</h2>
+						<!--<h2 class="title">Latest News</h2>
 							<div style="clear: both;">&nbsp;</div>
 							<div class="entry">
 								<p>(Coming soon)</p>
 							</div>
-						</div>
+						</div>-->
 						<div class="post">
 							<h2 class="title">About thunix Community</h2>
 							<div style="clear: both;">&nbsp;</div>
