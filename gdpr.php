@@ -38,14 +38,14 @@
 							<h2 class="title">How can I request a copy of my data?</h2>
 							<div style="clear: both;">&nbsp;</div>
 							<div class="entry">
-								<p>You can submit a request at <a href="https://thunix.cf/contact.php">contact page</a>. We will endeavor to provide you a copy of all data we store within 14 days.</p>
+								<p>You can submit a request at <a href="/contact.php">contact page</a>. We will endeavor to provide you a copy of all data we store within 14 days.</p>
 							</div>
 						</div>
 						<div class="post">
 							<h2 class="title">How can I request removal of my information?</h1>
 							<div style="clear: both;">&nbsp;</div>
 							<div class="entry">
-								<p>You can submit a request at <a href="https://thunix.cf/contact.php">contact page</a>, and we will endeavor to remove all personal data of yours from our system within 14 days. However, this will include removal of your user account from our system as well, which will prevent access to most of the services provided by Thunix.</p>
+								<p>You can submit a request at <a href="/contact.php">contact page</a>, and we will endeavor to remove all personal data of yours from our system within 14 days. However, this will include removal of your user account from our system as well, which will prevent access to most of the services provided by Thunix.</p>
 							<p>If you request deletion of your account, all of your data will be purged within 14 days from our system.</p>
 							</div>
 						</div>
