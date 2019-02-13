@@ -1,7 +1,7 @@
 <?php
 define( 'PAYPAL_ID' , '' ); // Put donation ID here to disable the bottom backlink
 
-define( 'PHPFMG_TO' , 'root@thunix.cf' );
+define( 'PHPFMG_TO' , 'root@thunix.net' );
 define( 'PHPFMG_REDIRECT', '' );
 
 define( 'PHPFMG_ID' , '20190109-6f06' );

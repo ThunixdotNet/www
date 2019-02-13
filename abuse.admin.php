@@ -1,7 +1,7 @@
 <?php
 require_once( dirname(__FILE__).'/abuse.lib.php' );
 
-define( 'PHPFMG_USER', "abuse@thunix.cf" ); // must be a email address. for sending password to you.
+define( 'PHPFMG_USER', "abuse@thunix.net" ); // must be a email address. for sending password to you.
 define( 'PHPFMG_PW', "a31add" );
 
 ?>
