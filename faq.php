@@ -24,6 +24,8 @@
 							<p><b style="color: #FF00FF">I want to run {fill in the blank} server, but I can't seem to access it? </b></br>The only exposed ports to the internet are services as defined in our <a href="https://tildegit.org/thunix/ansible">ansible playbook.</a>  If there is a public service you want to see, open an issue, or do a pull request for it, and we'll probably enable it without much question.</p>
 							<p><b style="color: #FF00FF">That's too hard!  Can you just open the port up for this service I have running?</b></br>No.  Due to security issues, we cannot.  HOWEVER!  You can certainly use an <a href="https://duckduckgo.com/?q=ssh+tunnnel">SSH tunnel</a> to access it.</p>
 							<p><b style="color: #FF00FF">Old thunix did {fill in the blank}, and now it doesn't.  Make it work like it used to!</b></br>There was a huge changeover.  Maybe we can get something going old thunix had, and maybe not.  You can mention it in the IRC channel, and we'll see what we can do.</p>
+							<p><b style="color: #FF00FF">How can I access my thunix email?</b></br>You can use the following for your mail settings (This is Thunderbird's setting screen, but the settings are the same):</p>
+							<p><img src="images/mail.png"/</p>>
 						</div>
 					</div>
 				<div style="clear: both;">&nbsp;</div>
