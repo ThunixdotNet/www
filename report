@@ -1,4 +1,0 @@
-root@thunix.cf,sshd,GOOD
-root@thunix.cf,mem,FAILED
-thunix.cf,web_site,GOOD
-thunix.cf,web_site_https,GOOD
