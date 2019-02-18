@@ -2,7 +2,7 @@ body {
 margin: 0;
 padding: 0;
 background: #222222;
-font-family: normal Georgia, "Times New Roman", Times, serif;
+font-family: Consolas, Arial, Helvetica, Sans-Serif;
 font-size: 12px;
 color: #00FF00;
 }
@@ -185,7 +185,7 @@ border: none;
 margin-bottom: 30px;
 padding: 20px 30px 0px 30px;
 text-align: left;
-font-family: Arial, Helvetica, sans-serif;
+font-family: Consolas, Arial, Helvetica, Sans-Serif;
 font-size: 13px;
 font-weight: bold;
 font-style: italic;
@@ -295,7 +295,7 @@ color: #00FFFF;
 margin: 0 auto;
 padding: 0px 0 15px 0;
 background: linear-gradient(#222222,#000000);
-font-family: Arial, Helvetica, sans-serif;
+font-family: Consolas, Arial, Helvetica, Sans-Serif;
 }
 
 #footer p {
