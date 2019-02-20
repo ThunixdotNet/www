@@ -26,14 +26,14 @@
 								<li>Storing/distributing content that defames any individual</li>
 								<li>Promoting racial, ethnic, religious, political and other forms of bigotry</li>
 								<li>Mining cryptocurrencies</li>
-								<li>Storing/distributing, promoting, or discussing warez, illegal cracks (including key generators and activation bypass tools), license keys, or anything else that can cause irreversable damage or unauthorized modifications to the users pc or any other devices.</li>
+								<li>Storing/distributing, promoting, or discussing warez, illegal cracks (including key generators and activation bypass tools), license keys, or anything else that can cause irreversable damage and/or unauthorized modifications to the users pc or any other devices.</li>
 								</ol>
 								<p>Items 4, 5, 6 and 7 may also result in legal action against any offending users, depending on the severity of each case and any other individuals who may have been affected.</p>
 								<p>Copyright infringement is not allowed on thunix, and we will not allow any illegal content to be distributed.</p>
 								<p>It's also expected that all users respect the copyrights of those who produce original content of any kind (only share if the author or license grants you permission). However, using accounts for external file storage is permissible, under fair use and other laws promoting consumer rights. Note that original content from other users must also be respected, though creating/sharing public domain content is highly encouraged.</p>
 								<p>If you want to request for content you own the copyright for to be removed from thunix, please refer to our <a href="/abuse.php">abuse reporting page</a>. In the email, please identify who you are, if you are the copyright holder or legally representing them, the exact files you want removed with links to the files and infringed content, and contact information such as phone numbers or a reply-to email address.</p>
 								<p>Users that repeatedly infringe copyrights will have their account removed. Depending on the degree of the offense, their account may be removed immediately.</p>
-                                <p>These rules also apply to official communication services such as forums, mailing lists, irc channels, newsgroups, as well as community hosted services on user accounts. If you come across anything that violates the terms of service, please let us know with the <a href="/abuse.php">abuse reporting page</a>.</p>
+                                <p>These rules also apply to official communication services such as forums, mailing lists, irc channels, newsgroups, and any other service hosted on thunix servers. If you come across anything that violates the terms of service, please let us know with the <a href="/abuse.php">abuse reporting page</a>.</p>
 							</div>
 						</div>
 						<div style="clear: both;">&nbsp;</div>
