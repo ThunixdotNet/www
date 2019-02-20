@@ -25,7 +25,7 @@
 								<li>Storing/distributing pornography of any genre and medium (especially child pornography)</li>
 								<li>Storing/distributing content that defames any individual</li>
 								<li>Promoting racial, ethnic, religious, political and other forms of bigotry</li>
-								<li>Storing/distributing, promoting, or encouraging use of pirated/cracked software, license keys, license/registration circumvention programs, or any questionable programs/scripts that can risk causing irreversable damage, unauthorized modifications, or disrupts network services for any programs or devices.</li>
+								<li>Storing/distributing, promoting, or encouraging use of pirated/cracked software, license keys, license/registration circumvention programs, or any questionable programs/scripts that can risk causing unauthorized modifications, or disrupts network services for any programs or devices.</li>
                                 <li>Mining cryptocurrencies</li>
 								</ol>
 								<p>Items 4, 5, 6, 7, and 8 may also result in legal action against any offending users, depending on the severity of each case and any other individuals who may have been affected.</p>
