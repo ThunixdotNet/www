@@ -26,8 +26,8 @@
 								<li>Storing/distributing content that defames any individual</li>
 								<li>Promoting racial, ethnic, religious, political and other forms of bigotry</li>
 								<li>Storing/distributing, promoting, or encouraging use of pirated/cracked software, license keys, license/registration circumvention programs, or any questionable programs/scripts that can risk causing unauthorized modifications, or disrupts network services for any programs or devices.</li>
-                                <li>Mining cryptocurrencies</li>
-                                <li>Spamming on any forums, mailing lists, irc channels, newsgroups, etc.</li>
+								<li>Mining cryptocurrencies</li>
+								<li>Spamming on any forums, mailing lists, irc channels, newsgroups, etc.</li>
 								</ol>
 								<p>Items 4, 5, 6, 7, and 8 may also result in legal action against any offending users, depending on the severity of each case and any other individuals who may have been affected.</p>
 								<p>Copyright infringement is not allowed on thunix, and we will not allow any illegal content to be distributed.</p>
