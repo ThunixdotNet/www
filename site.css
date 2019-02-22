@@ -4,14 +4,14 @@ padding: 0;
 background: #222222;
 font-family: Consolas, Arial, Helvetica, Sans-Serif;
 font-size: 12px;
-color: #00FF00;
+color: #00CD00;
 }
 
 h1, h2, h3 {
 margin: 0;
 padding: 0;
 font-weight: normal;
-color: #00FF00;
+color: #00CD00;
 }
 
 h1 {
@@ -35,7 +35,7 @@ ul, ol {
 }
 
 a {
-color: #00FFFF;
+color: #00CDCD;
 text-decoration: none;
 }
 
@@ -80,7 +80,7 @@ margin: 0;
 padding: 0px 0 0 2px;
 font: normal 14px Georgia, "Times New Roman", Times, serif;
 font-style: italic;
-color: #00FF00;
+color: #00CD00;
 } 
 
 #logo a {
@@ -124,7 +124,7 @@ text-decoration: none;
 text-align: center;
 font-size: 13px;
 font-weight: bold;
-color: #00FFFF;
+color: #00CDCD;
 border: none;
 }
 
@@ -221,7 +221,7 @@ font-weight: bold;
 #sidebar {
 margin: 0px;
 padding: 0px 0px 0px 0px;
-color: #00FF00;
+color: #00CD00;
 }
 
 @media only screen and (orientation: landscape) and (min-width: 1024px){
@@ -230,7 +230,7 @@ float: left;
 width: 22%;
 margin: 0px;
 padding: 0px 20px 0px 0px;
-color: #00FF00;
+color: #00CD00;
 }
 }
 
@@ -281,12 +281,12 @@ text-align: justify;
 
 #sidebar a {
 border: none;
-color: #00FFFF;
+color: #00CDCD;
 }
 
 #sidebar a:hover {
 text-decoration: underline;
-color: #00FFFF;
+color: #00CDCD;
 }
 
 /* Footer */
@@ -304,14 +304,14 @@ padding-top: 15px;
 line-height: normal;
 font-size: 9px;
 text-align: center;
-color: #00FF00;
+color: #00CD00;
 }
 
 #footer a {
-color: #00FFFF;
+color: #00CDCD;
 }
 
 #footer a:hover {
 text-decoration: underline;
-color: #00FFFF;
+color: #00CDCD;
 }
