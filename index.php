@@ -37,12 +37,8 @@
 							<h2 class="title">thunix Phoenix</h2>
 							<div style="clear: both;">&nbsp;</div>
 							<div class="entry">
-								<p>The thunix Phoenix project aims to provide a new user experience for shell users, with integration into Ben Harris's Tildeverse network.</p>
-								<p>Join us on IRC at tilde.chat in these channels:</p>
-								<ul>
-								<li>#thunix - General discussion about thunix and thunix services, including issues. Shell-specific issues go in #phoenix.</li>
-								<li>#phoenix - Discussion about the phoenix shell server, including issues.</li>
-								</ul>
+								<p>The thunix Phoenix project aims to provide a new user experience for shell users, with integration into the wider Tildeverse network.</p>
+								<p>Join us on IRC on irc.tilde.net/6669 in the #thunix channel, or just click here for a web client: <a href="https://web.tilde.chat/?join=thunix"><img src="https://tilde.chat/badges/badge.php?channel=%23thunix"/></a></p>
 								<p>If you want to sign up for an account, simply open our <a href="/signup.php">signup form</a> and provide us with:</p>
 								<ul>
 								<li>Your contact name</li>
