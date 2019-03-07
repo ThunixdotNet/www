@@ -16,30 +16,13 @@
 							<h2 class="title">Information and Service Status</h2>
 							<div style="clear: both;">&nbsp;</div>
               <div class="entry">
-								<h3>State of the Thunix - Mar 1, 2019</h3>
-<p>We've come a long way since December, huh? What started as a pretty small droplet running in Digital Ocean, offering almost nothing besides a shell to where we are today.</p>
-<ul>
-<li>IRC leaf node on tilde.cha (thunix.tilde.chat)</li>
-<li>Gopher Server</li>
-<li>New Domain Name (thunix.net)</li>
-<li>Fully configured email and webmail, with DMARC, DKIM, SPF, and Rainloop mail</li>
-<li>ZNC</li>
-<li>Minecraft</li>
-<li>Minetest</li>
-<li>BZFlag</li>
-<li>New killer website</li>
-<li>Dedicated hardware, with great specs</li>
-<li>GNU Project mirror</li>
-</ul>
-<p>These are just some of the biggest projects finished up. We went from 2 users (Myself and amcclure), to 62 users! Welcome all newcomers!</p>
-<p>We've also gotten the first donation(s) in. I promised to give you a proper state of accounting, so here it is:</p>
-<h2 id="donations-in-usd-1">Donations (In USD) +$1</h2>
-<p>Domain Name -$1 IP Address -$1 Server -$36 ----------------------- Total -$35</p>
-<p>Now, I don't want people to be alarmed! I'm funding this because it's fun, not because I expect to be rich. Donations help, but are not required. I just want to make sure people have a full accounting of what is coming in, and going out.</p>
-<p>When you get a moment, say thank you to TechEmporium for the website facelift. He did most of the heavy lifting, and it is appreciated.</p>
-<p>For any service that requires a password, if you choose to use it, will require us to set a password on your account. Just ask a sysadmin for help with that (myself, amcclure, or naglfar), and we'll get you all set. Right now, only ZNC and Webmail/Email requires an account password.</p>
-<p>And, I'm sure you're sick of hearing me say this, but feel free to open a PR to make a system config change! This community is about learning, and offering users things users want. You can open a PR at https://tildegit.org/thunix, and do so in the appropriate project.</p>
-<p>Enough rambling from me. Have fun, and feel free to reach out to us, or me. I'm generally a nice guy :)</p>								
+								<h3>State of the Thunix - Feb 6, 2019</h3>
+								<p>So, here were are, almost one month post-new server!  Some exciting things, and some things that possible have people a little upset.</p>
+								<p>A BIG change are the ports being wide open on the system.  I tried this for about a week, and got a notice from the provider, as a warning.  So, we had to enable a firewall on the system, and open ports, as requested by users.  But, in order to get a port opened up, you need to either a) do a pull request on tildegit.org configuring the daemon you want to run, or b) open an issue there, with your request.  Be mindful, in order for us to set it up for you, the software must be free and open source software.</p>
+								<p>Another big change, and I feel this is super-empowering for the users is that our configuration is maintained in a central source control.  This allows all users the ability to see how things work, and also enabled them to request the exact changes they desire.  It also removes the Bus Factor of 1, which old-thunix was prone to, and eventually succumbed to.  Anyone can create a new thunix from the work done here, to include any member of the admin team (As they also maintain backups of key files, and most of the home dirs).</p>
+								<p>But!  We also added some stuff, to make it feel more like home as well.  There's currently a bzflag server, some shell customizations to help you feel a bit more comfortable, all the build tools you need.  If some are missing, ask in IRC, or do a PR, or create an issue on tildegit.  We are working on getting a Doom multiplayer server up and running, as well as a GlowstoneMC instance.</p>
+								<p>While not a huge deal, I am paying out of pocket for this, which I don't mind doing at all.  It's fun, after all!  But, if you want, you can donate via Liberapay, Paypal, and BitCoin.  Just click on the donate link in the sidebar.</p>
+								<p>So, welcome back to Thunix, any questions, I'm a nice guy, as are amcclure and Naglfar (The other admins), and we're more than happy to answer questions.</p>
 								<br>
 								<p>Ubergeek/ub3g33k</p>
               </div>
