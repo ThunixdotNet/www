@@ -6,7 +6,7 @@ All questions, comments, and concerns about this site should be sent to <a href=
 <p>Created with valid <a href="http://validator.w3.org/check?uri=referer">HTML</a> and <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> code.</p>
 <!-- EasyBanner code begin -->
 <P><CENTER>
-<IFRAME SRC="https://banner.tildeverse.org/work.php?ID=amcclure" width=468 height=60 marginwidth=0 marginheight=0 hspace=0 vspace=0 frameborder=0 scrolling="no"></IFRAME>
+<IFRAME SRC="https://banner.tildeverse.org/work.php?ID=thunix" width=468 height=60 marginwidth=0 marginheight=0 hspace=0 vspace=0 frameborder=0 scrolling="no"></IFRAME>
 </CENTER></P>
 <!-- EasyBanner code end -->
 </div></body></html>
