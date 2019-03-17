@@ -1,5 +1,5 @@
 <div id="footer">
-<p>Unless otherwise noted, all thunix.net materials (besides all user-generated content) is licensed as <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0 license</a>. Permissions beyond the scope of this license may be available at <a href="/copyright.php">https://www.thunix.net/copyright.php</a>. Users define their own licensing and own all of their content.<br>
+<p>Unless otherwise noted, all thunix.net materials (besides all user-generated content) is licensed as <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0 license</a>. Permissions beyond the scope of this license may be available at <a href="/copyright.php">https://www.thunix.net/copyright.php</a>.<br>Users define their own licensing and own all of their content.<br>
 <?php echo "Page last updated on " . date ("Y-m-d\TH:i:sO.", getlastmod());?><br>
 You may have to refresh the page to see any changes or updates.<br>
 All questions, comments, and concerns about this site should be sent to <a href="/contact.php">the administration team</a>.</p>
