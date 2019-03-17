@@ -26,10 +26,11 @@ syslog(LOG_INFO, 'Ansible Webhook recieved.');
 if (time()-filemtime($lastrun) > 300) {
 	exec("/etc/cron.hourly/ansible-pull");
 	touch ($lastrun);
-	echo "Ansible webhook recieved.";
+	echo "HTTP 200 - Ansible webhook recieved.";
 	}
 	else {
 	http_response_code(429);
+  echo "HTTP 429 - Rate Limited.";
 	exit(0);
 	}
 ?>
