@@ -5,6 +5,7 @@
 /* security */
 $access_token = '1234567890';
 $lastrun = '/tmp/ansible-hook-last-run';
+$dropfile = '/tmp/run-ansible';
 
 /* get json data */
 $json = file_get_contents('php://input');
@@ -23,9 +24,9 @@ syslog(LOG_INFO, 'Ansible Webhook recieved.');
 //fwrite($fs, 'DATA: '.print_r($data, true).PHP_EOL);
 
 
-if (time()-filemtime($lastrun) > 300) {
-	exec("/usr/bin/touch /tmp/run_ansible");
-	touch ($lastrun);
+if ( time () - filemtime ( $lastrun ) > 300 ) {
+	touch ( $dopfile );
+	touch ( $lastrun );
 	echo "HTTP 200 - Ansible webhook recieved.";
 	}
 	else {
