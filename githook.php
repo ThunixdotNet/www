@@ -24,7 +24,7 @@ syslog(LOG_INFO, 'Ansible Webhook recieved.');
 
 
 if (time()-filemtime($lastrun) > 300) {
-	exec("/etc/cron.hourly/ansible-pull");
+	exec("/usr/bin/touch /tmp/run_ansible");
 	touch ($lastrun);
 	echo "HTTP 200 - Ansible webhook recieved.";
 	}
