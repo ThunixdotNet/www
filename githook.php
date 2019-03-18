@@ -4,8 +4,8 @@
 
 /* security */
 $access_token = '1234567890';
-$lastrun = '/tmp/ansible-hook-last-run';
-$dropfile = '/tmp/run-ansible';
+$lastrun = '/dev/shm/ansible-hook-last-run';
+$dropfile = '/dev/shm/run-ansible';
 
 /* get json data */
 $json = file_get_contents('php://input');
