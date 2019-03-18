@@ -25,7 +25,7 @@ syslog(LOG_INFO, 'Ansible Webhook recieved.');
 
 
 if ( time () - filemtime ( $lastrun ) > 300 ) {
-	touch ( $dopfile );
+	touch ( $dropfile );
 	touch ( $lastrun );
 	echo "HTTP 200 - Ansible webhook recieved.";
 	}
