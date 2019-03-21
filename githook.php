@@ -34,7 +34,7 @@ if ($remoteip !== $allowedip)
 //* if you need get full json input */
 //fwrite($fs, 'DATA: '.print_r($data, true).PHP_EOL);
 
-if ($data["repository"]["full_name"] == 'thunix/ansible') {
+if ($data["repository"]["full_name"] == 'thunix/www') {
 	syslog(LOG_INFO, 'Ansible Webhook recieved.');
 	if ( time () - filemtime ( $ansible_lastrun ) > $ratelimit ) {
 		touch ( $ansible_dropfile );
