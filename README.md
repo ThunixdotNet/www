@@ -12,5 +12,3 @@ Features include:
 *This requires the monurbox server monitoring shell script, executed through an hourly cron job
 
 To run this website, the server computer requires PHP, with the GD extension (for generating CAPTCHA images,) Sendmail (to send emails from the website, to administration) and monurbox (to generate server status reports).
-
-This code autodeploys once the master branch is updated.
