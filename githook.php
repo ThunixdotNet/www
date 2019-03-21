@@ -3,7 +3,7 @@
 /* gitea deploy webhook */
 
 /* security */
-$access_token     = '1234567890';
+$access_token     = 'abcdefghijklmnop';
 $ansible_lastrun  = '/dev/shm/ansible-hook-last-run';
 $ansible_dropfile = '/dev/shm/run-ansible';
 $www_lastrun      = '/dev/shm/www-hook-last-run';
@@ -17,7 +17,7 @@ $json = file_get_contents('php://input');
 $data = json_decode($json, true);
 
 $client_token = $data["secret"];
-if ($client_token != $access_token)
+if ($client_token !== $access_token)
 {
     http_response_code(403); 
     echo "HTTP 403 - Forbidden, P1.";
