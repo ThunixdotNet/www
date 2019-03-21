@@ -2,7 +2,7 @@
 
 /* gitea deploy webhook */
 
-/* security and environment*/
+/* security */
 $access_token     = '1234567890';
 $ansible_lastrun  = '/dev/shm/ansible-hook-last-run';
 $ansible_dropfile = '/dev/shm/run-ansible';
@@ -34,7 +34,7 @@ if ($remoteip !== $allowedip)
 //* if you need get full json input */
 //fwrite($fs, 'DATA: '.print_r($data, true).PHP_EOL);
 
-if ($data["repository"]["full_name"] == 'thunix/www') {
+if ($data["repository"]["full_name"] == 'thunix/ansible') {
 	syslog(LOG_INFO, 'Ansible Webhook recieved.');
 	if ( time () - filemtime ( $ansible_lastrun ) > $ratelimit ) {
 		touch ( $ansible_dropfile );
@@ -49,7 +49,7 @@ if ($data["repository"]["full_name"] == 'thunix/www') {
 }
 elseif ($data["repository"]["full_name"] == 'thunix/www') {
 	syslog(LOG_INFO, 'WWW Webhook recieved.');
-	if ( time () - filemtime ( $www_lastrun ) > $ratelimit ) {
+	if ( time () - filemtime ( $lastrun ) > $ratelimit ) {
 		touch ( $www_dropfile );
 		touch ( $www_lastrun );
 		http_response_code(200);
