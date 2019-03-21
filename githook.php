@@ -17,7 +17,7 @@ $json = file_get_contents('php://input');
 $data = json_decode($json, true);
 
 $client_token = $data["secret"];
-if ($client_token !== $access_token)
+if ($client_token != $access_token)
 {
     http_response_code(403); 
     echo "HTTP 403 - Forbidden, P1.";
