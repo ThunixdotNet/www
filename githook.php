@@ -20,14 +20,14 @@ $client_token = $data["secret"];
 if ($client_token !== $access_token)
 {
     http_response_code(403); 
-    echo "HTTP 403 - Forbidden.";
+    echo "HTTP 403 - Forbidden, P1.";
     exit(0);
 }
 
 if ($remoteip !== $allowedip)
 {
     http_repsonse_code(403);
-    echo "HTTP 403 - Forbidden.";
+    echo "HTTP 403 - Forbidden, P2.";
     exit(0);
 }
 
@@ -49,7 +49,7 @@ if ($data["repository"]["full_name"] == 'thunix/ansible') {
 }
 elseif ($data["repository"]["full_name"] == 'thunix/www') {
 	syslog(LOG_INFO, 'WWW Webhook recieved.');
-	if ( time () - filemtime ( $lastrun ) > $ratelimit ) {
+	if ( time () - filemtime ( $www_lastrun ) > $ratelimit ) {
 		touch ( $www_dropfile );
 		touch ( $www_lastrun );
 		http_response_code(200);
