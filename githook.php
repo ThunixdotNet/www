@@ -3,7 +3,7 @@
 /* gitea deploy webhook */
 
 /* security */
-$access_token     = '1234567890';
+$access_token     = 'abcdefghijklmnop';
 $ansible_lastrun  = '/dev/shm/ansible-hook-last-run';
 $ansible_dropfile = '/dev/shm/run-ansible';
 $www_lastrun      = '/dev/shm/www-hook-last-run';
