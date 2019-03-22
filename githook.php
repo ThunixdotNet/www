@@ -14,7 +14,7 @@
 */
 
 /* security */
-$access_token     = (string)'01234567890';
+$access_token     = (string)'asdfghjkl';
 $ansible_lastrun  = '/dev/shm/ansible-hook-last-run';
 $ansible_dropfile = '/dev/shm/run-ansible';
 $www_lastrun      = '/dev/shm/www-hook-last-run';
