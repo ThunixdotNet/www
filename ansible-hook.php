@@ -3,8 +3,8 @@
 
 /* security */
 $access_token     = 'abcdefg';
-$www_lastrun      = '/dev/shm/www-hook-last-run';
-$www_dropfile     = '/dev/shm/run-www';
+$ansible_lastrun  = '/dev/shm/ansible-hook-last-run';
+$ansible_dropfile = '/dev/shm/run-ansible';
 $remoteip         = $_SERVER['REMOTE_ADDR'];
 $allowedip        = "195.201.242.48";
 $ratelimit        = 300;
@@ -29,11 +29,11 @@ if ($remoteip != $allowedip)
     die();
 }
 
-syslog(LOG_INFO, 'WWW Webhook recieved.');
-        if ( time () - filemtime ( $www_lastrun ) > $ratelimit ) {
-                touch ( $www_dropfile );
-                touch ( $www_lastrun );
-                echo "HTTP 200 - WWW webhook recieved.";
+syslog(LOG_INFO, 'Ansible Webhook recieved.');
+        if ( time () - filemtime ( $ansible_lastrun ) > $ratelimit ) {
+                touch ( $ansible_dropfile );
+                touch ( $ansible_lastrun );
+                echo "HTTP 200 - Ansible webhook recieved.";
                 die();
         }
         else {
