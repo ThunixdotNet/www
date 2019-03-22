@@ -105,7 +105,7 @@ elseif ($data["repository"]["full_name"] == 'thunix/thunix_gopher') {
 else {
 	http_response_code(418);
 	echo "HTTP 418 - I'm a teapot.\n";
-	syslog(LOG_INFO, "Tea Pot Webhook recieved.\n";
+	syslog(LOG_INFO, "Tea Pot Webhook recieved.\n");
 	exit(0);
 	}
 ?>
