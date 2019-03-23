@@ -16,14 +16,16 @@
 							<h2 class="title">Information and Service Status</h2>
 							<div style="clear: both;">&nbsp;</div>
               <div class="entry">
-								<h3>State of the Thunix - Feb 6, 2019</h3>
-								<p>So, here were are, almost one month post-new server!  Some exciting things, and some things that possible have people a little upset.</p>
-								<p>A BIG change are the ports being wide open on the system.  I tried this for about a week, and got a notice from the provider, as a warning.  So, we had to enable a firewall on the system, and open ports, as requested by users.  But, in order to get a port opened up, you need to either a) do a pull request on tildegit.org configuring the daemon you want to run, or b) open an issue there, with your request.  Be mindful, in order for us to set it up for you, the software must be free and open source software.</p>
-								<p>Another big change, and I feel this is super-empowering for the users is that our configuration is maintained in a central source control.  This allows all users the ability to see how things work, and also enabled them to request the exact changes they desire.  It also removes the Bus Factor of 1, which old-thunix was prone to, and eventually succumbed to.  Anyone can create a new thunix from the work done here, to include any member of the admin team (As they also maintain backups of key files, and most of the home dirs).</p>
-								<p>But!  We also added some stuff, to make it feel more like home as well.  There's currently a bzflag server, some shell customizations to help you feel a bit more comfortable, all the build tools you need.  If some are missing, ask in IRC, or do a PR, or create an issue on tildegit.  We are working on getting a Doom multiplayer server up and running, as well as a GlowstoneMC instance.</p>
-								<p>While not a huge deal, I am paying out of pocket for this, which I don't mind doing at all.  It's fun, after all!  But, if you want, you can donate via Liberapay, Paypal, and BitCoin.  Just click on the donate link in the sidebar.</p>
-								<p>So, welcome back to Thunix, any questions, I'm a nice guy, as are amcclure and Naglfar (The other admins), and we're more than happy to answer questions.</p>
-								<br>
+								<h3>State of the Thunix - Mar 22, 2019</h3>
+								<p>So, March is upon us.  It's Spring now, or Fall, depending on the side of the globe you're on.  Thunix has had some big changes this month, and some not so big changes.</p>
+								<p>First things first, discussion of money.  This is not an attempt to incite fear, or anything.  We're good for now, don't worry.  We recieved 1USD in donations this month.  Expenses work out to ~35USD/month.  I can give a breakdown, but this puts monthly net at - 34USD this month.</p>
+								<p>Now that is out of the way, onto the cool stuff!  Since our last update, we've beefed up email services.  IMAP email is fully configured.  Our email is now TLS encrypted between servers, and your sending connections are also encrypted.  Google gives us a "grey lock" for emails now!</p>
+								<p>On the subject of emails:  We also have webmail available for use, as well as IMAP mail.  Even better?  Thunderbird email client will auto-configure your client, based on email address now!  No more playing with your settings.</p>
+								<p>We are now much closer to a fully CI/CD environment now.  Once a commit is recieved in our repos (ansible, www, thunix_gopher), our system will be notified, and the appropriate jobs will run to sync the appropriate deployments.</p>
+								<p>In case you haven't noticed:  We've also moved domain names.  Thunix.cf served us well, and is still working for most basic applications, but you need to switch soon to thunix.net for everything.  Eventually, thunix.cf will be going away, and thunix.net will be the perm home.  .cf domains have a little quirk that when you get popular, they yank your domain from you, without notice.  Being on a .net domain precludes this.</p>
+								<p>Lots of new users lately, too, and this means we're doing something good here!  You can help us with this by submitting issues or pull requests on <a href="https://tildegit.org/thunix/">tildegit</a>.  It really is the fastest way to get something changed you want changed.  We also want your name in the commit logs too, since we're trying to build this together!</p>
+								<p>And with that, I'm hoping you're enjoy Thunix's services, but mostly I'm hoping you're enjoying the community we're building here.  Check back next month!</p>
+								<p>
 								<p>Ubergeek/ub3g33k</p>
               </div>
 
