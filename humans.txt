@@ -1,0 +1,15 @@
+    /* TEAM */
+    Your title: ubergeek, naglfar, amcclure
+    Site: https://thunix.net, root@thunix.net 
+    Location: Frankfurt, Germany
+    							
+    /* THANKS */
+    Name: ubergeek - https://thunix.net/~ubergeek
+          amcclure - https://thunix.net/~amcclure
+          naglfar  - https://thunix.net/~naglfar
+                                
+    /* SITE */
+    Last update: 2019/03/22 
+    Standards: HTML5
+    Components: Apache2, Git, and PHP
+    Software: vim, geany, ansible 

@@ -7,3 +7,4 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <link href="/site.css" rel="stylesheet" type="text/css" media="all">
 <link href="/favicon.png" rel="icon">
+<link rel="author" href="humans.txt" />
