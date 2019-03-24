@@ -13,22 +13,21 @@ headers = {
 }
 
 tdp = {}
-tdp["name"] = "tilde.team"
-tdp["url"] = "https://tilde.team"
-tdp["signup_url"] = tdp["url"]+"/signup"
+tdp["name"] = "thunix"
+tdp["url"] = "https://www.thunix.net"
+tdp["signup_url"] = tdp["url"]+"/signup.php"
 users = subprocess.check_output(["/usr/bin/members","tilde"]).decode('ascii').split()
 users.sort()
 tdp["user_count"] = len(users)-1
 tdp["want_users"] = True
-tdp["admin_email"] = "sudoers@tilde.team"
-tdp["description"] = "a digital community for socializing, learning, and making cool stuff, tilde.team is a shared system that provides a radically inclusive, non-commercial space for teaching, learning, practicing and enjoying the social medium of unix."
+tdp["admin_email"] = "root@thunix.net"
+tdp["description"] = "Thunix is a community, centered around access to a public *nix system.  Thunix offers shell accounts with complete set of programming tools, and follows a continuous integration-continuous deployment of system configuration."
 tdpusers = []
 for user in users:
 	if user=="anton":
 		continue
 	tdpuser = dict(username=user)
-	print ("https://thunix.net/~{}".format(user))
-	title = bs(requests.get("https://thunix.net/~{}".format(user)).text,"lxml").title
+	title = bs(requests.get("https://www.thunix.net/~{}".format(user)).text,"lxml").title
 	if title is None:
 		title = "No title"
 	else:
