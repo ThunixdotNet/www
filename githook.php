@@ -71,7 +71,7 @@ if ($data["repository"]["full_name"] == 'thunix/ansible') {
 // just a git pull, and is quick.
 elseif ($data["repository"]["full_name"] == 'thunix/www') {
 	syslog(LOG_INFO, 'WWW Webhook recieved.');
-	if ( time () - filemtime ( $www_lastrun ) > $ratelimit ) {
+	if ( time () - filemtime ( $www_lastrun ) > $ratelimit/30 ) {
 		touch ( $www_dropfile );
 		touch ( $www_lastrun );
 		http_response_code(200);
@@ -108,5 +108,22 @@ else {
 	syslog(LOG_INFO, "Tea Pot Webhook recieved.\n");
 	exit(0);
 	}
+
+$fp = pfsockopen( "tcp://127.0.0.1", 1234, $errno, $errstr );
+
+if (!$fp)
+{
+    echo "ERROR: $errno - $errstr<br />\n";
+}
+socket_set_timeout ($fp, 10);
+$msg = "Commit '".$data['commits'][0]["message"]."' was pushed to ".$data["repository"]["full_name"].' by '.$data["pusher"]["login"];
+$msg = trim(preg_replace('/\s+/', ' ', $msg));
+$write = fwrite ($fp, $msg);
+fclose($fp);
+
+if (!$write) {
+    echo "error writing to port.<br/>";
+    next;
+}
 ?>
 
