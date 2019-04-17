@@ -22,7 +22,7 @@ $www_lastrun      = '/dev/shm/www-hook-last-run';
 $www_dropfile     = '/dev/shm/run-www';
 $gopher_lastrun   = '/dev/shm/gopher-hook-last-run';
 $gopher_dropfile  = '/dev/shm/run-gopher';
-$allowedip         = '195.201.242.48';
+$allowedip         = '51.79.32.48'
 $remoteip         = $_SERVER['REMOTE_ADDR'];
 $ratelimit        = 300;
 
