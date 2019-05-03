@@ -17,6 +17,7 @@
 							<div style="clear: both;">&nbsp;</div>
 							<div class="entry">
 								<p>Nothing is without its rules and regulations; thunix is no exception. Below are the site's service terms. Everything in this page should be clear to everyone who wishes to use thunix's services; failure to abide by these terms can result in penalties such as service bans and may result in legal action against any offending users, depending on the severity of each case and any other individuals who may have been affected. Thunix may conduct investigations on any suspected violations, and we will cooperate with law enforcement agencies with their investigations. Be sure to read this page carefully and understand it.</p>
+								<p>You are responsibe for checking your local mail account from time to time.  This email address is the only one we retain, and as such, any warnings and notices regarding your account, or service status will be sent to this account.</p>
 								<ol>
 								<li>Deliberately defacing the accounts of other users</li>
 								<li>Deliberately trying to disrupt thunix's server</li>
