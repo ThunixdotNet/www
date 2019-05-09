@@ -30,6 +30,8 @@
 	<ul>
 	<li><a href="/~amcclure/">Anton McClure</a></li>
 	<li><a href="/~ubergeek/">Ubergeek</a></li>
+	<li><a href="/~naglfar/">Naglfar</a></li>
+	<li><a href="/~fosslinux/">fosslinux</a></li>
 	</ul>
 	<li>
 	<h2>Other Information</h2>

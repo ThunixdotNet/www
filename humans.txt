@@ -1,12 +1,13 @@
     /* TEAM */
-    Your title: ubergeek, naglfar, amcclure
+    Your title: ubergeek, naglfar, amcclure, fosslinux
     Site: https://thunix.net, root@thunix.net 
     Location: Frankfurt, Germany
     							
     /* THANKS */
-    Name: ubergeek - https://thunix.net/~ubergeek
-          amcclure - https://thunix.net/~amcclure
-          naglfar  - https://thunix.net/~naglfar
+    Name: ubergeek    https://thunix.net/~ubergeek
+          amcclure    https://thunix.net/~amcclure
+          naglfar     https://thunix.net/~naglfar
+					fosslinux		https://thunix.net/~fosslinux
                                 
     /* SITE */
     Last update: 2019/03/22 
