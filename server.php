@@ -16,18 +16,19 @@
 							<h2 class="title">Information and Service Status</h2>
 							<div style="clear: both;">&nbsp;</div>
               <div class="entry">
-								<h3>State of the Thunix - Mar 22, 2019</h3>
-								<p>So, March is upon us.  It's Spring now, or Fall, depending on the side of the globe you're on.  Thunix has had some big changes this month, and some not so big changes.</p>
-								<p>First things first, discussion of money.  This is not an attempt to incite fear, or anything.  We're good for now, don't worry.  We recieved 1USD in donations this month.  Expenses work out to ~35USD/month.  I can give a breakdown, but this puts monthly net at - 34USD this month.</p>
-								<p>Now that is out of the way, onto the cool stuff!  Since our last update, we've beefed up email services.  IMAP email is fully configured.  Our email is now TLS encrypted between servers, and your sending connections are also encrypted.  Google gives us a "grey lock" for emails now!</p>
-								<p>On the subject of emails:  We also have webmail available for use, as well as IMAP mail.  Even better?  Thunderbird email client will auto-configure your client, based on email address now!  No more playing with your settings.</p>
-								<p>We are now much closer to a fully CI/CD environment now.  Once a commit is recieved in our repos (ansible, www, thunix_gopher), our system will be notified, and the appropriate jobs will run to sync the appropriate deployments.</p>
-								<p>In case you haven't noticed:  We've also moved domain names.  Thunix.cf served us well, and is still working for most basic applications, but you need to switch soon to thunix.net for everything.  Eventually, thunix.cf will be going away, and thunix.net will be the perm home.  .cf domains have a little quirk that when you get popular, they yank your domain from you, without notice.  Being on a .net domain precludes this.</p>
-								<p>Lots of new users lately, too, and this means we're doing something good here!  You can help us with this by submitting issues or pull requests on <a href="https://tildegit.org/thunix/">tildegit</a>.  It really is the fastest way to get something changed you want changed.  We also want your name in the commit logs too, since we're trying to build this together!</p>
-								<p>And with that, I'm hoping you're enjoy Thunix's services, but mostly I'm hoping you're enjoying the community we're building here.  Check back next month!</p>
-								<p>
-								<p>Ubergeek/ub3g33k</p>
-              </div>
+								<h3>State of the Thunix - May 09, 2019</h3>
+              	<p>Another month, another update!</p>
+
+<p>Not too much to announce, as far as front end changes.  New user requests should happen much faster now that we've written/stolen a tool from tilde.team that we can use to expedite user creation, and automation of a bunch of the steps we take to onboard users.</p>
+<p>We're considering adding in user aging for accounts.  Lots of accounts get created, and then never logged into.  This can actually post a security problem for the system, as often times, accounts get created now, to be used months from today for botnets and the like.  Let us know what your thoughts are on a reasonable time to age off users.  At this time, I am personally leaning towards 180 days.  Plenty of time to log into your shell, and use it a bit.  And, once every 6 months isn't much to ask, since we expect members to actually contribute to the community, anyways.</p>
+<p>We've terminated one account already for running a botnet member from here, and we'll keep a vigilant eye for any others.</p>
+<p>This leads to another point:  Just running a znc process doesn't count for login.  Neither does checking your email.  You'll need to actually log into the shell, in order to reset the counter.  You should, anyways, since we have a lot of services internally, that we don't offer external access too.</p> 
+<p>We are also looking at terminating the minecraft and minetest instances here.  If anyone is using them, speak up now, or forever hold you peace!  Not really.  We wouldn't be deleting anything, just shutting down the processes, and removing them from the backup scheme.</p>
+<p>We do need to welcome our newest sysadmin here:  fosslinux.  Give them a warm welcome if you see them around.</p>
+<p>And again, any questions, or concerns, feel free to drop myself, or any of the other admins a line.</p>
+</p>
+<p>Ubergeek/ub3g33k</p>
+							</div>
 
 <!-- Placeholder for format hints
               <div style="clear: both;">&nbsp;</div>
