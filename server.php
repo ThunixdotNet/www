@@ -1,7 +1,6 @@
 <?php include 'HEADER.php'; ?>
 <title>Status of thunix Servers and Services - thunix</title>
 <?php include 'HEADER2.php'; ?>
-					<div id="content">
 						<div class="post">
 							<h2 class="title">Information and Service Status</h2>
 							<div style="clear: both;">&nbsp;</div>
