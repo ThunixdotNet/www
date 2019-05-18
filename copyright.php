@@ -1,17 +1,6 @@
 <?php include 'HEADER.php'; ?>
-<title>Copyright Notices and Acknowledgements - thunix Community</title>
-</head>
-<body>
-<div id="top">
-	<div id="header">
-		<div id="logo">
-			<h1>&#9763; thunix</h1>
-		</div>
-	</div>
-		<div id="page">
-			<div id="page-bgtop">
-				<div id="page-bgbtm">
-					<div id="content">
+<title>Copyright Notices and Acknowledgements - thunix</title>
+<?php include 'HEADER2.php'; ?>
 						<div class="post">
 							<h2 class="title">Copyright Notices and Acknowledgements</h2>
 							<div style="clear: both;">&nbsp;</div>

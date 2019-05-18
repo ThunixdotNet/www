@@ -1,17 +1,6 @@
 <?php include 'HEADER.php'; ?>
-<title>GDPR Statement and Privacy Policy - thunix Community</title>
-</head>
-<body>
-<div id="top">
-	<div id="header">
-		<div id="logo">
-			<h1>&#9763; thunix</h1>
-		</div>
-	</div>
-		<div id="page">
-			<div id="page-bgtop">
-				<div id="page-bgbtm">
-					<div id="content">
+<title>GDPR Statement and Privacy Policy - thunix</title>
+<?php include 'HEADER2.php'; ?>
 						<div class="post">
 							<h2 class="title">GDPR Statement and Privacy Policy</h2>
 							<div style="clear: both;">&nbsp;</div>

@@ -1,16 +1,6 @@
 <?php include 'HEADER.php'; ?>
-<title>Welcome to thunix Community</title>
-</head>
-<body>
-<div id="top">
-	<div id="header">
-		<div id="logo">
-			<h1>&#9763; thunix</h1>
-		</div>
-	</div>
-		<div id="page">
-			<div id="page-bgtop">
-				<div id="page-bgbtm">
+<title>Welcome to thunix</title>
+<?php include 'HEADER2.php'; ?>
 					<div id="content">
 						<div class="post">
 							<h2 class="title">Welcome to thunix!</h2>
@@ -27,14 +17,14 @@
 							</div>
 						</div>-->
 						<div class="post">
-							<h2 class="title">About thunix Community</h2>
+							<h2 class="title">About thunix</h2>
 							<div style="clear: both;">&nbsp;</div>
 							<div class="entry">
 								<p>thunix offers Secure Shell (SSH) accounts, Web Hosting, Email Accounts, and many other services. But, most of all, we are a community of users.  It was founded by hexhaxtron in the Summer of 2017, and was continued by <a href="/~amcclure">amcclure</a> and <a href="/~ubergeek">ubergeek</a> since 2018. We aim to provide the best service possible with a wide variety of features, and we hope you have fun with it!</p>
 							</div>
 						</div>
 						<div class="post">
-							<h2 class="title">thunix Phoenix</h2>
+							<h2 class="title">Project Phoenix</h2>
 							<div style="clear: both;">&nbsp;</div>
 							<div class="entry">
 								<p>The thunix Phoenix project aims to provide a new user experience for shell users, with integration into the wider Tildeverse network.</p>
