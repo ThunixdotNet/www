@@ -1,7 +1,6 @@
 <?php include 'HEADER.php'; ?>
 <title>Welcome to thunix</title>
 <?php include 'HEADER2.php'; ?>
-					<div id="content">
 						<div class="post">
 							<h2 class="title">Welcome to thunix!</h2>
 							<div style="clear: both;">&nbsp;</div>
