@@ -17,22 +17,22 @@
 							<div style="clear: both;">&nbsp;</div>
               <div class="entry">
 								<h3>Service Offered</h3>
-									<p>Minetest</p>
+									<h3><p>Minetest</p></h3>
 									<p>Connect to thunix.net:30000 in your minetest client</p>
-									<hr/>>
-									<p>Minecraft</p>
+									<hr/>
+									<h3><p>Minecraft</p></h3>
 									<p>Connect to thunix.net in your minecraft client.  Running the Paperclip minecraft server.<p>
 									<hr/>
-									<p>E-I will:wqMail Services</p>
+									<h3><p>Mail Services</p></h3>
 									<p>Thunix offers webmail at <a href="/webmail">https://thunix.net/webmail</a>.  You can also connect via imap.  Thunderbird will autodetect your settings, and we recommend the use of Thunderbird email client, so you can get the best-of-breed email experience.  We also recommend using enigmail with Thunderbird as well.  You can get it from your distro's package manager, or from <a href="https://www.thunderbird.net/">the Thunderbird project's site</a></p>
 									<hr/>
-									<p>Onion Service</p>
+									<h3><p>Onion Service</p></h3>
 									<p>Thunix's services are available as a onion site as well.  Our onion address is thunixme5v4rnoby.onion.</p>
 									<hr/>
-									<p>BZFlag Game Server</p>
+									<h3><p>BZFlag Game Server</p></h3>
 									<p>BZFlag runs on the standard port.  If you have a specific map you want loaded, send an email to root, and we'll look at getting the map swapped out</p>
 									<hr/>
-									<p>IRC CHat</p>
+									<h3><p>IRC Chat</p></h3>
 									<p>Thunix is part of the tilde.chat network.  You can access chat via the terminal, with the 'chat' command, via your favorite email client at irc.tilde.chat/6697, or via a web chat interface located <a href="">here</a>.</p>
 									<hr/>
 							</div>
