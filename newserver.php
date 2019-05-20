@@ -1,5 +1,5 @@
 <?php include 'HEADER.php'; ?>
-<title>Status of thunix Servers and Services - thunix Community</title>
+<title>Service Status and Information - thunix Community</title>
 </head>
 <body>
 <div id="top">
@@ -33,6 +33,9 @@
 									<hr/>
 									<h3><p>IRC Chat</p></h3>
 									<p>Thunix is part of the tilde.chat network.  You can access chat via the terminal, with the 'chat' command, via your favorite email client at irc.tilde.chat/6697, or via a web chat interface located <a href="">here</a>.</p>
+									<hr/>
+									<h3><p>FOSS Project Mirrors</p></h3>
+									<p>Thunix hosts mirrors for several FOSS projects.  You can see the full mirror list in the sidebar link.</p>
 									<hr/>
 							</div>
 
