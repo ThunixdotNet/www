@@ -13,10 +13,9 @@
 				<div id="page-bgbtm">
 					<div id="content">
 						<div class="post">
-							<h2 class="title">Information and Service Status</h2>
+							<h2 class="title">Service Status and Information</h2>
 							<div style="clear: both;">&nbsp;</div>
               <div class="entry">
-								<h3>Service Offered</h3>
 									<h3><p>Minetest</p></h3>
 									<p>Connect to thunix.net:30000 in your minetest client</p>
 									<hr/>
