@@ -1,18 +1,6 @@
 <?php include 'HEADER.php'; ?>
-<title>Service Status and Information - thunix Community</title>
-</head>
-<body>
-<div id="top">
-	<div id="header">
-		<div id="logo">
-			<h1>&#9763; thunix</h1>
-		</div>
-	</div>
-		<div id="page">
-			<div id="page-bgtop">
-				<div id="page-bgbtm">
-					<div id="content">
-						<div class="post">
+<title>Status of thunix Servers and Services - thunix</title>
+<?php include 'HEADER2.php'; ?>
 							<h2 class="title">Service Status and Information</h2>
 							<div style="clear: both;">&nbsp;</div>
               <div class="entry">
@@ -57,9 +45,9 @@
 								<p>
 <!-- Have to clean this section up a bit, styling, really -->
 <?php
-                                                                                                                                                            
+
 $hosts="all";
- 
+
 $f = fopen("./report", "r");
 
 echo "Last update: " . date ("H:i", filemtime('./report'))."<p>\n";
