@@ -2,21 +2,30 @@
 <title>Status of thunix Servers and Services - thunix</title>
 <?php include 'HEADER2.php'; ?>
 						<div class="post">
-							<h2 class="title">Information and Service Status</h2>
+							<h2 class="title">Service Status and Information</h2>
 							<div style="clear: both;">&nbsp;</div>
               <div class="entry">
-								<h3>State of the Thunix - May 09, 2019</h3>
-              	<p>Another month, another update!</p>
-
-<p>Not too much to announce, as far as front end changes.  New user requests should happen much faster now that we've written/stolen a tool from tilde.team that we can use to expedite user creation, and automation of a bunch of the steps we take to onboard users.</p>
-<p>We're considering adding in user aging for accounts.  Lots of accounts get created, and then never logged into.  This can actually post a security problem for the system, as often times, accounts get created now, to be used months from today for botnets and the like.  Let us know what your thoughts are on a reasonable time to age off users.  At this time, I am personally leaning towards 180 days.  Plenty of time to log into your shell, and use it a bit.  And, once every 6 months isn't much to ask, since we expect members to actually contribute to the community, anyways.</p>
-<p>We've terminated one account already for running a botnet member from here, and we'll keep a vigilant eye for any others.</p>
-<p>This leads to another point:  Just running a znc process doesn't count for login.  Neither does checking your email.  You'll need to actually log into the shell, in order to reset the counter.  You should, anyways, since we have a lot of services internally, that we don't offer external access too.</p> 
-<p>We are also looking at terminating the minecraft and minetest instances here.  If anyone is using them, speak up now, or forever hold you peace!  Not really.  We wouldn't be deleting anything, just shutting down the processes, and removing them from the backup scheme.</p>
-<p>We do need to welcome our newest sysadmin here:  fosslinux.  Give them a warm welcome if you see them around.</p>
-<p>And again, any questions, or concerns, feel free to drop myself, or any of the other admins a line.</p>
-</p>
-<p>Ubergeek/ub3g33k</p>
+									<h3><p>Minetest</p></h3>
+									<p>Connect to thunix.net:30000 in your minetest client</p>
+									<hr/>
+									<h3><p>Minecraft</p></h3>
+									<p>Connect to thunix.net in your minecraft client.  Running the Paperclip minecraft server.<p>
+									<hr/>
+									<h3><p>Mail Services</p></h3>
+									<p>Thunix offers webmail at <a href="/webmail">https://thunix.net/webmail</a>.  You can also connect via imap.  Thunderbird will autodetect your settings, and we recommend the use of Thunderbird email client, so you can get the best-of-breed email experience.  We also recommend using enigmail with Thunderbird as well.  You can get it from your distro's package manager, or from <a href="https://www.thunderbird.net/">the Thunderbird project's site</a></p>
+									<hr/>
+									<h3><p>Onion Service</p></h3>
+									<p>Thunix's services are available as a onion site as well.  Our onion address is thunixme5v4rnoby.onion.</p>
+									<hr/>
+									<h3><p>BZFlag Game Server</p></h3>
+									<p>BZFlag runs on the standard port.  If you have a specific map you want loaded, send an email to root, and we'll look at getting the map swapped out</p>
+									<hr/>
+									<h3><p>IRC Chat</p></h3>
+									<p>Thunix is part of the tilde.chat network.  You can access chat via the terminal, with the 'chat' command, via your favorite email client at irc.tilde.chat/6697, or via a web chat interface located <a href="">here</a>.</p>
+									<hr/>
+									<h3><p>FOSS Project Mirrors</p></h3>
+									<p>Thunix hosts mirrors for several FOSS projects.  You can see the full mirror list in the sidebar link.</p>
+									<hr/>
 							</div>
 
 <!-- Placeholder for format hints
@@ -37,9 +46,9 @@
 								<p>
 <!-- Have to clean this section up a bit, styling, really -->
 <?php
-                                                                                                                                                            
+
 $hosts="all";
- 
+
 $f = fopen("./report", "r");
 
 echo "Last update: " . date ("H:i", filemtime('./report'))."<p>\n";

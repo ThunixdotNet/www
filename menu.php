@@ -13,8 +13,8 @@
 	<li><a href="contact.php">Contact Us</a></li>
 	<li><a href="signup.php">Sign Up</a></li>
 	<li><a href="abuse.php">Report Abuse</a></li>
-        <li><a href="//ftp.thunix.net/">thunix Mirror Services</a></li>
-        <li><a href="/~amcclure/stats/">Web Server Stats</a></li>
+	<li><a href="//ftp.thunix.net/">thunix Mirror Services</a></li>
+	<li><a href="/~amcclure/stats/">Web Server Stats</a></li>
 	<li><a href="donate.php">Donations</a></li>
 	</ul>
 	</li>
@@ -22,6 +22,7 @@
 	<h2>Main Resources On This Site</h2>
 	<ul>
 	<li><a href="server.php">Status of thunix Servers and Services</a></li>
+	<li><a href="news.php">Service News</a></li>
 	<li><a href="users.php">User Web Directories</a></li>
 	<li><a href="https://gopher.tildeverse.org/thunix.net">User Gopher Directories</a></li>
 	<li><a href="/webmail/">Web Mail</a></li>
