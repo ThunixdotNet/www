@@ -40,9 +40,9 @@
 	<h2>Other Information</h2>
 	<ul>
 	<li><a href=".">(Coming soon)</a></li>
-	</ul>
-	</li>
 	</ul>-->
+	</li>
+	</ul>
 </div>
 <div style="clear: both;">&nbsp;</div>
 </div></div></div></div>
