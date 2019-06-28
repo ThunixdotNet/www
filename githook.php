@@ -22,6 +22,9 @@ $www_lastrun      = '/dev/shm/www-hook-last-run';
 $www_dropfile     = '/dev/shm/run-www';
 $gopher_lastrun   = '/dev/shm/gopher-hook-last-run';
 $gopher_dropfile  = '/dev/shm/run-gopher';
+$wiki_lastrun     = '/dev/shm/wiki-hook-last-run';
+$wiki_dropfile    = '/dev/shm/run-wiki';
+
 $allowedip         = '51.79.32.48';
 $remoteip         = $_SERVER['REMOTE_ADDR'];
 $ratelimit        = 300;
@@ -98,6 +101,22 @@ elseif ($data["repository"]["full_name"] == 'thunix/thunix_gopher') {
 		echo "HTTP 429 - Rate Limited.\n";
 		exit(0);
 		}
+}
+
+//Wiki webhook
+elseif ($data["repository"]["full_name"] == 'thunix/wiki') {
+  syslog(LOG_INFO, 'Wiki Webhook recieved.');
+  if ( time () - filemtime ( $wiki_lastrun ) > $ratelimit/30 ) {
+    touch ( $wiki_dropfile );
+    touch ( $wiki_lastrun );
+    http_response_code(200);
+    echo "HTTP 200 - Wiki webhook recieved.\n";
+    }
+  else {
+    http_response_code(429);
+    echo "HTTP 429 - Rate Limited.\n";
+    exit(0);
+    }
 }
 
 // Easter egg for anyone probing the hook.  Enjoy.  We're a coffee maker
