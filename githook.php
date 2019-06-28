@@ -128,7 +128,7 @@ else {
 	exit(0);
 	}
 
-$fp = pfsockopen( "tcp://127.0.0.1", 1234, $errno, $errstr );
+/*$fp = pfsockopen( "tcp://127.0.0.1", 1234, $errno, $errstr );
 
 if (!$fp)
 {
@@ -144,5 +144,6 @@ if (!$write) {
     echo "error writing to port.<br/>";
     next;
 }
+*/
 ?>
 
