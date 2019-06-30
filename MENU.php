@@ -21,6 +21,7 @@
 	<li>
 	<h2>Main Resources On This Site</h2>
 	<ul>
+	<li><a href="https://wiki.thunix.net/">Wiki</a></li>
 	<li><a href="server.php">Status of thunix Servers and Services</a></li>
 	<li><a href="news.php">Service News</a></li>
 	<li><a href="users.php">User Web Directories</a></li>
