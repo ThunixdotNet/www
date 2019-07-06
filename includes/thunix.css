@@ -1,0 +1,80 @@
+/*
+This file is licensed under the GPL 3.0 or later.
+*/
+
+body {
+	font-family: "Courier New", Courier, monospace;
+	background: black;
+	color: lime;
+}
+
+#body {
+	width: 95%;
+}
+
+#body h1 {
+	background: white;
+	color: green;
+}
+
+#body h2 {
+	background: white;
+	color: green;
+}
+
+#body h3 {
+	background: white;
+	color: green;
+}
+
+#body a {
+	background: black;
+	color: lime;
+}
+
+#body a:visited {
+	color: green;
+}
+
+#header {
+	width: 90%;
+	text-align: center;
+	font-size: xx-large;
+}
+#content {
+	width: 78%;
+	float: left;
+	font-size: medium;
+}
+
+#content img {
+  max-height: 400px;
+  max-width: 98%;
+}
+
+.lineitem {
+	border: 1px;
+	border-color:white;
+}
+#sidebar {
+	width: 18%;
+	float: right;
+	font-size: small;
+}
+
+#sidebar h1 {
+	color: lime;
+	background: black;
+}
+
+#sidebar h2 {
+	color: lime;
+	background: black;
+}
+
+#footer {
+	width: 95%;
+	text-align: center;
+	clear: both;
+	font-size: smaller;
+}

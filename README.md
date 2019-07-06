@@ -1,14 +1,49 @@
-# thunix 2.0 website update
+Wiki.php
+========
 
-This is the code powering the website for thunix, originally founded by hexhaxtron. Since the original site went down, amcclure and ubergeek revived the site, though with only the bare necessities.
+Wiki.php is a simple cms/wiki script.  You can see it in use here:
 
-These updates are designed to not only beautify the website with updated CSS and fully compliant HTML5 code, but also to automate visitor interaction with site administration and to provide server status information.
+* [Thunix Wiki](https://wiki.thunix.net)
+* [Ubergeek's Personal Page](https://thunix.net/~ubergeek)
 
-Features include:
-- Emailing scripts for general inquiries, registration and abuse reporting
-- Scripting to automatically present functional user web pages in a menu list
-- Scripting to provide server status reports to visitors*
+Installation
+============
 
-*This requires the monurbox server monitoring shell script, executed through an hourly cron job
+Installation is really only a couple of steps:
 
-To run this website, the server computer requires PHP, with the GD extension (for generating CAPTCHA images,) Sendmail (to send emails from the website, to administration) and monurbox (to generate server status reports).
+
+* Clone down the repo
+* Edit config.php.  The values are pretty self-explantory, but there's also comments explaining
+* Edit includes/header.md, includes/footer.md, and includes/sidebar.md
+
+If you are not using apache, you'll need to add in some mechanism for the rewrites to work, unless you don't care about pretty URLs.  But, you will need to keep those in mind when adding links to your documents.
+
+Something along these lines ~should~ work:
+
+        location / {
+                # This is cool because no php is touched for static content.
+                # include the "?$args" part so non-default permalinks doesn't break when using query string
+                try_files $uri $uri/ /wiki.php?page=$uri;
+        }
+
+Once that's all set, you can start editing articles.  Main.md is always the landing page.
+
+Directory Structure
+===================
+
+    ./ <-- Doc root
+    ./wiki.php <-- main code
+    ./media <-- Images and such.  Files here do get get hit by the rewrite rule
+    ./articles <-- All of your site's content
+    ./includes <-- Support files that make up the layout
+      header.md <-- site header
+      footer.md <-- site footer
+      sidebar.mb <-- site sidebar
+    ./config.php <-- Site configuration file
+    ./parsedown-{version} <-- The parsedown version used in this engine
+
+Support
+=======
+
+Open an issue at [ubergeek/wiki.php](https://tildegit.org/ubergeek/wiki.php/issues).  PRs are also welcomed!
+
