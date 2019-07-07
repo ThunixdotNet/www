@@ -15,9 +15,9 @@
     ---------------------------
 
     -   [Wiki](https://wiki.thunix.net/)
-    -   [Status of thunix Servers and Services](/includes/server.php)
+    -   [Status of thunix Servers and Services](/server)
     -   [Service News](/news)
-    -   [User Web Directories](/includes/users.php)
+    -   [User Web Directories](/users)
     -   [User Gopher Directories](https://gopher.tildeverse.org/thunix.net)
     -   [Web Mail](/webmail/)
     -   [ZNC Service](https://thunix.net:1326/)
