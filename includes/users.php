@@ -73,7 +73,7 @@ foreach (glob("/home/*") as $user):
 		if (!is_dir($user . "/public_html") || (!file_exists($user . "/public_html/index.html") && !file_exists($user . "/public_html/index.php")))
 	continue;
 	$user = basename($user);
-	print"<li><a href='https://thunix.net/~$user/'>~$user</a></li>";
+	print"<li><a href='$site_root/~$user/'>~$user</a></li>";
 endforeach;
 print "</ul></div>
 <!-- End Autgen userdir list -->";
