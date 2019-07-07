@@ -20,12 +20,12 @@ days.
 
 ## How can I request a copy of my data?
 
-You can submit a request at [contact page](/contact.php). We will
+You can submit a request at [contact page](/contact). We will
 endeavor to provide you a copy of all data we store within 14 days.
 
 ## How can I request removal of my information?
 
-You can submit a request at [contact page](/contact.php), and we will
+You can submit a request at [contact page](/contact), and we will
 endeavor to remove all personal data of yours from our system within 14
 days. However, this will include removal of your user account from our
 system as well, which will prevent access to most of the services

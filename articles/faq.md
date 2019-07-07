@@ -2,9 +2,9 @@
 
 **How do I sign up for an account?**
 
-Simply by going to our [signup page](/signup.php) and filling in the
+Simply by going to our [signup page](/signup) and filling in the
 form. You can ask for help in \#thunix on tilde.chat, or you can
-[contact us](/contact.php), if you run into any difficulties.
+[contact us](contact), if you run into any difficulties.
 
 **Who is running thunix?**
 
@@ -63,4 +63,4 @@ You can use the following for your
 mail settings (This is Thunderbird's setting screen, but the settings
 are the same):
 
-[![](https://thunix.net/images/mail.png)](https://thunix.net/images/mail.png)
+![](/media/mail.png)](/media/mail.png)

@@ -45,7 +45,7 @@ copyright law.
 
 If you want to request for content you own the copyright for to be
 removed from thunix, please refer to our [abuse reporting
-page](/abuse.php). In the email, please identify who you are, if you are
+page](/contact). In the email, please identify who you are, if you are
 the copyright holder or legally representing them, the exact files you
 want removed with links to the files and infringed content, and contact
 information such as phone numbers or a reply-to email address.
@@ -56,4 +56,4 @@ may be removed immediately. These terms also apply to communication
 services such as forums, mailing lists, irc channels, newsgroups, and
 any other service either hosted on or used for thunix. If you come
 across anything that violates the terms of service, please let us know
-with the [abuse reporting page](/abuse.php).
+with the [abuse reporting page](/contact).

@@ -24,7 +24,7 @@ Join us on IRC on irc.tilde.chat/6697 in the #thunix channel, or just
 click here for a web client: [![#thunix channel](https://tilde.chat/badges/badge.php?channel=%23thunix)](https://web.tilde.chat/?join=thunix)
 
 If you want to sign up for an account, simply open our [signup
-form](/signup.php) and provide us with:
+form](/signup) and provide us with:
 
 * Your contact name
 * Your email address (so that we can contact you with login details)
@@ -47,4 +47,4 @@ thunix will never use proprietary software but users can do that if they
 wish. This is something they should avoid however.
 
 If you want to help keep thunix running, please consider
-[donating](donate).
+[donating](/donate).

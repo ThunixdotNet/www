@@ -40,4 +40,4 @@ irc.tilde.chat/6697, or via a web chat interface located [here]().
 Thunix hosts mirrors for several FOSS projects. You can see the full
 mirror list in the sidebar link.
 
-<!-- Begin autogen content -->
+<!-- Begin autogen content from /includes/server.php -->
