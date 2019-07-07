@@ -20,7 +20,7 @@
     -   [User Web Directories](users.php)
     -   [User Gopher
         Directories](https://gopher.tildeverse.org/thunix.net)
-    -   [Web Mail](/webmail/)
+    -   [Web Mail](https://www.thunix.net/webmail/)
     -   [ZNC Service](https://thunix.net:1326/)
 -   Server Staff
     ------------
