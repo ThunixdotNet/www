@@ -63,4 +63,4 @@ You can use the following for your
 mail settings (This is Thunderbird's setting screen, but the settings
 are the same):
 
-![](/media/mail.png)](/media/mail.png)
+[![](/media/mail.png)](/media/mail.png)
