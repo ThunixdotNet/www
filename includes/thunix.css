@@ -13,17 +13,14 @@ body {
 }
 
 #body h1 {
-	background: white;
 	color: green;
 }
 
 #body h2 {
-	background: white;
 	color: green;
 }
 
 #body h3 {
-	background: white;
 	color: green;
 }
 
@@ -63,12 +60,12 @@ body {
 }
 
 #sidebar h1 {
-	color: lime;
+	color: green;
 	background: black;
 }
 
 #sidebar h2 {
-	color: lime;
+	color: green;
 	background: black;
 }
 
