@@ -40,18 +40,4 @@ irc.tilde.chat/6697, or via a web chat interface located [here]().
 Thunix hosts mirrors for several FOSS projects. You can see the full
 mirror list in the sidebar link.
 
-
-# Server Status
-
-Last update: 18:17
-
-|      Check  |            Status|
-|---|---|
-| sshd        |       GOOD|
-| BZFlag\_Server    | GOOD|
-|  Memory           |  GOOD|
-|  Minetest\_Server |  GOOD|
-|  web\_site        |  GOOD|
-|  web\_site\_https|   GOOD|
-|  imap           |    GOOD|
-| smtp           |    GOOD|
+<!-- Begin autogen content -->
