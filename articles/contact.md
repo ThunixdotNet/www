@@ -2,19 +2,17 @@ If you have any questions or problems relating to our service, or this website, 
 
 <form action='/includes/email.php'>
 
-Contact Name: <input type='text' name='contact_name'><p/>
-Email Address: <input type='text' name='email_address'></p>
+Contact Name: <input type='text' name='contact_name'><br>
+Email Address: <input type='text' name='email_address'><br>
 Subject:
 <select name="type">
     <option value="abuse">Abuse</option>
     <option value="support">Support</option>
     <option value="copyright">Copyright Problem</option>
-</select> 
+</select><br> 
 
-Message: <input type='textarea' name='message'></p/>
+Message: <input type='textarea' name='message'><br>
 
-Security Code:
-Click the image to reload. Reload Verification Image
 <input type='submit'>
 </form>
 
