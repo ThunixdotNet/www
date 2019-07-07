@@ -4,9 +4,9 @@ This code is Copyright(c) 2019 by ubergeek under the GPL 3 or later.
 Parsedown is licensed under the MIT license.
 */
 
-include('config.php');
-include('parsedown-1.7.3/Parsedown.php');
-include('parsedown-extra-0.7.1/ParsedownExtra.php');
+include('../config.php');
+include('../parsedown-1.7.3/Parsedown.php');
+include('../parsedown-extra-0.7.1/ParsedownExtra.php');
 
 $page = $_GET['page'];
 $style = $_GET['style'];
