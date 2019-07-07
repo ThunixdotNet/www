@@ -1,5 +1,5 @@
     RewriteEngine On
     RewriteRule ^$           main  [QSA]
     RewriteRule ^index\.php$ wiki.php?page=main  [QSA]
-    RewriteCond %{REQUEST_URI} !(/includes/|/media/|tilde.json|humans.txt|/webmail/)
+    RewriteCond %{REQUEST_URI} !(/includes/|/media/|tilde.json|humans.txt|/webmail/|/favicon.ico|/~)
     RewriteRule ^([^\d]+)/?$ wiki.php?page=$1 [QSA]
