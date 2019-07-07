@@ -75,8 +75,8 @@ foreach (glob("/home/*") as $user):
 	$user = basename($user);
 	print"<li><a href='https://thunix.net/~$user/'>~$user</a></li>";
 endforeach;
-print"</ul></div>
-<!-- End Autgen userdir list -->"";
+print "</ul></div>
+<!-- End Autgen userdir list -->";
 
 print "		</div>
 <!-- End Body -->
