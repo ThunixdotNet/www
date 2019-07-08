@@ -10,8 +10,19 @@ are willing to donate to us. The price breakdown right now is €38/month.
 So to help with server costs and time spent, you can donate the
 following ways:
 
-Via BitCoin: 1DFM3qY7XmCxGTFPATSQJVCNjvmWiVubGN
+<div style="text-align:center;">
 
-You can donate via Liberapay here: [![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/ub3g33k/donate)
+<p>Via BitCoin: 1DFM3qY7XmCxGTFPATSQJVCNjvmWiVubGN</p>
 
-Or via PayPal here: [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GW2H85HY9VJ3L)
+<p>You can donate via Liberapay here: <a href="https://liberapay.com/ub3g33k/donate"><img src="https://liberapay.com/assets/widgets/donate.svg"></a></p>
+
+<p>Or via Paypal:</a>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_donations" />
+<input type="hidden" name="business" value="GW2H85HY9VJ3L" />
+<input type="hidden" name="currency_code" value="USD" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+</p>
+</div>
