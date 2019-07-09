@@ -1,0 +1,15 @@
+body{font-family:"Courier New",Courier,monospace;background:#000;color:lime}
+#body{width:95%}
+#body h1{color:green}
+#body h2{color:green}
+#body h3{color:green}
+#body a{background:#000;color:lime}
+#body a:visited{color:green}
+#header{width:90%;text-align:center;font-size:xx-large}
+#content{width:78%;float:left;font-size:medium}
+#content img{max-height:400px;max-width:98%}
+.lineitem{border:1px;border-color:#fff}
+#sidebar{width:18%;float:right;font-size:small}
+#sidebar h1{color:green;background:#000}
+#sidebar h2{color:green;background:#000}
+#footer{width:95%;text-align:center;clear:both;font-size:smaller}
