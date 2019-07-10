@@ -1,14 +1,8 @@
 # Terms of Service
 
 Nothing is without its rules and regulations; thunix is no exception.
-Below are the site's service terms. Everything in this page should be
-clear to everyone who wishes to use thunix's services; failure to abide
-by these terms can result in penalties such as service bans and may
-result in legal action against any offending users, depending on the
-severity of each case and any other individuals who may have been
-affected. Thunix may conduct investigations on any suspected violations,
-and we will cooperate with law enforcement agencies with their
-investigations. Be sure to read this page carefully and understand it.
+
+Below are the site's service terms. Everything in this page should be clear to everyone who wishes to use thunix's services; failure to abide by these terms can result in penalties such as service bans and may result in legal action against any offending users, depending on the severity of each case and any other individuals who may have been affected. Thunix may conduct investigations on any suspected violations, and we will cooperate with law enforcement agencies with their investigations. Be sure to read this page carefully and understand it.
 
 You are responsibe for checking your local mail account from time to
 time. This email address is the only one we retain, and as such, any
@@ -36,24 +30,8 @@ sent to this account.
 11. Leaking or publishing any user's or individual's personal
     information without that person's consent.
 
-Copyright infringement is not allowed on thunix, and we will not allow
-any illegal content to be distributed. It's also expected that all users
-respect the copyrights of those who produce original content of any kind
-and only share if the author or license grants you permission. Content
-hosted on accounts used for external file storage must also follow
-copyright law.
+Copyright infringement is not allowed on thunix, and we will not allow any illegal content to be distributed. It's also expected that all users respect the copyrights of those who produce original content of any kind and only share if the author or license grants you permission. Content hosted on accounts used for external file storage must also follow copyright law.
 
-If you want to request for content you own the copyright for to be
-removed from thunix, please refer to our [abuse reporting
-page](/contact). In the email, please identify who you are, if you are
-the copyright holder or legally representing them, the exact files you
-want removed with links to the files and infringed content, and contact
-information such as phone numbers or a reply-to email address.
+If you want to request for content you own the copyright for to be removed from thunix, please refer to our [abuse reporting page](/contact). In the email, please identify who you are, if you are the copyright holder or legally representing them, the exact files you want removed with links to the files and infringed content, and contact information such as phone numbers or a reply-to email address.
 
-Users that repeatedly violate the Terms of Service will have their
-account removed. Depending on the degree of the offense, their account
-may be removed immediately. These terms also apply to communication
-services such as forums, mailing lists, irc channels, newsgroups, and
-any other service either hosted on or used for thunix. If you come
-across anything that violates the terms of service, please let us know
-with the [abuse reporting page](/contact).
+Users that repeatedly violate the Terms of Service will have their account removed. Depending on the degree of the offense, their account may be removed immediately. These terms also apply to communication services such as forums, mailing lists, irc channels, newsgroups, and any other service either hosted on or used for thunix. If you come across anything that violates the terms of service, please let us know with the [abuse reporting page](/contact).

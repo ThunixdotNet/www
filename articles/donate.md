@@ -1,14 +1,8 @@
 # Donations
 
-As this server and our projects are all a labor of love and goodwill for
-the community, operating the thunix server costs money. We love what we
-do and we love sharing what we do for free, but over time, operating
-expenses can have a big impact.
+As this server and our projects are all a labor of love and goodwill for the community, operating the thunix server costs money. We love what we do and we love sharing what we do for free, but over time, operating expenses can have a big impact.
 
-That being said, we also rely on the good nature of generous people, who
-are willing to donate to us. The price breakdown right now is €38/month.
-So to help with server costs and time spent, you can donate the
-following ways:
+That being said, we also rely on the good nature of generous people, who are willing to donate to us. The price breakdown right now is €38/month. So to help with server costs and time spent, you can donate the following ways:
 
 <div style="text-align:center;">
 
