@@ -3,7 +3,7 @@ include "../config.php";
 
 $name             = $_GET['contact_name'];
 $email            = $_GET['email_address'];
-$subject          = $_GET['type'];
+$type             = $_GET['type'];
 $body             = $_GET['message'];
 
 $tv               = $_GET['tv'];
@@ -14,7 +14,7 @@ $mailbody         = "The following submission via the contact form was recieved:
 
 Real Name:      $name
 Email Address:  $email
-Type:           $subject
+Type:           $type
 Message:        $body";
 
 if ( $tv != "tildeverse" ) {
