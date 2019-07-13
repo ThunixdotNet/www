@@ -7,9 +7,9 @@ If you have any questions or problems, feel free to contact us.
 <tr><td>Contact Name:</td> <td><input type='text' name='contact_name'></td></tr>
 <tr><td>Email Address:</td> <td> <input type='text' name='email_address'></td></tr>
 <tr><td>Desired Username:</td> <td> <input type='text' name='username'></td></tr>
-<tr><td>What interests you about thunix:</td> <td> <input type='textarea' name='interest' rows = "3" cols = "80"></td></tr>
-<tr><td>SSH Public Key:</td> <td> <input type='textarea' name='pubkey' rows = "5" cols = "80"></td></tr>
-<tr><td>Type the word tildeverse here:</td> <td> <input type='textarea' name='tv'></td></tr>
+<tr><td>What interests you about thunix:</td> <td> <input type='text' name='interest' rows = "3" cols = "80"></td></tr>
+<tr><td>SSH Public Key:</td> <td> <input type='text' name='pubkey' rows = "5" cols = "80"></td></tr>
+<tr><td>Type the word tildeverse here:</td> <td> <input type='text' name='tv'></td></tr>
 </table>
 <input type='submit'>
 </form>
