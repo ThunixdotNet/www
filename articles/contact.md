@@ -12,7 +12,7 @@ If you have any questions or problems relating to our service, or this website, 
     
 </select><br> </td></tr>
 <tr><td>Type the word tildeverse here:</td> <td> <input type='textarea' name='tv'></td></tr>
-<tr><td>Message:</td><td> <textarea name='message' rows = "10" cols = "80"><br><td>
+<tr><td>Message:</td><td><textarea name='message' rows = "10" cols = "80"></textarea><br><td>
 </table>
 <input type='submit'>
 </form>
