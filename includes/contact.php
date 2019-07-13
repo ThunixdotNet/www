@@ -8,7 +8,7 @@ $body             = $_GET['message'];
 
 $tv               = $_GET['tv'];
 
-$destination_addr = "ubergeek@thunix.net";
+$destination_addr = "root@thunix.net";
 $subject          = "Contact Form";
 $mailbody         = "The following submission via the contact form was recieved:
 

@@ -8,7 +8,7 @@ $interest         = $_GET['interest'];
 $pubkey           = $_GET['pubkey'];
 $tv               = $_GET['tv'];
 
-$destination_addr = "ubergeek@thunix.net";
+$destination_addr = "newuser@thunix.net";
 $subject          = "New User Registration";
 $mailbody         = "A new user has tried to register.
 Username:       $username
