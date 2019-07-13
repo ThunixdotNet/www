@@ -1,5 +1,6 @@
 <?php
 include "../config.php";
+// This code is licensed under the AGPL 3 or later by ubergeek (https://tildegit.org/ubergeek)
 
 $name             = $_GET['contact_name'];
 $email            = $_GET['email_address'];

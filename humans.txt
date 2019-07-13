@@ -12,5 +12,5 @@
     /* SITE */
     Last update: 2019/03/22 
     Standards: HTML5
-    Components: Apache2, Git, and PHP
+    Components: Apache2, Git, and PHP, Parsedown, Parsedown Extra
     Software: vim, geany, ansible, wiki.php 

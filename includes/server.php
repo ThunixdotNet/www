@@ -1,6 +1,6 @@
 <?php
 /*
-This code is Copyright(c) 2019 by ubergeek under the GPL 3 or later.
+This code is licensed under the AGPL 3 or later by ubergeek (https://tildegit.org/ubergeek)
 Parsedown is licensed under the MIT license.
 */
 
