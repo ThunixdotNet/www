@@ -23,7 +23,7 @@ if ( $tv != "tildeverse" ) {
     die();
 }
 
-shell_exec("echo '$mailbody' | /usr/bin/mail -s 'New User Registration' $destination_addr ");
+shell_exec("echo '$mailbody' | /usr/bin/mail -s '$subject' $destination_addr ");
 
 // In the future, here, we *should* be able to build a process that 
 // somehow auto-verifies the user, and instead of email, it'll kick off the new user process here
