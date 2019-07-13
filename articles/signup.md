@@ -2,7 +2,7 @@ To sign up for an account with thunix, please fill in the form below. Be sure to
 
 If you have any questions or problems, feel free to contact us.
 
-<form action='/includes/email.php'>
+<form action='/includes/signup.php'>
 <table>
 <tr><td>Contact Name:</td> <td><input type='text' name='contact_name'></td></tr>
 <tr><td>Email Address:</td> <td> <input type='text' name='email_address'></td></tr>
