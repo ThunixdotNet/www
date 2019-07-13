@@ -10,8 +10,9 @@ If you have any questions or problems, feel free to contact us.
 <tr><td>What interests you about thunix:</td> <td> <input type='textarea' name='interest'></td></tr>
 <tr><td>SSH Public Key:</td> <td> <input type='textarea' name='pubkey'></td></tr>
 <tr><td>Type the word tildeverse here:</td> <td> <input type='textarea' name='tv'></td></tr>
+</table>
 <input type='submit'>
-</table></form>
+</form>
 
 If you don't have a public SSH key, don't worry! Check out [this guide to SSH keys](https://tilde.team/wiki/?page=ssh) and make sure that you only fill in your public SSH key here.
 

@@ -9,11 +9,11 @@ If you have any questions or problems relating to our service, or this website, 
     <option value="abuse">Abuse</option>
     <option value="support">Support</option>
     <option value="copyright">Copyright Problem</option></td></tr>
-    <tr><td>Type the word tildeverse here:</td> <td> <input type='textarea' name='tv'>
+    
 </select><br> </td></tr>
+<tr><td>Type the word tildeverse here:</td> <td> <input type='textarea' name='tv'></td></tr>
+<tr><td>Message:</td><td> <input type='textarea' name='message'><br><td>
 </table>
-Message: <input type='textarea' name='message'><br>
-
 <input type='submit'>
 </form>
 

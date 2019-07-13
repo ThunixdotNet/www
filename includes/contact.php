@@ -14,8 +14,8 @@ $mailbody         = "The following submission via the contact form was recieved:
 
 Real Name:      $name
 Email Address:  $email
-Type:           $interest
-Message:        $message";
+Type:           $subject
+Message:        $body";
 
 if ( $tv != "tildeverse" ) {
     print "Spam attempt";
