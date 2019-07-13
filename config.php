@@ -3,8 +3,8 @@
 $site_name="☣  thunix ☣";
 
 //Root for the site, in a browser
-$site_root="https://dev.thunix.cf";
-
+//$site_root="https://dev.thunix.cf";
+$site_root=$_SERVER['HTTP_HOST'];
 //Local base root for app files
 $doc_root="/var/www/dev.thunix.cf";
 

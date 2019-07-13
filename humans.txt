@@ -13,4 +13,4 @@
     Last update: 2019/03/22 
     Standards: HTML5
     Components: Apache2, Git, and PHP
-    Software: vim, geany, ansible 
+    Software: vim, geany, ansible, wiki.php 
