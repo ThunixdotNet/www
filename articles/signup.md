@@ -3,14 +3,15 @@ To sign up for an account with thunix, please fill in the form below. Be sure to
 If you have any questions or problems, feel free to contact us.
 
 <form action='/includes/email.php'>
-
-Contact Name: <input type='text' name='contact_name'><br>
-Email Address: <input type='text' name='email_address'><br>
-Desired Username: <input type='text' name='username'><br>
-What interests you about thunix: : <input type='textarea' name='interest'><br>
-SSH Public Key: <input type='textarea' name='pubkey'><br>
+<table>
+<tr><td>Contact Name:</td> <td><input type='text' name='contact_name'></td></tr>
+<tr><td>Email Address:</td> <td> <input type='text' name='email_address'></td></tr>
+<tr><td>Desired Username:</td> <td> <input type='text' name='username'></td></tr>
+<tr><td>What interests you about thunix:</td> <td> <input type='textarea' name='interest'></td></tr>
+<tr><td>SSH Public Key:</td> <td> <input type='textarea' name='pubkey'></td></tr>
+<tr><td>Type the word tildeverse here:</td> <td> <input type='textarea' name='tv'></td></tr>
 <input type='submit'>
-</form>
+</table></form>
 
 If you don't have a public SSH key, don't worry! Check out [this guide to SSH keys](https://tilde.team/wiki/?page=ssh) and make sure that you only fill in your public SSH key here.
 
