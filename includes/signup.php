@@ -4,7 +4,7 @@ include "../config.php";
 $name             = $_GET['contact_name'];
 $email            = $_GET['email_address'];
 $username         = $_GET['username'];
-$interests        = $_GET['interest'];
+$interest         = $_GET['interest'];
 $pubkey           = $_GET['pubkey'];
 $tv               = $_GET['tv'];
 
