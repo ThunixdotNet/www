@@ -2,8 +2,8 @@ If you have any questions or problems relating to our service, or this website, 
 
 <form action='/includes/contact.php'>
 <table>
-<tr><td>Contact Name:</td> <td> <input type='text' name='contact_name'><br></td></tr>
-<tr><td>Email Address:</td> <td> <input type='text' name='email_address'><br></td></tr>
+<tr><td>Contact Name:</td> <td> <input type='text' name='contact_name'></td></tr>
+<tr><td>Email Address:</td> <td> <input type='text' name='email_address'></td></tr>
 <tr><td>Subject:</td> <td>
 <select name="type">
     <option value="abuse">Abuse</option>
@@ -12,7 +12,7 @@ If you have any questions or problems relating to our service, or this website, 
     
 </select><br> </td></tr>
 <tr><td>Type the word tildeverse here:</td> <td> <input type='textarea' name='tv'></td></tr>
-<tr><td>Message:</td><td><textarea name='message' rows = "10" cols = "80"></textarea><br><td>
+<tr><td>Message:</td><td><textarea name='message' rows = "10" cols = "80"></textarea><td>
 </table>
 <input type='submit'>
 </form>
