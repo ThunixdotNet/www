@@ -71,7 +71,7 @@ echo $ParsedownExtra->text($content);
 
 $hosts="all";
 
-$f = fopen("./report", "r");
+$f = fopen("$doc_root/report", "r");
 
 echo "Last update: " . date ("H:i", filemtime('./report'))."<p>\n";
 echo "<table style='width:80%'>";
