@@ -22,7 +22,8 @@ BZFlag runs on the standard port. If you have a specific map you want loaded, se
 
 ## IRC Chat
 
-Thunix is part of the tilde.chat network. You can access chat via the terminal, with the 'chat' command, via your favorite email client at irc.tilde.chat/6697, or via a web chat interface located [here]().
+Thunix is part of the tilde.chat network. You can access chat via the terminal, with the 'chat' command, via your favorite email client at irc.tilde.chat/6697, or via a web chat interface located [![#thunix channel](https://tilde.chat/badges/badge.php?channel=%23thunix)](https://web.tilde.chat/?join=thunix). 
+
 
 ## FOSS Project Mirrors
 
