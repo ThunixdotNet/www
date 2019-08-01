@@ -1,29 +1,15 @@
-# State of the Thunix - July 09, 2019
+# State of the Thunix - August 2019
 
-Another Month!
+Hey peoples!
 
-We are at month 7 for Thunix.net!
+New stuff this month?  Ya loving Debian Buster yet?  Hope so, we upgrade the OS this month from Stretch to Buster.  Had some hiccups, but generally, it went well, without too much issue.
 
-Newly, over the past month, we have a wiki now!  It's an effort led by
-contribute via tildegit, by opening a PR at:
+Also, we've gotten $5 in donations this month :)  Thank you all for your support, past and present.  Operating costs are the same as they have been.
 
-https://tildegit.org/thunix/wiki
+While doing some tinkering around, I installed a few static site generators.  Feel free to play around with them, and use them!  We also have some new members, and some folks working on some projects.  The wiki is coming along well, so feel free to contribute your how-tos and such.
 
-It's all in markdown, so it's pretty easy to contribute too.  And, if you
-mess something up?  No worries!  It's a wiki!  We can revert :)
+So, while the past few weeks have been a bit of work, it's a small number of items, individually.  So, it seems like not too much has happened, but it's been a busy month.
 
-Also, new this month, we've made an official process and tool to provision
-MySQL/MariaDB databases (It's MariaDB, btw).  All you need to do is
-request one, and we'll gladly add it :)
+Hop onto IRC or post in iris if you have any questions, concerns, or comments :)
 
-No donations this month, and costs to operate the server still sit at
-feel the need to do so, via https://thunix.net/donate.php
-
-Iris is getting some usage too, so make sure you poke in there, via the
-cli.
-
-All in all, new features, new stuff, and looking forward to seeing other
-contributions and new features come in from our users.
-
-Your Friendly Neighborhood Sysadmin;
-ubergeek/ub3geek
+Ubergeek/ub3g33k
