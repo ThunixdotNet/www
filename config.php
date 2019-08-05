@@ -10,5 +10,5 @@ $doc_root="/var/www/thunix.cf";
 
 //Site style
 // site is the default.  Specify something else here to switch
-$site_style="minithunix";
+$site_style="newthunix";
 ?>
