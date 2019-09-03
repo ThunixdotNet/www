@@ -1,15 +1,42 @@
-# State of the Thunix - August 2019
+# State of the Thunix - September 2019
 
-Hey peoples!
+Hello Thunixers!
 
-New stuff this month?  Ya loving Debian Buster yet?  Hope so, we upgrade the OS this month from Stretch to Buster.  Had some hiccups, but generally, it went well, without too much issue.
+Another month, and more users on board!
 
-Also, we've gotten $5 in donations this month :)  Thank you all for your support, past and present.  Operating costs are the same as they have been.
+Not too much has been going on as of late, due to time constraints for
+the admin team here, as well as just a low-volume of requests.  Likely
+due to a few things, mainly, it's summer for most of our users, and
+well, Thunix has most services folks need.  So, if it ain't broke, don't
+fix it 
 
-While doing some tinkering around, I installed a few static site generators.  Feel free to play around with them, and use them!  We also have some new members, and some folks working on some projects.  The wiki is coming along well, so feel free to contribute your how-tos and such.
+The biggest change has been the addition of our wiki, which has some
+good documentation there already.  If there's a document you want to see
+there, add it with a PR, or ask someone to write it up for you.  It's
+not particularly difficult, it's just Markdown.
 
-So, while the past few weeks have been a bit of work, it's a small number of items, individually.  So, it seems like not too much has happened, but its been a busy month.
+In the roadmap for the next few months will be a hardware upgrade, but
+we really need your help for this.  In order to migrate to new hardware,
+and in the long term, reduce monthly costs, we will need to pay for two
+servers for one month.  So, I'm letting you know now, all donations
+coming in now will be funneled into the "Hardware upgrade bucket".  It's
+not a very high cost, we're looking at something around 30€ total for
+this, maybe a euro or two more.  This is ~$32US.  So, if you can donate,
+this is the time to do it.  To date, we've received a total of $12US in
+donations, which has gone towards current server leasing costs (Total of
+$9US after fees, and I spent 1USD on coffee lol).  I would like to have
+the hardware upgrade done by December, if possible.
 
-Hop onto IRC or post in iris if you have any questions, concerns, or comments :)
+All that being said:  I want to make sure nobody is feeling pressured to
+donate.  If you can donate, great!  If not, that's cool too!  We still
+welcome you to be a part of this community!
+
+Also, if there is anything you'd like to see offered as a service, let
+us know!  If it's doable, we'll do it.  At worst, we'll say "No", but
+also let you know why we can't.  Most of the time, we say "Yes" though 
+
+So, here's to another month, and many more!
 
 Ubergeek/ub3g33k
+
+
