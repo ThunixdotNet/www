@@ -6,7 +6,7 @@ Simply by going to our [signup page](/signup) and filling in the form. You can a
 
 **Who is running thunix?**
 
-The current system administrators are [amcclure](/~amcclure), [ubergeek](/~ubergeek), [Naglfar](/~naglfar), and [fosslinux](/~fosslinux).
+The current system administrators are [ubergeek](/~ubergeek), [Naglfar](/~naglfar), and [fosslinux](/~fosslinux).
 
 **What happened to the old thunix? Why the name change?**
 

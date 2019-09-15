@@ -23,7 +23,6 @@
 -   Server Staff
     ------------
 
-    -   [Anton McClure](/~amcclure/)
     -   [Ubergeek](/~ubergeek/)
     -   [Naglfar](/~naglfar/)
     -   [fosslinux](/~fosslinux/)
