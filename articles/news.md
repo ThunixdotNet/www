@@ -1,42 +1,13 @@
-# State of the Thunix - September 2019
+# State of the Thunix - October 2019
 
-Hello Thunixers!
+Howdy all!
 
-Another month, and more users on board!
+More of the same this month, really.  We've had a little spurt of new user accounts getting requested due to tilde.club's grand re-opening.  We did add a couple of new features to Thunix this past month, though.
 
-Not too much has been going on as of late, due to time constraints for
-the admin team here, as well as just a low-volume of requests.  Likely
-due to a few things, mainly, it's summer for most of our users, and
-well, Thunix has most services folks need.  So, if it ain't broke, don't
-fix it 
+Well, for starters, Thunix is now a member of Tildenet, which is an overlay network.  This really just means it's a network, running on top of the internet, and not running our own direct conneccts, or anything like that.
 
-The biggest change has been the addition of our wiki, which has some
-good documentation there already.  If there's a document you want to see
-there, add it with a PR, or ask someone to write it up for you.  It's
-not particularly difficult, it's just Markdown.
+What this means is that we can open a lot more services that would be considered "unsafe" to open to the whole world.  In fact, we will be looking at opening all ports to the Tildenet network, which is in the 10.0.0.0/8 space.  Even cooler?  Thunix offers VPNs now, that will link you right into Tildenet from your own machine.  The only requirement is that you individual machine must be able to run wireguard.  Shoot me (ubergeek) a message on IRC or an email, requesting a VPN connection, if you're interested.
 
-In the roadmap for the next few months will be a hardware upgrade, but
-we really need your help for this.  In order to migrate to new hardware,
-and in the long term, reduce monthly costs, we will need to pay for two
-servers for one month.  So, I'm letting you know now, all donations
-coming in now will be funneled into the "Hardware upgrade bucket".  It's
-not a very high cost, we're looking at something around 30€ total for
-this, maybe a euro or two more.  This is ~$32US.  So, if you can donate,
-this is the time to do it.  To date, we've received a total of $12US in
-donations, which has gone towards current server leasing costs (Total of
-$9US after fees, and I spent 1USD on coffee lol).  I would like to have
-the hardware upgrade done by December, if possible.
+Also, there is a plan in place to perform an upgrade at the earliest convience to the hardware we're running on.  Prior to doing so, I'd like to get some more donations in, to cover what will be a doubling of monthly costs for a single month, as we need to rent the new server, get it prepped, then cut over.  If the donations don't come, it'll just have to wait until I get some spare cash.
 
-All that being said:  I want to make sure nobody is feeling pressured to
-donate.  If you can donate, great!  If not, that's cool too!  We still
-welcome you to be a part of this community!
-
-Also, if there is anything you'd like to see offered as a service, let
-us know!  If it's doable, we'll do it.  At worst, we'll say "No", but
-also let you know why we can't.  Most of the time, we say "Yes" though 
-
-So, here's to another month, and many more!
-
-Ubergeek/ub3g33k
-
-
+But, all in all, we're still going strong, and no bad news to report :)
