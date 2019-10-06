@@ -29,4 +29,8 @@ Thunix is part of the tilde.chat network. You can access chat via the terminal, 
 
 Thunix hosts mirrors for several FOSS projects. You can see the full mirror list in the sidebar link.
 
+## Tildenet Client VPN
+
+Thunix allows users to connect into [tildenet](https://intranet.tildeverse.org), via [Wireguard](https://www.wireguard.com/).  If you're interested in accessing Tildenet, send an email to [root](root@thunix.net), requesting a wireguard client VPN, or ask in IRC.
+
 <!-- Begin autogen content from /includes/server.php -->
