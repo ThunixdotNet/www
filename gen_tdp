@@ -15,7 +15,7 @@ headers = {
 tdp = {}
 tdp["name"] = "thunix"
 tdp["url"] = "https://www.thunix.net"
-tdp["signup_url"] = tdp["url"]+"/signup.php"
+tdp["signup_url"] = tdp["url"]+"/signup"
 users = subprocess.check_output(["/usr/bin/members","tilde"]).decode('ascii').split()
 users.sort()
 tdp["user_count"] = len(users)-1
