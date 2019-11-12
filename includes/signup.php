@@ -9,6 +9,7 @@ $interest         = $_GET['interest'];
 $pubkey           = $_GET['pubkey'];
 $tv               = $_GET['tv'];
 
+$from 		  = 'From: www-data <www-data@thunix.net>';
 $destination_addr = "newuser@thunix.net";
 $subject          = "New User Registration";
 $mailbody         = "A new user has tried to register.
@@ -24,7 +25,7 @@ if ( $tv != "tildeverse" ) {
     die();
 }
 
-shell_exec("echo '$mailbody' | /usr/bin/mail -s '$subject' $destination_addr ");
+mail($destination_addr, $subject, $mailbody, $from);
 
 // In the future, here, we *should* be able to build a process that 
 // somehow auto-verifies the user, and instead of email, it'll kick off the new user process here
