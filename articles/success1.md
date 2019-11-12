@@ -1,3 +1,3 @@
-# Success!
+# Form Failure 
 
-You will hear back shortly from us!
+You didn't properly fill out the signup form.  Please try again.
