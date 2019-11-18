@@ -1,1 +1,1 @@
-![☣ thunix ☣](/media/gotthunix.png)
+![☣ thunix ☣](/media/thunix.png)
