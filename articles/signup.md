@@ -14,6 +14,6 @@ If you have any questions or problems, feel free to contact us.
 <input type='submit'>
 </form>
 
-If you don't have a public SSH key, don't worry! Check out [this guide to SSH keys](https://tilde.team/wiki/?page=ssh) and make sure that you only fill in your public SSH key here.
+If you don't have a public SSH key, don't worry! Check out [this guide to SSH keys](https://wiki.thunix.net/wiki/ssh) and make sure that you only fill in your public SSH key here.
 
 Signing up implies that you agree with our [terms of service](/tos). If you haven't done so, please read it before you sign up.
