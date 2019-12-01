@@ -8,7 +8,7 @@ Annual Update!
 
 Yep, it has been one year since Thunix re-launched!  It's been an exciting year, and we are still working to make this system a great place for our community to enjoy, use, and learn.
 
-In the past year, we've gotten you set up with most importantly:  A resilient system.  Anyone can take our system configs, and pop up a new place, should we sudently close.  Not that I'm expecting that to happen, but it's a failsafe feature, so you can feel comfortable contributing here.
+In the past year, we've gotten you set up with most importantly:  A resilient system.  Anyone can take our system configs, and pop up a new place, should we sudenly close.  Not that I'm expecting that to happen, but it's a failsafe feature, so you can feel comfortable contributing here.
 
 We've also got you all set up with webmail, bzflag, minetest, numerous terminal based games, a wiki, iris (Forum software), mariadb databases on request, tor onion services, tor network access, document processing tools, wireguard VPNs for users, and several FOSS (Free and open source software) project mirrors.
 
