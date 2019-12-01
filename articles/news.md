@@ -1,28 +1,27 @@
-# State of the Thunix - November 2019
+# State of the Thunix - December 2019
 
-Yep, Turkey Month (For US thunixers)!
+Hello again!
 
-Holidays are coming up, and Thunix is approaching our 1 year anniversary!  I hope you've enjoyed your stay thus far, and looking foward to many more years!  Someday, we'll be older than SDF :P
+It's that time already, for our monthly update, but also...
 
-We're still working towards migration of the hardware, onto something that is a little bigger, hopefully a little cheaper or the same cost, so we have more room to grow.  Mainly, our constraint is IP addresses, which isn't too big of a deal.  The main reason for it is so we can get a proper hypervisor in place, which will afford us some more flexibility in what we can offer as services.
+Annual Update!
 
-Over the past month, we did get a couple of abuse notices, for people running malware.  As a reminder:  Don't do that here.  Most of the time, I notice things awry, and will shut it down, or, we get an abuse notice, and I go on to do the same, but more in depth.  Your account will be terminated immediately, and your files will be handed over to the organization reporting it upon demand, and you will not get a second chance.
+Yep, it has been one year since Thunix re-launched!  It's been an exciting year, and we are still working to make this system a great place for our community to enjoy, use, and learn.
 
-We also got a DMCA takedown request, for people trying to host pirated content here.  I work on a best-faith idea here, you end up with 1 warning, and no more.  Afterwards, your account will be terminated.  This isn't a place to host your movies, your warez, or anything of that sort.
+In the past year, we've gotten you set up with most importantly:  A resilient system.  Anyone can take our system configs, and pop up a new place, should we sudently close.  Not that I'm expecting that to happen, but it's a failsafe feature, so you can feel comfortable contributing here.
 
-We have to come down hard on folks abusing the resources here, to ensure the community continues for everyone.  It's pretty easy for one rotten apple to ruin it all.  Don't be the rotten apple.
+We've also got you all set up with webmail, bzflag, minetest, numerous terminal based games, a wiki, iris (Forum software), mariadb databases on request, tor onion services, tor network access, document processing tools, wireguard VPNs for users, and several FOSS (Free and open source software) project mirrors.
 
-Another thing to keep in mind:  While we will make all attempts to back up your data you have here, there are some caveats:
-* We only keep 3 days of backups.
-* Excessively large home directories will not be backed up
-* Configuration files are not backed up, but kept in source control
+We cannot do this without our users, though, which make up our community!
 
-We only keep 3 days worth due to privacy concerns, mostly.  We don't want to keep your personally identifiable information any longer than is needed.  We also limit it due to space concerns.  Which brings us to the large home directories.
+Our roadmap for this year is to improve our spam filtering for emails, and doing much more in the way of system maintenance getting automated away, and migrating us to full virtualization rather than a container.
 
-If your home dir is bigger than most others, it's likely not being backed up.  For example, I've excluded my home dir from backups, because my generally is over 1GB in size,  There are some that are multiples of that, which is fine, to a point.   But they are not going to be backed up, due to space and causing the backup jobs to run excessively long.  If you want your home dir backed up, but it's large, you can let us know which sub directories you may have that can be excluded (ie, git repo clones, as an example).  Just ask in IRC, or by email to root.
+Improving the spam filtering is pretty high on the list, to make the email service more usable for everyone, and not just those with filtering running on their clients.  Also, full virtualization is high on the list, primarily, because we'd like to offer user containers, but we are currently constrained by our networking config and current container technology.
 
-Well, that sums it up.  I hope everyone is enjoying the use of the system here, and with my usual schpliel:  If you want changes made, open an issue, or a PR in our repos!  Happy holidays, and we'll update here again after the US Turkey Day :)
+This past years, we've recieved a total of 10.36USD in donations (After paypal fees).  While donations are not required, they are greatly welcomed!  A main hold up for the virtualization migration is the liquid cash to lease a second server for one month, so we can perform the migration.  Currently, our monthly costs are ~38USD each month for IPs, server leasing, and domain name.  If you want to donate, head on over to [our donate page](/donate).
 
+This month, we've added some blocklists to our system, that should cut down on spam, improved some of our internal tooling, and upgraded rainloop, to give you a better webmail experience.  Hope you're enjoying the improvements!
 
-Your friendly neighborhood sysadmin,
+So, here's to a great month, and to another great year!
+
 ubergeek/ub3g33k
