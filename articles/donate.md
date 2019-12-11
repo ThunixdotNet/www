@@ -8,6 +8,8 @@ That being said, we also rely on the good nature of generous people, who are wil
 
 <p>Via BitCoin: 1DFM3qY7XmCxGTFPATSQJVCNjvmWiVubGN</p>
 
+<p>Via Lumen: GDG75UEP4DTNUWRZJ7426AA627OZQ6K5SEOO3YIESHGVRBLUCWWQ4CKJ</p>
+
 <p>You can donate via Liberapay here: <a href="https://liberapay.com/ub3g33k/donate"><img src="https://liberapay.com/assets/widgets/donate.svg"></a></p>
 
 <p>Or via Paypal:</a>
