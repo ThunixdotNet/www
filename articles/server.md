@@ -18,7 +18,7 @@ Thunix's services are available as a onion site as well. Our onion address is th
 
 ## BZFlag Game Server
 
-BZFlag runs on the standard port. If you have a specific map you want loaded, send an email to root, and we'll look at getting the map swapped out
+BZFlag runs on the standard port. If you have a specific map you want loaded, send an email to [root](mailto:root@thunix.net), and we'll look at getting the map swapped out
 
 ## IRC Chat
 
@@ -31,6 +31,6 @@ Thunix hosts mirrors for several FOSS projects. You can see the full mirror list
 
 ## Tildenet Client VPN
 
-Thunix allows users to connect into [tildenet](https://intranet.tildeverse.org), via [Wireguard](https://www.wireguard.com/).  If you're interested in accessing Tildenet, send an email to [root](root@thunix.net), requesting a wireguard client VPN, or ask in IRC.
+Thunix allows users to connect into [tildenet](https://intranet.tildeverse.org), via [Wireguard](https://www.wireguard.com/).  If you're interested in accessing Tildenet, send an email to [root](mailto:root@thunix.net), requesting a wireguard client VPN, or ask in IRC.
 
 <!-- Begin autogen content from /includes/server.php -->
