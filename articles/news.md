@@ -1,27 +1,59 @@
-# State of the Thunix - December 2019
+# State of the Thunix - Janurary 2020
 
-Hello again!
+Well happy new years to all you Thunixers!  Hope 2019 was a blast.
 
-It's that time already, for our monthly update, but also...
+Thunix.net is officially over 1 years old this month!  We've had some
+great times this year, and have some seen some awesome improvements:
 
-Annual Update!
+* We started off on a tiny Digital Ocean Droplet, and moved to a
+dedicated server
+* We've implemented a Continuous Integration/Continuous Development
+system for our website, man pages, gopher site, and system ansible
+playbook.
+* We offer:
+   * Basic web services, like page hosting, email accounts, etc
+   * VHosts if requested
+   * DB's if requested
+   * Rather liberal storage, RAM, and CPU usage guidelines
+* Our services are encrypted via TLS whenever posssible (Email, chat,
+website)
+* We have a Tor Onion service for all services
+* Multiple open source projects have had their births here
+* We've iterated through **three** major software versions for our website
+* We now have a community wiki
 
-Yep, it has been one year since Thunix re-launched!  It's been an exciting year, and we are still working to make this system a great place for our community to enjoy, use, and learn.
+And tons more.  This is all largely thanks to you, the community that,
+and our admins Naglfar and Fosslinux (aka Fossy).  Our
+goal it to continue to tightly focus on building the community of users
+here, and to make the system more privacy focused, and secure.  To make
+it a better place for you, and a safer place.
 
-In the past year, we've gotten you set up with most importantly:  A resilient system.  Anyone can take our system configs, and pop up a new place, should we sudenly close.  Not that I'm expecting that to happen, but it's a failsafe feature, so you can feel comfortable contributing here.
+At the close of the year, we will be re-doing some of our policies.  No
+major deal breaking changes, but more or less making official some of the
+things we do, and being even more open and transparent, which is our goal.
 
-We've also got you all set up with webmail, bzflag, minetest, numerous terminal based games, a wiki, iris (Forum software), mariadb databases on request, tor onion services, tor network access, document processing tools, wireguard VPNs for users, and several FOSS (Free and open source software) project mirrors.
+We've always tried to remain as transparent and open as possible, but we
+also recognize that we can always do better at it.
 
-We cannot do this without our users, though, which make up our community!
+Namely, our terms of service will get cleaned up, and some additions made.
+The privacy policy will be getting reworked as well, to be far clearer in
+what we do.  We will also be considering adoption a separate "Code of
+Conduct" for community members.
 
-Our roadmap for this year is to improve our spam filtering for emails, and doing much more in the way of system maintenance getting automated away, and migrating us to full virtualization rather than a container.
+That being said, last week, we implemented a third party email monitoring
+service.  NO.  They do not get your emails, and scan them.  We would never
+even consider that.  But, our deliverability reports are sent to a company
+called "Postmark."  They aggregate our DMARC reports, and send us nice
+reports.  They do not get any of your personal information, but we most
+certainly want to be open about when we engage in third parties for our
+data analysis.  When we can, it will be replaced with a open source tool,
+but that requires us to write one, because at this time, none exist.
 
-Improving the spam filtering is pretty high on the list, to make the email service more usable for everyone, and not just those with filtering running on their clients.  Also, full virtualization is high on the list, primarily, because we'd like to offer user containers, but we are currently constrained by our networking config and current container technology.
+So, all that:  I'm looking forward to a great 2020!  We will keep growing,
+and maybe the US will come out of it with a sane president, instead of the
+current dumpster fire :)  Cheers, and excited to have you all aboard for
+many more years to come!
 
-This past years, we've recieved a total of 10.36USD in donations (After paypal fees).  While donations are not required, they are greatly welcomed!  A main hold up for the virtualization migration is the liquid cash to lease a second server for one month, so we can perform the migration.  Currently, our monthly costs are ~38USD each month for IPs, server leasing, and domain name.  If you want to donate, head on over to [our donate page](/donate).
-
-This month, we've added some blocklists to our system, that should cut down on spam, improved some of our internal tooling, and upgraded rainloop, to give you a better webmail experience.  Hope you're enjoying the improvements!
-
-So, here's to a great month, and to another great year!
+Your sysop,
 
 ubergeek/ub3g33k
