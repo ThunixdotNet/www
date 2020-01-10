@@ -4,8 +4,8 @@ body{font-family:"dot",Courier,monospace;background:#000;color:#F79862}
 #body h1{color:orange}
 #body h2{color:orange}
 #body h3{color:orange}
-#body a{background:#000;color:#F79862}
-#body a:visited{color:orange}
+a{background:#000;color:#F79862}
+a:visited{color:orange}
 #header{width:90%;text-align:center;font-size:xx-large}
 #content{width:78%;float:left;font-size:medium}
 #content img{max-height:400px;max-width:98%}
