@@ -25,7 +25,7 @@ $gopher_dropfile  = '/dev/shm/run-gopher';
 $wiki_lastrun     = '/dev/shm/wiki-hook-last-run';
 $wiki_dropfile    = '/dev/shm/run-wiki';
 
-$allowedip         = '167.114.7.65';
+$allowedip        = '2607:5300:203:5fd5::7:65';
 $remoteip         = $_SERVER['REMOTE_ADDR'];
 $ratelimit        = 300;
 
