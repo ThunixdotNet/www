@@ -1,29 +1,19 @@
-# State Of The Thunix - February 2020
+# State of the Thunix - March 2020
 
-New month Thunixers, and latest update!
+So, Thunix has moved to a new host.  With this move comes many benefits, and a couple of tradeoffs.
 
-Things are moving along swimmingly, more or less.  We implemented a new
-account recovery feature, which users are taking advantage of.  And,
-if you're in the IRC channel, you've been noticing a new project being
-worked on:  The Thunix API.  Also, we were planning a migration to new
-hardware this month, but that has been postponed.
+So, first for what we lost:  We lost ~8GB of RAM and 1TB of disk space.
 
-If you've not set up your account recovery information, please make sure
-you do so, soon, to ensure you can recover your account in the future,
-should the need arise.  Just put an email address or recovery passphrase
-in ~/.thunix/recovery, and chmod 600 that file.  This ensures only you
-can see it (And the admin team when we need to), and we have a way of
-reaching out and verifying it is you requesting the recovery.
+We rarely utilized more than 1/4 of the RAM, so we're still way good to go there.
 
-We are projecting to do the hardware migration in February, but it is
-still in flux a little.  We'll let you know in IRC, and via email when
-the time comes.  You shouldn't notice anything different other than a
-new IP address, but we will preserve the ssh keys, so you won't have to
-worry about ssh breaking.
+We haven't ran out of disk space, with 2TB, in fact, we have been hovering ~1/4 usage.  So, right now, we're at ~50% usage.  We will be getting rid of some low-usage mirrors, that have plenty of replicas already in Germany, which should free up a bunch more space.
 
-Also, we are working on an API to get info about the Thunix
-systems, and also, to do some of the management for it, remotely.
-This will enable us to (in the future) build some pretty awesome
-apps around the system itself.  If you would like to help with
-the API development work, feel free to join us at [thunix_api git
-repo](https://tildegit.org/thunix/thunix_api) :)
+What we have gained:  ipv6 addresses, full virtualization (Which allows us to modify the system more heavily, better isolation (Which means more privacy and security for users), we can do snaps and containers now as well!
+
+We have also gotten what should hopefully be a more sustainable model:  Thunix is now being graciously sponsored by [WNY Technology Collaborative](https://wnytechcollab.com), a worker-owned cooperative, that works with other cooperatives, socialist organizations, non-profit organizations, and local small businesses to meet their information technology needs. So, as long as they are still in business, we have a home :)
+
+All in all, this new home gives us a lot more flexibility to grow, and gets us to a slightly more sustainable position, since donations (While still welcomed) have been pretty lacking.  This move provides stability, for the moment.  Eventually, I would like to see Thunix become a fully self-sustaining community.
+
+If you see anything awry, open an issue on our tildegit repo for ansible, if you're unsure where the problem is, or drop a line in tilde.chat/#thunix, and we'll check into it, so see what is wrong.
+
+So, on to more good things!
