@@ -29,12 +29,12 @@ sent to this account.
     newsgroups, etc.
 11. Leaking or publishing any user's or individual's personal
     information without that person's consent.
-    If you think what you are doing is illegal, it probably is
-12. Our services must not be used for commercial reasons
-13. We backup your data on a best-endeavours basis, but you should take your own backups.
-14. Our support is volunteer led; we are all helping each other
-15. Do not resell our services under any circumstances
-16. If your service is attacked on a regular basis, we reserve the right to shut it down
+12. If you think what you are doing is illegal, it probably is
+13. Our services must not be used for commercial reasons
+14. We backup your data on a best-endeavours basis, but you should take your own backups.
+15. Our support is volunteer led; we are all helping each other
+16. Do not resell our services under any circumstances
+17. If your service is attacked on a regular basis, we reserve the right to shut it down
 
 Copyright infringement is not allowed on thunix, and we will not allow any illegal content to be distributed. It's also expected that all users respect the copyrights of those who produce original content of any kind and only share if the author or license grants you permission. Content hosted on accounts used for external file storage must also follow copyright law.
 
