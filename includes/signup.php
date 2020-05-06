@@ -19,19 +19,19 @@ Email Address:  $email
 Interest:       $interest
 Pubkey:         $pubkey";
 
-if ( $tv != "tildeverse" ) {
-    print "Spam attempt";
-    header("Location: $site_root/?page=success1");
-    die();
-}
-
-mail($destination_addr, $subject, $mailbody, $from);
-
 // In the future, here, we *should* be able to build a process that 
 // somehow auto-verifies the user, and instead of email, it'll kick off the new user process here
+$success = 'success2';
 
-header("Location: $site_root/?page=success2");
+// Spam attempt
+if ( $tv != "tildeverse" )
+  $success = 'success1';
 
+// Success!
+if ( $success == "success2" )
+  mail($destination_addr, $subject, $mailbody, $from);
+
+header("Location: $site_root/?page=$success");
 die();
 
 ?>
