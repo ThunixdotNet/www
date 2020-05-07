@@ -21,15 +21,17 @@ Pubkey:         $pubkey";
 
 // In the future, here, we *should* be able to build a process that 
 // somehow auto-verifies the user, and instead of email, it'll kick off the new user process here
-$success = 'success2';
 
 // Spam attempt
-if ( $tv != "tildeverse" )
-  $success = 'success1';
+$success = 'success1';
+if ( $tv == "tildeverse" )
+{
+  // Success!
+  $success = 'success2';
 
-// Success!
-if ( $success == "success2" )
-  mail($destination_addr, $subject, $mailbody, $from);
+  if ( $success == "success2" )
+    mail($destination_addr, $subject, $mailbody, $from);
+}
 
 header("Location: $site_root/?page=$success");
 die();
