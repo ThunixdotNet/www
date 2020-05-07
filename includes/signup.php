@@ -28,6 +28,12 @@ if ( $tv == "tildeverse" )
 {
   // Success!
   $success = 'success2';
+  
+  // Check if username already taken
+  $lowercase = strtolower($username);
+  exec("id $lowercase 2>&1", $null, $retval);
+  if($retval == 0)
+    $success = 'success3';
 
   if ( $success == "success2" )
     mail($destination_addr, $subject, $mailbody, $from);
