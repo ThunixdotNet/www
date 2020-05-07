@@ -35,6 +35,11 @@ if ( $tv == "tildeverse" )
   if($retval == 0)
     $success = 'success3';
 
+  // Check SSH public key format:
+  exec("echo $pubkey | ssh-keygen -l -f - 2>&1", $null, $retval);
+  if($retval != 0)
+    $success = 'success1';
+
   if ( $success == "success2" )
     mail($destination_addr, $subject, $mailbody, $from);
 }
