@@ -9,26 +9,32 @@ time. This email address is the only one we retain, and as such, any
 warnings and notices regarding your account, or service status will be
 sent to this account.
 
-1.  Deliberately defacing the accounts of other users
-2.  Deliberately trying to disrupt thunix's server
-3.  Using thunix as a launch pad for disrupting other servers
+1.  Deliberately defacing the accounts of other users.
+2.  Deliberately trying to disrupt thunix's server.
+3.  Using thunix as a launch pad for disrupting other servers.
 4.  Using thunix to impersonate other websites and businesses for
-    criminal purposes
+    criminal purposes.
 5.  Storing/distributing pornography of any genre and medium (especially
-    child pornography)
-6.  Storing/distributing content that defames any individual
+    child pornography).
+6.  Storing/distributing content that defames any individual.
 7.  Promoting racial, ethnic, religious, political and other forms of
-    bigotry
+    bigotry.
 8.  Storing/distributing, promoting, or encouraging use of
     pirated/cracked software, license keys, license/registration
     circumvention programs, or any questionable programs/scripts that
     can risk causing unauthorized modifications, or disrupts network
     services for any programs or devices.
-9.  Mining cryptocurrencies
+9.  Mining cryptocurrencies.
 10. Spamming on any forums, mailing lists, irc channels,
     newsgroups, etc.
 11. Leaking or publishing any user's or individual's personal
     information without that person's consent.
+12. If you think what you are doing is illegal, it probably is.
+13. Our services must not be used for commercial reasons.
+14. We backup your data on a best-endeavours basis, but you should take your own backups.
+15. Our support is volunteer led; we are all helping each other.
+16. Do not resell our services under any circumstances.
+17. If your service is attacked on a regular basis, we reserve the right to shut it down.
 
 Copyright infringement is not allowed on thunix, and we will not allow any illegal content to be distributed. It's also expected that all users respect the copyrights of those who produce original content of any kind and only share if the author or license grants you permission. Content hosted on accounts used for external file storage must also follow copyright law.
 
