@@ -79,7 +79,8 @@ print "		</div>
 
 echo $Parsedown->text($footer);
 
-print "	</div>
+print "	<a href=\"https://tildegit.org/thunix/www\">Site Source</a> | <a href=\"https://tildegit.org/thunix/www/src/branch/master/articles/$page.md\">Page Source</a>
+	</div>
 <!-- End Footer -->
 
 	</body>
