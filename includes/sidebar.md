@@ -7,19 +7,22 @@
     -   [GDPR Statement and Privacy Policy](/gdpr)
     -   [Contact Us](/contact)
     -   [Sign Up](/signup)
+    -   [Donations](/donate)
+-   Status of Servers and Services
+    ---------------------------
+
+    -   [Status and Information](/server)
     -   [thunix Mirror Services](https://ftp.thunix.net/)
     -   [Web Server Stats](https://stats.thunix.net/)
-    -   [Donations](/donate)
+    -   [Web Mail](/webmail/)
+    -   [ZNC Service](https://thunix.net:1326/)
+    -   [Service News](/news)
 -   Main Resources On This Site
     ---------------------------
 
     -   [Wiki](https://wiki.thunix.net/)
-    -   [Status of thunix Servers and Services](/server)
-    -   [Service News](/news)
     -   [User Web Directories](/users)
     -   [User Gopher Directories](https://gopher.tildeverse.org/thunix.net)
-    -   [Web Mail](/webmail/)
-    -   [ZNC Service](https://thunix.net:1326/)
 -   Server Staff
     ------------
 
