@@ -29,6 +29,12 @@ Thunix is part of the tilde.chat network. You can access chat via the terminal, 
 
 Thunix hosts mirrors for several FOSS projects. You can see the full mirror list in the sidebar link.
 
+## Website and CMS hosting
+
+Collaborative creation, modification and management of digital content.
+- LAMP (Apache HTTP server, MySQL database and PHP scripting language) Linux environment available to host a variety of web sites, CMS and applications.
+- Django web development framework.
+
 ## Tildenet Client VPN
 
 Thunix allows users to connect into [tildenet](https://intranet.tildeverse.org), via [Wireguard](https://www.wireguard.com/).  If you're interested in accessing Tildenet, send an email to [root](mailto:root@thunix.net), requesting a wireguard client VPN, or ask in IRC.
