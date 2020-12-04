@@ -32,7 +32,7 @@ Thunix hosts mirrors for several FOSS projects. You can see the full mirror list
 ## Website and CMS hosting
 
 Collaborative creation, modification and management of digital content.
-- LAMP (Apache HTTP server, MySQL database and PHP scripting language) Linux environment available to host a variety of web sites, CMS and applications.
+- LAMP (Apache HTTP server, MySQL database and PHP scripting language) Linux environment available to host a variety of web sites, content management systems and applications.
 - Django web development framework.
 
 ## Tildenet Client VPN
