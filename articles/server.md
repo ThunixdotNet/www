@@ -14,7 +14,8 @@ Thunix offers webmail at [https://thunix.net/webmail](/webmail). You can also co
 
 ## Onion Service
 
-Thunix's services are available as a onion site as well. Our onion address is thunixme5v4rnoby.onion.
+Thunix's services are available as a onion site as well.
+Our Tor network (The Onion Router) address is thunixme5v4rnoby.onion.
 
 ## BZFlag Game Server
 
