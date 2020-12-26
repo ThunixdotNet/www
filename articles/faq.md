@@ -4,6 +4,10 @@
 
 - Simply by going to our [signup page](/signup) and filling in the form. You can ask for help in \#thunix on tilde.chat, or you can [contact us](contact), if you run into any difficulties.
 
+**How can I request an account recovery or public key replacement?**
+
+- Just send the request from the email you used to register and we'll poke a new key in for you.
+
 **Who is running thunix?**
 
 - The current system administrators are [ubergeek](/~ubergeek), [Naglfar](/~naglfar), and [fosslinux](/~fosslinux).
