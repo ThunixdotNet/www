@@ -63,6 +63,12 @@ print "		</div>
 
 echo $ParsedownExtra->text($content);
 
+switch ($page)
+{
+	case 'users':
+	require "includes/$page.php";
+}
+
 print "		</div>
 <!-- End Body -->
 

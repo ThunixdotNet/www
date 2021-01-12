@@ -1,7 +1,6 @@
     RewriteEngine On
     RewriteRule ^$           main  [QSA]
     RewriteRule ^index\.php$ wiki.php?page=main  [QSA]
-    RewriteRule ^users$ includes/users.php [QSA,L]
     RewriteRule ^server$ includes/server.php [QSA,L]
     RewriteCond %{REQUEST_URI} !(/includes/|/media/|tilde.json|humans.txt|/webmail/|/favicon.ico|/~|githook|sitemap.xml)
     RewriteRule ^([^\d]+)/?$ wiki.php?page=$1 [QSA]

@@ -1,68 +1,4 @@
 <?php
-/*
-This code is licensed under the AGPL 3 or later by ubergeek (https://tildegit.org/ubergeek)
-Parsedown and Parsedown Extra is licensed under the MIT license.
-*/
-
-include('../config.php');
-include('../parsedown-1.7.3/Parsedown.php');
-include('../parsedown-extra-0.7.1/ParsedownExtra.php');
-
-if(isset($_GET['page']))
-	$page = $_GET['page'];
-else
-	$page = "users";
-
-if(isset($_GET['style']))
-	$site_style = $_GET['style'];
-
-$Parsedown = new Parsedown();
-$Parsedown->setMarkupEscaped(true);
-$ParsedownExtra = new ParsedownExtra();
-
-if (empty($site_style))
-	$site_style="site";
-
-$header  = file_get_contents("$doc_root/includes/header.md");
-$sidebar = file_get_contents("$doc_root/includes/sidebar.md");
-$content = file_get_contents("$doc_root/articles/userdir.md");
-$footer  = file_get_contents("$doc_root/includes/footer.md");
- 
-print "<!DOCTYPE html>
-<html lang='en'>
-	<head>
-		<title>$site_name - $page</title>
-		<link rel='stylesheet' type='text/css' href='$site_root/includes/$site_style.css'>
-	</head>
-	<body>
-<!-- Begin Header -->
-
-	<div id='header'>";
-
-print $Parsedown->text($header);
-
-print "
-		</div>
-<!-- End Header -->
-";
-
-print "<hr>
-	<div id='body'>
-
-<!-- Begin Sidebar  -->
-		<div id='sidebar'>
-";
-
-echo $Parsedown->text($sidebar);
-
-print "		</div>
-<!-- End Sidebar -->
-
-<!-- Begin Body -->
-		<div id='content'>";
-
-echo $ParsedownExtra->text($content);
-
 print "<!-- Begin autogen userdir list -->";
 print "<ul style='list-style: none; margin-left: -40px;'>";
 foreach (glob("/home/*") as $user):
@@ -73,22 +9,4 @@ foreach (glob("/home/*") as $user):
 endforeach;
 print "</ul></div>
 <!-- End Autgen userdir list -->";
-
-print "		</div>
-<!-- End Body -->
-
-	</div>
-
-<!-- Begin Footer -->
-	<div id='footer'>
-	<hr>
-";
-
-echo $Parsedown->text($footer);
-
-print "	</div>
-<!-- End Footer -->
-
-	</body>
-</html>";
 ?>
