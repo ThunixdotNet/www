@@ -8,24 +8,20 @@ include('../config.php');
 include('../parsedown-1.7.3/Parsedown.php');
 include('../parsedown-extra-0.7.1/ParsedownExtra.php');
 
-$page = $_GET['page'];
-$style = $_GET['style'];
+if(isset($_GET['page']))
+	$page = $_GET['page'];
+else
+	$page = "server";
+
+if(isset($_GET['style']))
+	$site_style = $_GET['style'];
+
 $Parsedown = new Parsedown();
 $Parsedown->setMarkupEscaped(true);
 $ParsedownExtra = new ParsedownExtra();
 
-if ( $page == "") {
-	$page = "main";
-	}
-
-if ( $style == "") {
-	if ( $site_style == "") {
-		$site_style="site";
-	}
-}
-else {
-	$site_style=$style;
-}
+if (empty($site_style))
+	$site_style="site";
 
 $header  = file_get_contents("$doc_root/includes/header.md");
 $sidebar = file_get_contents("$doc_root/includes/sidebar.md");
