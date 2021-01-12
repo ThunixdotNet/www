@@ -66,6 +66,7 @@ echo $ParsedownExtra->text($content);
 switch ($page)
 {
 	case 'users':
+	case 'server':
 	require "includes/$page.php";
 }
 
