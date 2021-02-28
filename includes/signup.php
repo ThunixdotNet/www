@@ -22,6 +22,8 @@ Pubkey:         $pubkey";
 // In the future, here, we *should* be able to build a process that 
 // somehow auto-verifies the user, and instead of email, it'll kick off the new user process here
 
+$user_queue       = '/dev/shm/userqueue';
+
 // Spam attempt
 $success = 'success1';
 if ( $tv == "tildeverse" )
@@ -42,6 +44,9 @@ if ( $tv == "tildeverse" )
 
   if ( $success == "success2" )
     mail($destination_addr, $subject, $mailbody, $from);
+    $fp = fopen($user_queue, 'a');
+    fwrite($fp, "'$lowercase','$email','$pubkey'\n");
+    fclose($fp);
 }
 
 header("Location: $site_root/?page=$success");
