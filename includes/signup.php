@@ -9,6 +9,9 @@ $interest         = $_GET['interest'];
 $pubkey           = $_GET['pubkey'];
 $tv               = $_GET['tv'];
 
+// username passed lowercased
+$username = strtolower($username);
+
 $from 		  = 'From: www-data <www-data@thunix.net>';
 $destination_addr = "newuser@thunix.net";
 $subject          = "New User Registration";
@@ -32,8 +35,7 @@ if ( $tv == "tildeverse" )
   $success = 'success2';
   
   // Check if username already taken
-  $lowercase = strtolower($username);
-  exec("id $lowercase 2>&1", $null, $retval);
+  exec("id $username 2>&1", $null, $retval);
   if($retval == 0)
     $success = 'success3';
 
@@ -45,7 +47,7 @@ if ( $tv == "tildeverse" )
   if ( $success == "success2" )
     mail($destination_addr, $subject, $mailbody, $from);
     $fp = fopen($user_queue, 'a');
-    fwrite($fp, "'$lowercase','$email','$pubkey'\n");
+    fwrite($fp, "'$username','$email','$pubkey'\n");
     fclose($fp);
 }
 
