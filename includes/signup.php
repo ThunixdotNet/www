@@ -45,10 +45,12 @@ if ( $tv == "tildeverse" )
     $success = 'success4';
 
   if ( $success == "success2" )
+  {
     mail($destination_addr, $subject, $mailbody, $from);
     $fp = fopen($user_queue, 'a');
     fwrite($fp, "'$username','$email','$pubkey'\n");
     fclose($fp);
+  }
 }
 
 header("Location: $site_root/?page=$success");
