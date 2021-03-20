@@ -12,6 +12,9 @@ $tv               = $_GET['tv'];
 // username passed lowercased
 $username = strtolower($username);
 
+// strip new line characters from the end
+$pubkey = trim($pubkey);
+
 $from 		  = 'From: www-data <www-data@thunix.net>';
 $destination_addr = "newuser@thunix.net";
 $subject          = "New User Registration";
