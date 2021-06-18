@@ -3,7 +3,6 @@ print "<!-- Begin autogen userdir list -->";
 print "<ul style='list-style: none; margin-left: -40px;'>";
 foreach (glob("/home/*") as $user):
 	if (is_dir($user . "/public_html"))
-	if (file_exists($user . "/public_html/index.html") || file_exists($user . "/public_html/index.php"))
 	if (!file_exists($user . "/public_html/coming_soon"))
 	{
 		$user = basename($user);
