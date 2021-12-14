@@ -6,7 +6,7 @@ foreach (glob("/home/*") as $userpath):
     if (is_dir("$userpath/public_html"))
     {
 	$user = basename($userpath);
-	if(sha1_file($html_skel) == sha1_file("$userpath/public_html/index.html"))
+	if(sha1_file($html_skel) == sha1_file("$userpath/public_html/index.html") || count(scandir("$userpath/public_html")) == 2)
 	  print"<li>~$user</li>\n";
 	else
 	  print"<li><a href='$site_root/~$user/'>~$user</a></li>\n";
