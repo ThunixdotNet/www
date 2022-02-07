@@ -119,8 +119,8 @@ elseif ($data["repository"]["full_name"] == 'thunix/wiki') {
     }
 }
 
-// Easter egg for anyone probing the hook.  Enjoy.  We're a coffee maker
-// and not a teapot :)
+// Easter egg for anyone probing the hook.  Enjoy.  We're a tea pot
+// and not a coffee maker :)
 else {
 	http_response_code(418);
 	echo "HTTP 418 - I'm a teapot.\n";
@@ -128,22 +128,5 @@ else {
 	exit(0);
 	}
 
-/*$fp = pfsockopen( "tcp://127.0.0.1", 1234, $errno, $errstr );
-
-if (!$fp)
-{
-    echo "ERROR: $errno - $errstr<br />\n";
-}
-socket_set_timeout ($fp, 10);
-$msg = "Commit '".$data['commits'][0]["message"]."' was pushed to ".$data["repository"]["full_name"].' by '.$data["pusher"]["login"];
-$msg = trim(preg_replace('/\s+/', ' ', $msg));
-$write = fwrite ($fp, $msg);
-fclose($fp);
-
-if (!$write) {
-    echo "error writing to port.<br/>";
-    next;
-}
-*/
 ?>
 
