@@ -12,7 +12,7 @@ The Thunix project provide Secure Shell (SSH) accounts, Web Hosting, Email Accou
 
 The thunix Phoenix project aims to provide a new user experience for shell users, with integration into the wider Tildeverse network.
 
-Join us on IRC on irc.tilde.chat/6697 in the #thunix channel, or just click here for a web client: [![#thunix channel](https://tilde.chat/badges/badge.php?channel=%23thunix)](https://web.tilde.chat/?join=thunix)
+Join us on IRC on irc.tilde.chat/6697 in the #thunix channel, or just click here for a web client: [![#thunix channel](https://tilde.chat/badges/badge.php?channel=%23thunix)](https://tilde.chat/kiwi/#thunix)
 
 If you want to sign up for an account, simply open our [signup form](/signup) and provide us with:
 
