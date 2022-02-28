@@ -1,6 +1,6 @@
 <?php
 //Name of your site
-$site_name="☣  thunix ☣";
+$site_name="🌻  thunix  🌻";
 
 //Root for the site, in a browser
 $site_root="https://".$_SERVER['HTTP_HOST'];
