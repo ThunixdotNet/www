@@ -10,7 +10,7 @@
 
 **Who is running thunix?**
 
-- The current system administrators are [ubergeek](/~ubergeek), [Naglfar](/~naglfar), and [fosslinux](/~fosslinux).
+- The current system administrators are [deepend](/~deepend), [Naglfar](/~naglfar), [ubergeek](/~ubergeek) still helps out from time to time but not sure if he wants the admin role going forward. If this changes it will be updated ASAP.
 
 **What happened to the old thunix? Why the name change?**
 
