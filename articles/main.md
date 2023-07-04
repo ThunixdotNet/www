@@ -5,7 +5,7 @@ We're so glad you could drop by and we hope you enjoy your visit. Stay a while! 
 
 ## About thunix
 
-The Thunix project provide Secure Shell (SSH) accounts, Web Hosting, Email Accounts, and many other UNIX-like services. But, most of all, we are a community of users. It was founded by hexhaxtron in the Summer of 2017, and was continued by [amcclure](/~amcclure) and [ubergeek](/~ubergeek) since 2018. We aim to provide the best service possible with a wide variety of features, and we hope you have fun with it!
+The Thunix project provide Secure Shell (SSH) accounts, Web Hosting, Email Accounts, and many other UNIX-like services. But, most of all, we are a community of users. It was founded by hexhaxtron in the Summer of 2017, and was continued by [ubergeek](/~ubergeek) since 2018 however in 2023 [deepend](/~deepend) has since taken the role. We aim to provide the best service possible with a wide variety of features, and we hope you have fun with it!
 
 
 ## Project Phoenix
