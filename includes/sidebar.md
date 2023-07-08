@@ -15,7 +15,7 @@
     -   [thunix Mirror Services](https://ftp.thunix.net/)
     -   [Web Server Stats](https://stats.thunix.net/)
     -   [Web Mail](/webmail/)
-    -   [ZNC Service](https://thunix.net:1326/)
+    -   [ZNC Service](https://thunix.net:1356/)
     -   [Service News](/news)
 -   Main Resources On This Site
     ---------------------------
