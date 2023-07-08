@@ -12,7 +12,7 @@ Connect to thunix.net in your minecraft client. Running the Paperclip minecraft 
 
 Thunix offers webmail at [https://thunix.net/webmail](/webmail). You can also connect via imap. Thunderbird will autodetect your settings, and we recommend the use of Thunderbird email client, so you can get the best-of-breed email experience. We also recommend using enigmail with Thunderbird as well. You can get it from your distro's package manager, or from [the Thunderbird project's site](https://www.thunderbird.net/)
 
-## BZFlag Game Server (offline)
+## BZFlag Game Server
 
 BZFlag runs on the standard port. If you have a specific map you want loaded, send an email to [root](mailto:root@thunix.net), and we'll look at getting the map swapped out
 
