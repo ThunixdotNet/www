@@ -12,6 +12,12 @@ Connect to thunix.net in your minecraft client. Running the Paperclip minecraft 
 
 Thunix offers webmail at [https://thunix.net/webmail](/webmail). You can also connect via imap. Thunderbird will autodetect your settings, and we recommend the use of Thunderbird email client, so you can get the best-of-breed email experience. We also recommend using enigmail with Thunderbird as well. You can get it from your distro's package manager, or from [the Thunderbird project's site](https://www.thunderbird.net/)
 
+## SSH Fingerprints
+
+256 SHA256:iuqEWXCqUNihqO7o4xLrJ05M+te09i3P+WrHZsjUdZY root@thunix (ECDSA)
+256 SHA256:d+J8u5pmQ8sR1BM8/EpUiNAlL9by371utl1ncNgFG6A root@thunix (ED25519)
+3072 SHA256:7gZXCqNUYBfrTQ8wYmLrD6rVc5zL5nYf2l5t8ZrLIBU root@thunix (RSA)
+
 ## Onion Service
 
 Thunix's websites are available as a onion site as well. (SSH access is currently not available over Tor)
