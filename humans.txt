@@ -1,15 +1,16 @@
     /* TEAM */
-    Your title: ubergeek, naglfar, fosslinux
+    Your title: deepend, naglfar
     Site: https://thunix.net, root@thunix.net 
-    Location: Frankfurt, Germany
+    Location: Quebec, Canada
     							
     /* THANKS */
-    Name: ubergeek    https://thunix.net/~ubergeek
+    Name: deepend     https://thunix.net/~deepend
+          ubergeek    https://thunix.net/~ubergeek
           naglfar     https://thunix.net/~naglfar
 					fosslinux		https://thunix.net/~fosslinux
                                 
     /* SITE */
-    Last update: 2019/10/31 
+    Last update: 2023/12/26 
     Standards: HTML5
     Components: Apache2, Git, and PHP, Parsedown, Parsedown Extra
     Software: vim, geany, ansible, wiki.php 
