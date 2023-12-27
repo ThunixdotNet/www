@@ -26,6 +26,5 @@
 -   Server Staff
     ------------
 
-    -   [Ubergeek](/~ubergeek/)
+    -   [deepend](/~deepend/)
     -   [Naglfar](/~naglfar/)
-    -   [fosslinux](/~fosslinux/)
