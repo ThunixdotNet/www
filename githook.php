@@ -16,8 +16,6 @@
 
 /* security */
 $access_token     = "secret";
-$ansible_lastrun  = '/dev/shm/ansible-hook-last-run';
-$ansible_dropfile = '/dev/shm/run-ansible';
 $www_lastrun      = '/dev/shm/www-hook-last-run';
 $www_dropfile     = '/dev/shm/run-www';
 $gopher_lastrun   = '/dev/shm/gopher-hook-last-run';
@@ -49,24 +47,6 @@ if ( strcmp($remoteip, $allowedip) !== 0 )
 	http_response_code(403);
 	echo "HTTP 403 - Forbidden, P2.\n";
 	exit(0);
-}
-
-// Hook for ansible here
-if ($data["repository"]["full_name"] == 'thunix/ansible') {
-	syslog(LOG_INFO, 'Ansible Webhook recieved.');
-	// We limit runs to once per 5 minutes, so they don't try
-	// overlapping.  Systemd shouldn't allow it, but we'll check
-	// anyways
-	if ( time () - filemtime ( $ansible_lastrun ) > $ratelimit ) {
-		touch ( $ansible_dropfile );
-		touch ( $ansible_lastrun );
-		echo "HTTP 200 - Ansible webhook recieved.\n";
-		}
-	else {
-		http_response_code(429);
-		echo "HTTP 429 - Rate Limited.\n";
-		exit(0);
-		}
 }
 
 // Hook for www repo here.  Same rules apply, as above, for www.  We
