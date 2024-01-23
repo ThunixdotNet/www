@@ -15,7 +15,7 @@ $username = strtolower($username);
 // strip new line characters from the end
 $pubkey = trim($pubkey);
 
-$from 		  = 'From: www-data <www-data@thunix.net>';
+$from             = 'From: www-data <www-data@thunix.net>';
 $destination_addr = "newuser@thunix.net";
 $subject          = "New User Registration";
 $mailbody         = "A new user has tried to register.
@@ -25,7 +25,7 @@ Email Address:  $email
 Interest:       $interest
 Pubkey:         $pubkey";
 
-// In the future, here, we *should* be able to build a process that 
+// In the future, here, we *should* be able to build a process that
 // somehow auto-verifies the user, and instead of email, it'll kick off the new user process here
 
 $user_queue       = '/dev/shm/userqueue';
@@ -36,24 +36,25 @@ if ( $tv == "tildeverse" )
 {
   // Success!
   $success = 'success2';
-  
-  // Check if username already taken
-  exec("id $username 2>&1", $null, $retval);
-  if($retval == 0)
+
+// Check if username already taken
+if (posix_getpwnam($username)) {
     $success = 'success3';
+}
 
-  // Check SSH public key format:
-  exec("echo $pubkey | ssh-keygen -l -f - 2>&1", $null, $retval);
-  if($retval != 0)
+// Simple SSH public key format check
+$valid_key_starts = ['ssh-rsa', 'ssh-dss', 'ecdsa-sha2', 'ssh-ed25519'];
+$key_parts = explode(' ', $pubkey, 3);
+if (!in_array($key_parts[0], $valid_key_starts) || count($key_parts) < 2) {
     $success = 'success4';
+}
 
-  if ( $success == "success2" )
-  {
+if ($success == "success2") {
     mail($destination_addr, $subject, $mailbody, $from);
     $fp = fopen($user_queue, 'a');
     fwrite($fp, "'$username','$email','$pubkey'\n");
     fclose($fp);
-  }
+}
 }
 
 header("Location: $site_root/?page=$success");
