@@ -14,10 +14,10 @@ Thunix offers webmail at [https://thunix.net/webmail](/webmail). You can also co
 
 ## SSH Fingerprints
 
-256 SHA256:iuqEWXCqUNihqO7o4xLrJ05M+te09i3P+WrHZsjUdZY thunix.net (ECDSA)
-3072 SHA256:7gZXCqNUYBfrTQ8wYmLrD6rVc5zL5nYf2l5t8ZrLIBU thunix.net (RSA)
-256 SHA256:d+J8u5pmQ8sR1BM8/EpUiNAlL9by371utl1ncNgFG6A thunix.net (ED25519)
-
+256 SHA256:iuqEWXCqUNihqO7o4xLrJ05M+te09i3P+WrHZsjUdZY thunix.net (ECDSA) 
+3072 SHA256:7gZXCqNUYBfrTQ8wYmLrD6rVc5zL5nYf2l5t8ZrLIBU thunix.net (RSA) 
+256 SHA256:d+J8u5pmQ8sR1BM8/EpUiNAlL9by371utl1ncNgFG6A thunix.net (ED25519) 
+ 
 ## Onion Service
 
 Thunix's websites are available as a onion site as well. (SSH access is currently not available over Tor)
