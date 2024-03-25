@@ -15,7 +15,7 @@ $username = strtolower($username);
 // strip new line characters from the end
 $pubkey = trim($pubkey);
 
-$from             = 'From: www-data <www-data@thunix.net>';
+$from 		  = 'From: www-data <www-data@thunix.net>';
 $destination_addr = "newuser@thunix.net";
 $subject          = "New User Registration";
 $mailbody         = "A new user has tried to register.
@@ -25,7 +25,7 @@ Email Address:  $email
 Interest:       $interest
 Pubkey:         $pubkey";
 
-// In the future, here, we *should* be able to build a process that
+// In the future, here, we *should* be able to build a process that 
 // somehow auto-verifies the user, and instead of email, it'll kick off the new user process here
 
 $user_queue       = '/dev/shm/userqueue';
@@ -36,7 +36,7 @@ if ( $tv == "tildeverse" )
 {
   // Success!
   $success = 'success2';
-
+  
 // Check if username already taken
 if (posix_getpwnam($username)) {
     $success = 'success3';
