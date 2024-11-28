@@ -2,7 +2,7 @@
 
 **How do I sign up for an account?**
 
-- Simply by going to our [signup page](/signup) and filling in the form. You can ask for help in \#thunix on tilde.chat, or you can [contact us](contact), if you run into any difficulties.
+- Simply by going to our [signup page](/signup) and filling in the form. You can ask for help in \#thunix on newnet.net, or you can [contact us](contact), if you run into any difficulties.
 
 **How can I request an account recovery or public key replacement?**
 
@@ -10,7 +10,7 @@
 
 **Who is running thunix?**
 
-- The current system administrators are [deepend](/~deepend), [Naglfar](/~naglfar), [ubergeek](/~ubergeek) still helps out from time to time but not sure if he wants the admin role going forward. If this changes it will be updated ASAP.
+- The current system administrators are [deepend](/~deepend), [Naglfar](/~naglfar).
 
 **What happened to the old thunix? Why the name change?**
 
@@ -18,15 +18,11 @@
 
 **I want a new package installed, or I want something changed on Thunix!**
 
-- Excellent! We're looking to make this system useful for the community! You can submit a PR or an issue [here](https://tildegit.org/thunix/ansible) to request the system change.
+- Excellent! We're looking to make this system useful for the community! You can ask for help in \#thunix on newnet.net, or you can [contact us](contact), to request the system change.
 
 **Can I get password-based login? Old thunix had it!**
 
 - No. Sorry. Not for shell access. For other integrated services, password auth will be enabled, but not for your ssh connection. We use key based authentication, as it's more secure, and more convienent for you, to be honest.
-
-**I want to run {fill in the blank} server, but I can't seem to access it?**
-
-- The only exposed ports to the internet are services as defined in our [ansible playbook.](https://tildegit.org/thunix/ansible) If there is a public service you want to see, open an issue, or do a pull request for it, and we'll probably enable it without much question.
 
 **That's too hard! Can you just open the port up for this service I have running?**
 
