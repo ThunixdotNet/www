@@ -1,16 +1,66 @@
 @font-face { font-family: dot; src: url('https://thunix.net/includes/dot.ttf'); }
-body{font-family:"dot",Courier,monospace;background:#000;color:#F79862}
-#body{width:95%}
-#body h1{color:orange}
-#body h2{color:orange}
-#body h3{color:orange}
-a{background:#000;color:#F79862}
-a:visited{color:orange}
-#header{width:90%;text-align:center;font-size:xx-large}
-#content{width:78%;float:left;font-size:medium}
-#content img{max-height:400px;max-width:98%}
-.lineitem{border:1px;border-color:#fff}
-#sidebar{width:18%;float:right;font-size:small}
-#sidebar h1{color:orange;background:#000}
-#sidebar h2{color:orange;background:#000}
-#footer{width:95%;text-align:center;clear:both;font-size:smaller}
+body {
+    font-family: "dot", Courier, monospace;
+    background: #000;
+    color: #F79862;
+}
+#body {
+    width: 95%;
+}
+#body h1, #body h2, #body h3 {
+    color: orange;
+}
+a {
+    background: #000;
+    color: #F79862;
+}
+a:visited {
+    color: orange;
+}
+#header {
+    width: 90%;
+    text-align: center;
+    font-size: xx-large;
+}
+#content {
+    width: 78%;
+    float: left;
+    font-size: medium;
+}
+#content img {
+    max-height: 400px;
+    max-width: 98%;
+}
+.lineitem {
+    border: 1px;
+    border-color: #fff;
+}
+#sidebar {
+    width: 18%;
+    float: right;
+    font-size: small;
+    padding: 15px; /* Increase padding for more internal spacing */
+    margin-top: 20px; /* Add more space between the sidebar and elements above it */
+    margin-left: 10px; /* Add space between the sidebar and content */
+    background-color: #111; /* Ensure the sidebar stands out slightly */
+    line-height: 1.5; /* Increase line height for better readability */
+    border: 1px solid #333; /* Optional: Add a subtle border to separate the sidebar visually */
+}
+#sidebar h1, #sidebar h2 {
+    color: orange;
+    /* background: #000; */
+    margin-bottom: 15px; /* Further space below headings */
+    padding-bottom: 5px; /* Add padding under headings for better distinction */
+    border-bottom: 1px solid #333; /* Optional: Add an underline effect for headings */
+}
+#sidebar ul, #sidebar p {
+    margin: 10px 0; /* Add vertical spacing between sidebar elements */
+    padding-left: 20px; /* Indent list items for better clarity */
+}
+
+#footer {
+    width: 95%;
+    text-align: center;
+    clear: both;
+    font-size: smaller;
+}
