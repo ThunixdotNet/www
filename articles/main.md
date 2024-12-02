@@ -8,7 +8,7 @@ We're so glad you could drop by and we hope you enjoy your visit. Stay a while! 
 The Thunix project provide Secure Shell (SSH) accounts, Web Hosting, Email Accounts, and many other UNIX-like services. But, most of all, we are a community of users. It was founded by hexhaxtron in the Summer of 2017, and was continued by [ubergeek](/~ubergeek) since 2018 however in 2023 [deepend](/~deepend) has since taken the role. We aim to provide the best service possible with a wide variety of features, and we hope you have fun with it!
 
 
-Join us on IRC on irc.newnet.net/6697 in the #thunix channel, or just click here for a web client: [![#thunix channel](https://stats.newnet.net/badges/badge.php?channel=%23thunix)](https://tilde.chat/kiwi/#thunix)
+Join us on IRC on irc.newnet.net/6697 in the #thunix channel, or just click here for a web client: [![#thunix channel](https://stats.newnet.net/badges/badge.php?channel=%23thunix)](https://newnet.net/chat.php?channel=%23thunix)
 
 If you want to sign up for an account, simply open our [signup form](/signup) and provide us with:
 
