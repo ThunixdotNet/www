@@ -4,7 +4,7 @@
     -   [Sign Up](/signup)
     -   [FAQ](/faq)
     -   [Terms of Service](/tos)
-    -   [GDPR Statement and Privacy Policy](/gdpr)
+    -   [Privacy Policy](/privacy)
     -   [Contact Us](/contact)
     -   [Donations](/donate)
 
