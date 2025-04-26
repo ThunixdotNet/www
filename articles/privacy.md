@@ -12,10 +12,6 @@ We also store any data you create or maintain in your home directory, which may 
 - Email addresses: Retained for account management.
 - Login IP addresses: Retained for a maximum of 30 days.
 
-## Requesting a copy of your data
-
-You may submit a request via our [contact page](/contact). We will provide a copy of the data we store within 14 days.
-
 ## Requesting data deletion
 
 You may submit a deletion request via our [contact page](/contact). Account deletion will also remove all your data, typically within 14 days.
