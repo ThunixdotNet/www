@@ -2,42 +2,39 @@
 
 Nothing is without its rules and regulations; thunix is no exception.
 
-Below are the site's service terms. Everything in this page should be clear to everyone who wishes to use thunix's services; failure to abide by these terms can result in penalties such as service bans and may result in legal action against any offending users, depending on the severity of each case and any other individuals who may have been affected. Thunix may conduct investigations on any suspected violations, and we will cooperate with law enforcement agencies with their investigations. Be sure to read this page carefully and understand it.
+Below are the site's service terms. All points listed should be clear to anyone wishing to use thunix's services. Failure to abide by these terms can result in penalties, including service bans and potential legal action, depending on the severity of the violation. Thunix may investigate suspected violations and will cooperate fully with law enforcement agencies as necessary. Read and understand these terms carefully.
 
-You are responsibe for checking your local mail account from time to
-time. This email address is the only one we retain, and as such, any
-warnings and notices regarding your account, or service status will be
-sent to this account.
+You are responsible for regularly checking your local mail account. This email address is our primary means of communication, and any warnings or notices regarding your account or service status will be sent there.
 
-1.  Deliberately defacing the accounts of other users.
-2.  Deliberately trying to disrupt thunix's server.
-3.  Using thunix as a launch pad for disrupting other servers.
-4.  Using thunix to impersonate other websites and businesses for
-    criminal purposes.
-5.  Storing/distributing pornography of any genre and medium (especially
-    child pornography).
-6.  Storing/distributing content that defames any individual.
-7.  Promoting racial, ethnic, religious, political and other forms of
-    bigotry.
-8.  Storing/distributing, promoting, or encouraging use of
-    pirated/cracked software, license keys, license/registration
-    circumvention programs, or any questionable programs/scripts that
-    can risk causing unauthorized modifications, or disrupts network
-    services for any programs or devices.
-9.  Mining cryptocurrencies.
-10. Spamming on any forums, mailing lists, irc channels,
-    newsgroups, etc.
-11. Leaking or publishing any user's or individual's personal
-    information without that person's consent.
-12. If you think what you are doing is illegal, it probably is.
-13. Our services must not be used for commercial reasons.
-14. We backup your data on a best-endeavours basis, but you should take your own backups.
-15. Our support is volunteer led; we are all helping each other.
-16. Do not resell our services under any circumstances.
-17. If your service is attacked on a regular basis, we reserve the right to shut it down.
+Prohibited activities include, but are not limited to:
 
-Copyright infringement is not allowed on thunix, and we will not allow any illegal content to be distributed. It's also expected that all users respect the copyrights of those who produce original content of any kind and only share if the author or license grants you permission. Content hosted on accounts used for external file storage must also follow copyright law.
+1. Deliberately defacing or tampering with other users' accounts.
+2. Intentionally disrupting or attempting to disrupt thunix's servers.
+3. Using thunix as a platform to attack or disrupt other servers or services.
+4. Using thunix to impersonate websites, individuals, or businesses for malicious or criminal purposes.
+5. Hosting or distributing pornography of any type or medium, especially child pornography.
+6. Storing, distributing, or promoting content that defames or slanders any individual or entity.
+7. Promoting racial, ethnic, religious, political, or other forms of bigotry or hate speech.
+8. Storing, distributing, promoting, or encouraging the use of pirated or cracked software, unauthorized license keys, or any software or scripts intended to bypass security or disrupt network services.
+9. Mining cryptocurrencies.
+10. Sending spam or unsolicited messages through forums, mailing lists, IRC channels, newsgroups, or other communication channels.
+11. Leaking, publishing, or distributing personal or sensitive information about any individual without explicit consent.
+12. Using thunix services for any activities you believe or suspect might be illegal.
+13. Using thunix services for commercial purposes or profit-making activities.
+14. Running servers or network services (such as web, mail, game, file-sharing, VPN, or proxy servers) without explicit permission.
+15. Reselling or subletting access to thunix services under any circumstances.
+16. Allowing or contributing to frequent attacks or disruptions targeting your account or hosted content. If such activities occur regularly, we reserve the right to disable or remove your service.
 
-If you want to request for content you own the copyright for to be removed from thunix, please refer to our [abuse reporting page](/contact). In the email, please identify who you are, if you are the copyright holder or legally representing them, the exact files you want removed with links to the files and infringed content, and contact information such as phone numbers or a reply-to email address.
+### Additional Conditions:
 
-Users that repeatedly violate the Terms of Service will have their account removed. Depending on the degree of the offense, their account may be removed immediately. These terms also apply to communication services such as forums, mailing lists, irc channels, newsgroups, and any other service either hosted on or used for thunix. If you come across anything that violates the terms of service, please let us know with the [abuse reporting page](/contact).
+- Thunix backs up your data on a best-effort basis, but users are responsible for maintaining their own regular backups.
+- Support provided by thunix is volunteer-based; mutual respect and patience are expected at all times.
+
+Copyright infringement and distribution of illegal content are strictly prohibited. Users must respect copyright laws and obtain explicit permission from content owners or valid license holders before sharing any material. Content hosted for external storage purposes must also comply with all relevant copyright laws.
+
+To request the removal of copyrighted material you own from thunix, please use our [abuse reporting page](/contact). Clearly identify your relationship to the copyrighted content, specify the exact files or links involved, and provide detailed contact information, including a reply-to email address or phone number.
+
+Repeated or severe violations of these Terms of Service may result in immediate account removal. These terms apply to all communication platforms hosted by or associated with thunix, including forums, mailing lists, IRC channels, newsgroups, and similar services.
+
+If you notice any violations, please report them through our [abuse reporting page](/contact).
+
