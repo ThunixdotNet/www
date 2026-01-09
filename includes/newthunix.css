@@ -64,3 +64,84 @@ a:visited {
     clear: both;
     font-size: smaller;
 }
+
+#new
+
+/* 1) Keep terminal feel, but make reading humane */
+body {
+  background: #050505;                 /* not pure black */
+  color: #f1a67a;                      /* slightly softer than #F79862 */
+  font-size: 16px;                     /* consistent baseline */
+  line-height: 1.65;                   /* biggest readability win */
+  text-rendering: optimizeLegibility;
+}
+
+/* 2) Use the dot font for headings/branding, but not for paragraphs */
+#header,
+#body h1, #body h2, #body h3 {
+  font-family: "dot", Courier, monospace;
+  letter-spacing: 0.5px;
+}
+
+#content,
+#sidebar,
+#footer {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  /* still terminal, but readable */
+}
+
+/* 3) Limit line length so the eyes don't have to travel across Alberta */
+#content {
+  max-width: 980px;
+  font-size: 1rem;
+}
+
+/* 4) Make links look like links, not “random orange words” */
+a {
+  color: #f1a67a;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  color: #ffb58f;
+}
+
+a:visited {
+  color: #e6a042; /* still orange, but distinct */
+}
+
+/* 5) Softer headings and better spacing */
+#body h1, #body h2, #body h3,
+#sidebar h1, #sidebar h2 {
+  color: #ffb347;                      /* softer orange */
+  margin-top: 1.2em;
+  margin-bottom: 0.6em;
+}
+
+/* 6) Sidebar: keep the panel look, make it calmer */
+#sidebar {
+  background-color: #0c0c0c;           /* slightly lighter */
+  border: 1px solid #222;
+  border-radius: 6px;                  /* tiny, still “retro UI” */
+}
+
+/* 7) Fix your lineitem border (currently border:1px does nothing) */
+.lineitem {
+  border: 1px solid #222;
+}
+
+/* 8) Optional: code blocks that actually read nicely */
+pre, code {
+  background: #0b0b0b;
+  border: 1px solid #1f1f1f;
+  border-radius: 6px;
+  padding: 0.15em 0.35em;
+}
+
+pre {
+  padding: 12px;
+  overflow-x: auto;
+}
+

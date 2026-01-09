@@ -3,7 +3,7 @@
 $site_name="🌻  thunix  🌻";
 
 //Root for the site, in a browser
-$site_root="https://".$_SERVER['HTTP_HOST'];
+$site_root="//".$_SERVER['HTTP_HOST'];
 //Local base root for app files
 $doc_root="/var/www/thunix.cf";
 
