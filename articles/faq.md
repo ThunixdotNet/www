@@ -2,38 +2,65 @@
 
 **How do I sign up for an account?**
 
-- Simply by going to our [signup page](/signup) and filling in the form. You can ask for help in \#thunix on newnet.net, or you can [contact us](contact), if you run into any difficulties.
+- Go to the [signup page](/signup) and fill out the form.
+- If you get stuck, ask in **#thunix** on **newnet.net**, or [contact us](/contact).
 
 **How can I request an account recovery or public key replacement?**
 
-- Just send the request from the email you used to register and we'll poke a new key in for you.
+- Email us **from the address you used to register** and tell us:
+  - your username
+  - what you need (recovery / key replacement)
+  - your **new public key** (paste it in the email)
+- We’ll swap the key and let you know when it’s done.
 
 **Who is running thunix?**
 
-- The current system administrators are [deepend](/~deepend), [Naglfar](/~naglfar).
+- Current system administrators: [deepend](/~deepend), [Naglfar](/~naglfar)
 
 **What happened to the old thunix? Why the name change?**
 
-- The original machine and founder dissappeared without any warning to anyone, including server staff. For this reason, most things were not backed up, and we needed to obtain a new domain name, and a new set of machines.
+- The original machine and founder disappeared without warning (including to staff).
+- Most things weren’t backed up, so we rebuilt on new machines and moved to a new domain.
 
 **I want a new package installed, or I want something changed on Thunix!**
 
-- Excellent! We're looking to make this system useful for the community! You can ask for help in \#thunix on newnet.net, or you can [contact us](contact), to request the system change.
+- Good. That’s how systems become useful instead of decorative.
+- Ask in **#thunix** on **newnet.net**, or [contact us](/contact) with:
+  - what you want
+  - why you want it
+  - whether it needs to be available to everyone or just you
 
 **Can I get password-based login? Old thunix had it!**
 
-- No. Sorry. Not for shell access. For other integrated services, password auth will be enabled, but not for your ssh connection. We use key based authentication, as it's more secure, and more convienent for you, to be honest.
+- No. Not for **shell access**.
+- SSH is **key-based** because it’s more secure and, honestly, less annoying once you’re set up.
+- Other services (like email) use passwords because that’s how the world works.
 
-**That's too hard! Can you just open the port up for this service I have running?**
+**That’s too hard! Can you just open the port up for this service I have running?**
 
-- No. Due to security issues, we cannot. HOWEVER! You can certainly use an [SSH tunnel](https://duckduckgo.com/?q=ssh+tunnnel) to access it.
+- No.
+- If you need access to something you’re running, use an **SSH tunnel**.
+  - Example (adjust ports as needed):
+    - `ssh -L 8080:127.0.0.1:8080 youruser@YOUR_SSH_HOSTNAME`
 
 **Old thunix did {fill in the blank}, and now it doesn't. Make it work like it used to!**
 
-- There was a huge changeover. Maybe we can get something going old thunix had, and maybe not. You can mention it in the IRC channel, and we'll see what we can do.
+- There was a big changeover. Some old stuff can come back, some can’t.
+- Mention it in **#thunix** and we’ll see what’s realistic.
 
 **How can I access my thunix email?**
 
-- You can use the following for your mail settings (This is Thunderbird's setting screen, but the settings are the same):
+- Use these settings in Thunderbird, Apple Mail, Outlook, mutt, a ham radio, whatever.
 
-[![](/media/mail.png)](/media/mail.png)
+## Incoming Mail (IMAP)
+- **Server:** `thunix.net`
+- **Username:** `yourusername`
+- **Password:** your **mail/service** password (not your SSH key)
+- **Security:** SSL/TLS
+- **Port:** `993`
+
+## Outgoing Mail (SMTP)
+- **Server:** `thunix.net`
+- **Authentication:** Yes (same username/password as above)
+- **Security:** STARTTLS
+- **Port:** `587`

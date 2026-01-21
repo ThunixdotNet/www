@@ -2,6 +2,12 @@
 include "../config.php";
 // This code is licensed under the AGPL 3 or later by ubergeek (https://tildegit.org/ubergeek)
 
+// Optional: keep the terminal UI flow inside /terminal/ without changing the classic site.
+//
+// Prefer an explicit flag (terminal=1). As a fallback, detect a terminal embed
+// by referrer so the classic site behavior stays unchanged.
+$terminalMode = (isset($_REQUEST['terminal']) && (string) $_REQUEST['terminal'] === '1')
+    || (isset($_SERVER['HTTP_REFERER']) && strpos((string) $_SERVER['HTTP_REFERER'], '/terminal/') !== false);
 $name             = $_GET['contact_name'];
 $return_addr      = $_GET['email_address'];
 $type             = $_GET['type'];
@@ -19,7 +25,10 @@ Message:        $body";
 
 if ( $tv != "tildeverse" ) {
     print "Spam attempt";
-    header("Location: $site_root/?page=success1");
+    $redirect = $terminalMode
+        ? $site_root . "/terminal/view.php?page=success1"
+        : $site_root . "/?page=success1";
+    header("Location: $redirect");
     die();
 }
 
@@ -28,7 +37,10 @@ shell_exec("echo '$mailbody' | /usr/bin/mail -s '$subject' -r '$return_addr' $de
 // In the future, here, we *should* be able to build a process that 
 // auto opens an issue in the tildegit project
 
-header("Location: $site_root/?page=success2");
+$redirect = $terminalMode
+    ? $site_root . "/terminal/view.php?page=success2"
+    : $site_root . "/?page=success2";
+header("Location: $redirect");
 die()
 
 ?>

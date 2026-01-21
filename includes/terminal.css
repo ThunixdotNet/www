@@ -1,0 +1,265 @@
+/*
+Terminal theme for /terminal/view.php.
+Keeps the same wiki.php content pipeline (Parsedown/ParsedownExtra),
+but makes it look like the amber CRT terminal UI.
+
+This file is loaded inside an <iframe> (terminal content panel), so it must
+style full documents reliably without depending on any outer page CSS.
+*/
+
+:root {
+  color-scheme: dark;
+
+  /* Keep these in sync with terminal/index.php. */
+  --mono: "Departure Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  --bg: #111111;
+  --panel: rgba(255, 255, 255, 0.03);
+  --amber: #edb200;
+  --amber-txt: #ffc828;
+  --border: rgba(255, 255, 255, 0.08);
+  --glow: rgba(237, 178, 0, 0.55);
+  --glow-soft: rgba(237, 178, 0, 0.25);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--amber);
+  font-family: var(--mono);
+  font-size: 18px; /* Match xterm.js default in terminal.js */
+  line-height: 1.55;
+  overflow-x: hidden;
+}
+
+/* CRT-ish scanlines, because humans love pretending it’s 1996. */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 2;
+  background: linear-gradient(to bottom, transparent 50%, rgba(0, 0, 0, 0.28) 51%);
+  background-size: 100% 4px;
+}
+
+/* Keep content above page background but below scanlines. */
+#content {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  padding: 18px 20px;
+  background: transparent;
+}
+
+/* Hide classic wiki chrome if a fragment includes it for any reason. */
+#header,
+#sidebar,
+#footer {
+  display: none;
+}
+
+/* Typographic polish */
+h1,
+h2,
+h3 {
+  margin: 0.9em 0 0.35em;
+  line-height: 1.15;
+  color: var(--amber-txt);
+  text-shadow: 0 0 1.4rem var(--glow-soft);
+}
+
+h1 {
+  font-size: 1.55rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+}
+
+h3 {
+  font-size: 1.1rem;
+}
+
+p {
+  margin: 0.75em 0;
+}
+
+strong {
+  color: var(--amber-txt);
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--border);
+  margin: 14px 0;
+}
+
+/* Keep images sane inside the panel. */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Lists */
+ul,
+ol {
+  margin: 0.65em 0 0.9em 1.25em;
+  padding: 0;
+}
+
+li {
+  margin: 0.2em 0;
+}
+
+/* Links */
+a,
+a:visited {
+  color: var(--amber-txt);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+  text-shadow: 0 0 0.85rem rgba(237, 178, 0, 0.3);
+}
+
+a:hover {
+  filter: brightness(1.08);
+  text-shadow: 0 0 1.25rem rgba(237, 178, 0, 0.55);
+}
+
+/* Code */
+code,
+pre {
+  font-family: var(--mono);
+}
+
+code {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  padding: 0.08em 0.3em;
+  border-radius: 6px;
+}
+
+pre {
+  padding: 12px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  overflow: auto;
+  line-height: 1.45;
+}
+
+pre code {
+  background: transparent;
+  border: 0;
+  padding: 0;
+}
+
+/* Tables (contact/signup forms, lists). */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 980px;
+}
+
+th,
+td {
+  padding: 8px 10px;
+  vertical-align: top;
+}
+
+tr + tr td,
+tr + tr th {
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+/* Form controls should look like they belong here. */
+input,
+select,
+textarea {
+  width: 100%;
+  max-width: 100%;
+  background: var(--panel);
+  color: var(--amber);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 8px 10px;
+  font-family: var(--mono);
+  font-size: 18px;
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: rgba(255, 200, 40, 0.55);
+  box-shadow: 0 0 0 2px rgba(255, 200, 40, 0.15);
+}
+
+input[type='submit'],
+button {
+  width: auto;
+  cursor: pointer;
+  background: rgba(255, 200, 40, 0.14);
+  border-color: rgba(255, 200, 40, 0.32);
+  padding: 10px 14px;
+}
+
+input[type='submit']:hover,
+button:hover {
+  filter: brightness(1.1);
+}
+
+/* Blockquotes */
+blockquote {
+  margin: 1em 0;
+  padding: 0.2em 0.9em;
+  border-left: 3px solid rgba(255, 200, 40, 0.28);
+  background: rgba(255, 255, 255, 0.02);
+}
+
+/* Selection */
+::selection {
+  background: rgba(255, 200, 40, 0.22);
+  color: var(--amber-txt);
+}
+
+/* Scrollbars (best-effort, doesn’t break anything if unsupported). */
+html {
+  scrollbar-color: rgba(255, 200, 40, 0.55) rgba(0, 0, 0, 0.2);
+  scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.22);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 200, 40, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 200, 40, 0.5);
+}

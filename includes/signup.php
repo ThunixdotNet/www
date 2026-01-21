@@ -1,6 +1,12 @@
 <?php
 include "../config.php";
 
+// Optional: keep the terminal UI flow inside /terminal/ without changing the classic site.
+//
+// Prefer an explicit flag (terminal=1). As a fallback, detect a terminal embed
+// by referrer so the classic site behavior stays unchanged.
+$terminalMode = (isset($_REQUEST['terminal']) && (string) $_REQUEST['terminal'] === '1')
+    || (isset($_SERVER['HTTP_REFERER']) && strpos((string) $_SERVER['HTTP_REFERER'], '/terminal/') !== false);
 $name       = $_GET['contact_name'];
 $email      = $_GET['email_address'];
 $username   = $_GET['username'];
@@ -45,5 +51,9 @@ if ($tv == 'tildeverse') {
     }
 }
 
-header("Location: $site_root/?page=$success");
+if ($terminalMode) {
+    header("Location: $site_root/terminal/view.php?page=$success");
+} else {
+    header("Location: $site_root/?page=$success");
+}
 die();

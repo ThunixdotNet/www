@@ -1,5 +1,23 @@
-    RewriteEngine On
-    RewriteRule ^$           main  [QSA]
-    RewriteRule ^index\.php$ wiki.php?page=main  [QSA]
-    RewriteCond %{REQUEST_URI} !(/includes/|/media/|tilde.json|humans.txt|/webmail/|/favicon.ico|/~|githook|sitemap.xml)
-    RewriteRule ^([^\d]+)/?$ wiki.php?page=$1 [QSA]
+RewriteEngine On
+
+# Classic query-style links like /?page=main should keep working.
+RewriteCond %{QUERY_STRING} (^|&)page= [NC]
+RewriteRule ^$ wiki.php [QSA,L]
+
+# Default experience: terminal UI.
+RewriteRule ^$ terminal/ [QSA,L]
+
+# If someone explicitly requests index.php with a page query, keep classic behavior.
+RewriteCond %{QUERY_STRING} (^|&)page= [NC]
+RewriteRule ^index\.php$ wiki.php [QSA,L]
+
+# Otherwise, index.php also goes to the terminal UI.
+RewriteRule ^index\.php$ terminal/ [QSA,L]
+
+# Let real files and directories through untouched.
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Pretty URLs for wiki pages (no leading digit).
+RewriteRule ^([^0-9][A-Za-z0-9_-]*)/?$ wiki.php?page=$1 [QSA,L]
